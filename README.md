@@ -1,6 +1,14 @@
-This is a fork of the [wrench](https://github.com/JieyuZ2/wrench) repository that focuses on aggregating the provided labeling functions for certain datasets.
-Notably, two label models are added, WMRC (BF) is our own implemenation and [AMCL\_CC](https://github.com/BatsResearch/amcl/tree/main) is ported, the CVXPY implementation in specific.
-This code was written for another project but ended up unused.
+# balsubramani-freund-uai-2024
+
+This repo contains code for Convergence Behavior of an Adversarial Weak Supervision Method
+
+If you use this in an academic study, please cite the paper:
+```
+TBA
+```
+
+This is a modified version of the repository found [here](https://github.com/stevenan5/wrench) which itself is a fork of the [wrench](https://github.com/JieyuZ2/wrench) repository that focuses on aggregating the provided labeling functions for certain datasets.
+Notably, two label models are added, BF (called WMRC) is our own implementation and [AMCL\_CC](https://github.com/BatsResearch/amcl/tree/main) is ported, the CVXPY implementation in specific.
 Note that when WMRC appears in the code, it is actually the Balsubramani-Freund model.
 Similarly, Snorkel actually refers to Data Programming.
 
@@ -50,7 +58,7 @@ For each dataset, a folder will be created for each method.
 That is where the `*.log` and `*.mat` files can be found.
 Below is extra information about changeable settings/other instructions to run the method.
 
-### WMRC
+### WMRC (BF)
 
 WMRC relies on many hyperparameters, which have already been set in `write_wmrc_settings.py`.
 
