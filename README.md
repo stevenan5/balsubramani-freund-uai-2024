@@ -124,3 +124,6 @@ We have also included some code to visualize the predictions of each method (for
 ## Miscellaneous Information
 We store a simplified version of `wrench` datasets as `.mat` files.
 They contain train, validation, and possibly test labels and labeling function predictions.
+
+## Acknowledgements
+We thank Verónica Álvarez for curating and processing the datasets into the `.mat files found here.
