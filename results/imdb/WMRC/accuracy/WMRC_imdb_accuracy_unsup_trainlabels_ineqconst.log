@@ -1,0 +1,18 @@
+2023-09-27 14:37:24 - ----------Running New Instance----------
+2023-09-27 14:37:24 - dataset: imdb, n_class: 2
+2023-09-27 14:37:24 - constraint type: accuracy, add MV const: False
+2023-09-27 14:37:24 - labeled set: train, use inequalities: True
+2023-09-27 14:37:24 - bound method: unsupervised
+2023-09-27 14:37:25 - ----Estimating Probabilities----
+2023-09-27 14:37:25 - 4720 out of 20000 labeled datapoints on average per rule 
+2023-09-27 14:37:25 - 5 rules with labeled data out of 5 total
+2023-09-27 14:37:25 - Number of labeled predictions per rule: [   27 16565  1964  4849   195]
+2023-09-27 14:37:26 - ================Results================
+2023-09-27 14:37:26 - time to fit: 1.6 seconds
+2023-09-27 14:37:26 - train acc (train err): 0.7122 (0.2878)
+2023-09-27 14:37:26 - wmrc train log loss upper bound 0.5675
+2023-09-27 14:37:26 - train log loss: 0.5735
+2023-09-27 14:37:26 - train brier score: 0.3881
+2023-09-27 14:37:26 - test acc (test err): 0.7060 (0.2940)
+2023-09-27 14:37:26 - test log loss: 0.5769
+2023-09-27 14:37:26 - test brier score: 0.3922

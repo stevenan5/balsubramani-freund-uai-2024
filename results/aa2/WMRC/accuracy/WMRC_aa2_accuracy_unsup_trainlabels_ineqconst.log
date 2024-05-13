@@ -1,0 +1,20 @@
+2023-09-27 11:53:17 - ----------Running New Instance----------
+2023-09-27 11:53:17 - dataset: aa2, n_class: 2
+2023-09-27 11:53:17 - constraint type: accuracy, add MV const: False
+2023-09-27 11:53:17 - labeled set: train, use inequalities: True
+2023-09-27 11:53:17 - bound method: unsupervised
+2023-09-27 11:53:17 - ----Estimating Probabilities----
+2023-09-27 11:53:17 - 1372 out of 1372 labeled datapoints on average per rule 
+2023-09-27 11:53:17 - 36 rules with labeled data out of 36 total
+2023-09-27 11:53:17 - Number of labeled predictions per rule: [1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372
+ 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372 1372
+ 1372 1372 1372 1372 1372 1372 1372 1372]
+2023-09-27 11:53:18 - ================Results================
+2023-09-27 11:53:18 - time to fit: 0.5 seconds
+2023-09-27 11:53:18 - train acc (train err): 0.9818 (0.0182)
+2023-09-27 11:53:18 - wmrc train log loss upper bound 0.1161
+2023-09-27 11:53:18 - train log loss: 0.0532
+2023-09-27 11:53:18 - train brier score: 0.0232
+2023-09-27 11:53:18 - test acc (test err): 0.9826 (0.0174)
+2023-09-27 11:53:18 - test log loss: 0.0580
+2023-09-27 11:53:18 - test brier score: 0.0274

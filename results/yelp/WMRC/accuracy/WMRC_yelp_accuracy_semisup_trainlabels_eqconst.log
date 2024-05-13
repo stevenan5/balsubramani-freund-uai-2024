@@ -1,0 +1,18 @@
+2024-01-22 00:45:50 - ----------Running New Instance----------
+2024-01-22 00:45:50 - dataset: yelp, n_class: 2
+2024-01-22 00:45:50 - constraint type: accuracy, add MV const: False
+2024-01-22 00:45:50 - labeled set: train, use inequalities: False
+2024-01-22 00:45:50 - bound method: binomial
+2024-01-22 00:45:50 - ----Estimating Probabilities----
+2024-01-22 00:45:50 - 5573 out of 30400 labeled datapoints on average per rule 
+2024-01-22 00:45:50 - 8 rules with labeled data out of 8 total
+2024-01-22 00:45:50 - Number of labeled predictions per rule: [ 2252  2034 21248  4033  6523  2710  2879  2912]
+2024-01-22 00:45:52 - ================Results================
+2024-01-22 00:45:52 - time to fit: 1.8 seconds
+2024-01-22 00:45:52 - train acc (train err): 0.7346 (0.2654)
+2024-01-22 00:45:52 - wmrc train log loss upper bound 0.5399
+2024-01-22 00:45:52 - train log loss: 0.5399
+2024-01-22 00:45:52 - train brier score: 0.3635
+2024-01-22 00:45:52 - test acc (test err): 0.7371 (0.2629)
+2024-01-22 00:45:52 - test log loss: 0.5188
+2024-01-22 00:45:52 - test brier score: 0.3506

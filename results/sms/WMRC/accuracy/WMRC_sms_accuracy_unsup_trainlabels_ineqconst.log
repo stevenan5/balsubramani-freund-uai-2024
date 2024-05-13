@@ -1,0 +1,23 @@
+2023-09-27 14:40:41 - ----------Running New Instance----------
+2023-09-27 14:40:41 - dataset: sms, n_class: 2
+2023-09-27 14:40:41 - constraint type: accuracy, add MV const: False
+2023-09-27 14:40:41 - labeled set: train, use inequalities: True
+2023-09-27 14:40:41 - bound method: unsupervised
+2023-09-27 14:40:41 - ----Estimating Probabilities----
+2023-09-27 14:40:41 - 32 out of 4571 labeled datapoints on average per rule 
+2023-09-27 14:40:41 - 73 rules with labeled data out of 73 total
+2023-09-27 14:40:41 - Number of labeled predictions per rule: [  60   35    1    9    3    6   11    1    2    3    1 1323    1   16
+   63   36    3   32    3   13   15    6   88    5    2    5  132   14
+    4    2    3    2    9   40    2    1    6  134    2    5    2    4
+    9    5   15    1    1    6    1    4   12    1    2    1   26    8
+    1   29    6    2    6   25    7   12    5   15   12   28   12    6
+    6   16    5]
+2023-09-27 14:40:42 - ================Results================
+2023-09-27 14:40:42 - time to fit: 0.5 seconds
+2023-09-27 14:40:42 - train acc (train err): 0.9101 (0.0899)
+2023-09-27 14:40:42 - wmrc train log loss upper bound 0.1416
+2023-09-27 14:40:42 - train log loss: 0.3421
+2023-09-27 14:40:42 - train brier score: 0.1700
+2023-09-27 14:40:42 - test acc (test err): 0.8480 (0.1520)
+2023-09-27 14:40:42 - test log loss: 0.5683
+2023-09-27 14:40:42 - test brier score: 0.2809

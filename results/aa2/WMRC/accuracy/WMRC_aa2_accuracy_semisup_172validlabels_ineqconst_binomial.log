@@ -1,0 +1,21 @@
+2024-01-22 00:42:25 - ----------Running New Instance----------
+2024-01-22 00:42:25 - dataset: aa2, n_class: 2
+2024-01-22 00:42:25 - constraint type: accuracy, add MV const: False
+2024-01-22 00:42:25 - labeled set: valid, use inequalities: True
+2024-01-22 00:42:25 - bound method: binomial
+2024-01-22 00:42:25 - bound method: binomial
+2024-01-22 00:42:25 - ----Estimating Probabilities----
+2024-01-22 00:42:25 - 172 out of 172 labeled datapoints on average per rule 
+2024-01-22 00:42:25 - 36 rules with labeled data out of 36 total
+2024-01-22 00:42:25 - Number of labeled predictions per rule: [172 172 172 172 172 172 172 172 172 172 172 172 172 172 172 172 172 172
+ 172 172 172 172 172 172 172 172 172 172 172 172 172 172 172 172 172 172]
+2024-01-22 00:42:25 - Using at maximum 172 many labeled points
+2024-01-22 00:42:25 - ================Results================
+2024-01-22 00:42:25 - time to fit: 0.4 seconds
+2024-01-22 00:42:25 - train acc (train err): 0.9810 (0.0190)
+2024-01-22 00:42:25 - wmrc train log loss upper bound 0.2286
+2024-01-22 00:42:25 - train log loss: 0.1040
+2024-01-22 00:42:25 - train brier score: 0.0446
+2024-01-22 00:42:25 - test acc (test err): 0.9884 (0.0116)
+2024-01-22 00:42:25 - test log loss: 0.0887
+2024-01-22 00:42:25 - test brier score: 0.0331

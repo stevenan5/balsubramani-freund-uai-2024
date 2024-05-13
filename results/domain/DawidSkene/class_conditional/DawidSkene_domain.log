@@ -1,0 +1,6 @@
+2024-01-22 14:35:43 - ------------Running DawidSkene------------
+2024-01-22 14:35:43 - dataset: domain, ds_model: class_conditional
+2024-01-22 14:35:48 - ================Results================
+2024-01-22 14:35:48 - train acc (train err): 0.3630 (0.6370)
+2024-01-22 14:35:48 - train log loss: 10.4692
+2024-01-22 14:35:48 - train brier score: 1.1566

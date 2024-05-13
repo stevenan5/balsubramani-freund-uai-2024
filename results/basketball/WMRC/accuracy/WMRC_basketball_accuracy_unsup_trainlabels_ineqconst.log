@@ -1,0 +1,23 @@
+2023-09-27 13:50:43 - ----------Running New Instance----------
+2023-09-27 13:50:43 - dataset: basketball, n_class: 2
+2023-09-27 13:50:43 - constraint type: accuracy, add MV const: False
+2023-09-27 13:50:43 - labeled set: train, use inequalities: True
+2023-09-27 13:50:43 - bound method: unsupervised
+2023-09-27 13:50:43 - ----Estimating Probabilities----
+2023-09-27 13:50:43 - 8848 out of 17970 labeled datapoints on average per rule 
+2023-09-27 13:50:43 - 4 rules with labeled data out of 4 total
+2023-09-27 13:50:43 - Number of labeled predictions per rule: [17026     7   389 17970]
+2023-09-27 13:50:45 - ----Estimating Probabilities----
+2023-09-27 13:50:45 - 8848 out of 17970 labeled datapoints on average per rule 
+2023-09-27 13:50:45 - 4 rules with labeled data out of 4 total
+2023-09-27 13:50:45 - Number of labeled predictions per rule: [17026     7   389 17970]
+2023-09-27 13:50:45 - Bound probabilities scaled by: 1.100000
+2023-09-27 13:50:46 - ================Results================
+2023-09-27 13:50:46 - time to fit: 1.3 seconds
+2023-09-27 13:50:46 - train acc (train err): 0.8871 (0.1129)
+2023-09-27 13:50:46 - wmrc train log loss upper bound 0.2172
+2023-09-27 13:50:46 - train log loss: 0.3693
+2023-09-27 13:50:46 - train brier score: 0.2031
+2023-09-27 13:50:46 - test acc (test err): 0.8993 (0.1007)
+2023-09-27 13:50:46 - test log loss: 0.3362
+2023-09-27 13:50:46 - test brier score: 0.1824

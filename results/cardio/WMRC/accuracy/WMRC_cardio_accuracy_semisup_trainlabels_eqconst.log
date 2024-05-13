@@ -1,0 +1,18 @@
+2024-01-22 00:43:30 - ----------Running New Instance----------
+2024-01-22 00:43:30 - dataset: cardio, n_class: 2
+2024-01-22 00:43:30 - constraint type: accuracy, add MV const: False
+2024-01-22 00:43:30 - labeled set: train, use inequalities: False
+2024-01-22 00:43:30 - bound method: binomial
+2024-01-22 00:43:30 - ----Estimating Probabilities----
+2024-01-22 00:43:30 - 289 out of 289 labeled datapoints on average per rule 
+2024-01-22 00:43:30 - 3 rules with labeled data out of 3 total
+2024-01-22 00:43:30 - Number of labeled predictions per rule: [289 289 289]
+2024-01-22 00:43:30 - ================Results================
+2024-01-22 00:43:30 - time to fit: 0.0 seconds
+2024-01-22 00:43:30 - train acc (train err): 0.9689 (0.0311)
+2024-01-22 00:43:30 - wmrc train log loss upper bound 0.1298
+2024-01-22 00:43:30 - train log loss: 0.1298
+2024-01-22 00:43:30 - train brier score: 0.0593
+2024-01-22 00:43:30 - test acc (test err): 0.9204 (0.0796)
+2024-01-22 00:43:30 - test log loss: 0.3214
+2024-01-22 00:43:30 - test brier score: 0.1514

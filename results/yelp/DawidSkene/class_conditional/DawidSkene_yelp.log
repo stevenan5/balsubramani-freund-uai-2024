@@ -1,0 +1,6 @@
+2024-01-22 14:22:47 - ------------Running DawidSkene------------
+2024-01-22 14:22:47 - dataset: yelp, ds_model: class_conditional
+2024-01-22 14:24:33 - ================Results================
+2024-01-22 14:24:33 - train acc (train err): 0.6210 (0.3790)
+2024-01-22 14:24:33 - train log loss: 1.5051
+2024-01-22 14:24:33 - train brier score: 0.5960

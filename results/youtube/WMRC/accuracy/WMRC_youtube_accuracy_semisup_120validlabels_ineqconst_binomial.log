@@ -1,0 +1,20 @@
+2024-02-09 01:39:11 - ----------Running New Instance----------
+2024-02-09 01:39:11 - dataset: youtube, n_class: 2
+2024-02-09 01:39:11 - constraint type: accuracy, add MV const: False
+2024-02-09 01:39:11 - labeled set: valid, use inequalities: True
+2024-02-09 01:39:11 - bound method: binomial
+2024-02-09 01:39:11 - bound method: binomial
+2024-02-09 01:39:11 - ----Estimating Probabilities----
+2024-02-09 01:39:11 - 20 out of 120 labeled datapoints on average per rule 
+2024-02-09 01:39:11 - 10 rules with labeled data out of 10 total
+2024-02-09 01:39:11 - Number of labeled predictions per rule: [17 10  2  9 33 26 38  5 12 56]
+2024-02-09 01:39:11 - Using at maximum 120 many labeled points
+2024-02-09 01:39:11 - ================Results================
+2024-02-09 01:39:11 - time to fit: 0.1 seconds
+2024-02-09 01:39:11 - train acc (train err): 0.7711 (0.2289)
+2024-02-09 01:39:11 - wmrc train log loss upper bound 0.5550
+2024-02-09 01:39:11 - train log loss: 0.4826
+2024-02-09 01:39:11 - train brier score: 0.3157
+2024-02-09 01:39:11 - test acc (test err): 0.8400 (0.1600)
+2024-02-09 01:39:11 - test log loss: 0.3916
+2024-02-09 01:39:11 - test brier score: 0.2387

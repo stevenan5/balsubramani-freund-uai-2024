@@ -1,0 +1,255 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABSTAIN	bf.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	dawid_skene.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	flyingsquid.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	generative_model.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	gold.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	hyper_label_model.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	majority_voting.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	metal.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	snorkel.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	weapo.py	/^ABSTAIN = -1$/;"	v
+AMCL_CC	amcl_cc.py	/^class AMCL_CC(BaseLabelModel):$/;"	c
+BalsubramaniFreund	bf.py	/^class BalsubramaniFreund(BaseLabelModel):$/;"	c
+ClassConditionalLabelModel	label_model_src.py	/^class ClassConditionalLabelModel(LabelModel):$/;"	c
+DEP_EXCLUSIVE	generative_model_src.py	/^DEP_EXCLUSIVE = 3$/;"	v
+DEP_FIXING	generative_model_src.py	/^DEP_FIXING = 1$/;"	v
+DEP_REINFORCING	generative_model_src.py	/^DEP_REINFORCING = 2$/;"	v
+DEP_SIMILAR	generative_model_src.py	/^DEP_SIMILAR = 0$/;"	v
+DawidSkene	dawid_skene.py	/^class DawidSkene(BaseLabelModel):$/;"	c
+EBCC	ebcc.py	/^class EBCC(BaseLabelModel):$/;"	c
+Epoxy	epoxy.py	/^class Epoxy:$/;"	c
+Fable	fable.py	/^class Fable(BaseLabelModel):$/;"	c
+FlyingSquid	flyingsquid.py	/^class FlyingSquid(BaseLabelModel):$/;"	c
+GenerativeModel	generative_model.py	/^class GenerativeModel(BaseLabelModel):$/;"	c
+GoldCondProb	gold.py	/^class GoldCondProb(BaseLabelModel):$/;"	c
+HyperLM	hyper_label_model.py	/^class HyperLM(BaseLabelModel):$/;"	c
+IBCC	ibcc.py	/^class IBCC(BaseLabelModel):$/;"	c
+LabelModel	label_model_src.py	/^class LabelModel(nn.Module):$/;"	c
+LabelModel	metal.py	/^class LabelModel(LabelModel_):$/;"	c
+LearningConfig	label_model_src.py	/^class LearningConfig(object):$/;"	c
+MajorityVoting	majority_voting.py	/^class MajorityVoting(BaseLabelModel):$/;"	c
+MajorityWeightedVoting	majority_voting.py	/^class MajorityWeightedVoting(BaseLabelModel):$/;"	c
+MeTaL	metal.py	/^class MeTaL(BaseLabelModel):$/;"	c
+NaiveBayes	label_model_src.py	/^class NaiveBayes(ClassConditionalLabelModel):$/;"	c
+NaiveBayesModel	naive_bayes.py	/^class NaiveBayesModel(BaseLabelModel):$/;"	c
+Snorkel	snorkel.py	/^class Snorkel(BaseLabelModel):$/;"	c
+SrcGenerativeModel	generative_model_src.py	/^class SrcGenerativeModel:$/;"	c
+SrcGenerativeModelWeights	generative_model_src.py	/^class SrcGenerativeModelWeights(object):$/;"	c
+Weapo	weapo.py	/^class Weapo(BaseLabelModel):$/;"	c
+__init__	amcl_cc.py	/^    def __init__(self,$/;"	m	class:AMCL_CC
+__init__	bf.py	/^    def __init__(self,$/;"	m	class:BalsubramaniFreund
+__init__	dawid_skene.py	/^    def __init__(self,$/;"	m	class:DawidSkene
+__init__	ebcc.py	/^    def __init__(self,$/;"	m	class:EBCC
+__init__	epoxy.py	/^    def __init__($/;"	m	class:Epoxy
+__init__	fable.py	/^    def __init__(self,$/;"	m	class:Fable
+__init__	flyingsquid.py	/^    def __init__(self, **kwargs: Any):$/;"	m	class:FlyingSquid
+__init__	generative_model.py	/^    def __init__(self,$/;"	m	class:GenerativeModel
+__init__	generative_model_src.py	/^    def __init__(self, class_prior=False, lf_prior=False, lf_propensity=False,$/;"	m	class:SrcGenerativeModel
+__init__	generative_model_src.py	/^    def __init__(self, n):$/;"	m	class:SrcGenerativeModelWeights
+__init__	gold.py	/^    def __init__(self, **kwargs: Any):$/;"	m	class:GoldCondProb
+__init__	hyper_label_model.py	/^    def __init__(self, **kwargs: Any):$/;"	m	class:HyperLM
+__init__	ibcc.py	/^    def __init__(self,$/;"	m	class:IBCC
+__init__	label_model_src.py	/^    def __init__(self):$/;"	m	class:LearningConfig
+__init__	label_model_src.py	/^    def __init__(self, num_classes, num_lfs, init_acc, acc_prior):$/;"	m	class:ClassConditionalLabelModel
+__init__	label_model_src.py	/^    def __init__(self, num_classes, num_lfs, init_acc=.9, acc_prior=0.025,$/;"	m	class:NaiveBayes
+__init__	majority_voting.py	/^    def __init__(self, **kwargs: Any):$/;"	m	class:MajorityVoting
+__init__	majority_voting.py	/^    def __init__(self, **kwargs: Any):$/;"	m	class:MajorityWeightedVoting
+__init__	metal.py	/^    def __init__(self,$/;"	m	class:MeTaL
+__init__	naive_bayes.py	/^    def __init__(self,$/;"	m	class:NaiveBayesModel
+__init__	snorkel.py	/^    def __init__(self,$/;"	m	class:Snorkel
+__init__	weapo.py	/^    def __init__(self, prior_cons=True, **kwargs: Any):$/;"	m	class:Weapo
+_add_majority_vote_const	bf.py	/^    def _add_majority_vote_const(self, dataset):$/;"	m	class:BalsubramaniFreund
+_aggregate_weights	bf.py	/^    def _aggregate_weights(self, L_aug, param_wts, class_freq_wts, mod=cp):$/;"	m	class:BalsubramaniFreund
+_build_mask	metal.py	/^    def _build_mask(self):$/;"	m	class:LabelModel
+_calc_likelihood	dawid_skene.py	/^    def _calc_likelihood(self, L_aug, class_marginals, error_rates):$/;"	m	class:DawidSkene
+_compile	generative_model_src.py	/^    def _compile(self, L, init_deps, init_class_prior, LF_acc_prior_weights, is_fixed, cardinalities):$/;"	m	class:SrcGenerativeModel
+_compile_dep_factors	generative_model_src.py	/^    def _compile_dep_factors(self, L, factors, factors_offset, ftv, ftv_offset, weight_offset, j, k, factor_name,$/;"	m	class:SrcGenerativeModel
+_compile_output_factors	generative_model_src.py	/^    def _compile_output_factors(self, L, factors, factors_offset, ftv,$/;"	m	class:SrcGenerativeModel
+_create_minibatches	label_model_src.py	/^    def _create_minibatches(self, votes, batch_size, shuffle_rows=False):$/;"	m	class:NaiveBayes
+_do_estimate_label_model	label_model_src.py	/^    def _do_estimate_label_model(self, batches, config):$/;"	m	class:LabelModel
+_e_step	dawid_skene.py	/^    def _e_step(self, L_aug, class_marginals, error_rates):$/;"	m	class:DawidSkene
+_expand_sels	bf.py	/^    def _expand_sels(self, selection, n_points, n_class, specific_class=None):$/;"	m	class:BalsubramaniFreund
+_generate_O	metal.py	/^    def _generate_O(self, L):$/;"	m	class:LabelModel
+_get_labeling_function_likelihoods	label_model_src.py	/^    def _get_labeling_function_likelihoods(self, votes):$/;"	m	class:ClassConditionalLabelModel
+_get_norm_class_balance	label_model_src.py	/^    def _get_norm_class_balance(self):$/;"	m	class:NaiveBayes
+_get_primal_constraints	bf.py	/^    def _get_primal_constraints(self, L, z):$/;"	m	class:BalsubramaniFreund
+_get_prob_bounds	bf.py	/^    def _get_prob_bounds(self, dataset, method='binomial', bound_scale=1):$/;"	m	class:BalsubramaniFreund
+_get_regularization_loss	label_model_src.py	/^    def _get_regularization_loss(self):$/;"	m	class:ClassConditionalLabelModel
+_get_regularization_loss	label_model_src.py	/^    def _get_regularization_loss(self):$/;"	m	class:LabelModel
+_get_regularization_loss	label_model_src.py	/^    def _get_regularization_loss(self):$/;"	m	class:NaiveBayes
+_initialize_L_aug	amcl_cc.py	/^    def _initialize_L_aug(self, L, n_class):$/;"	m	class:AMCL_CC
+_initialize_L_aug	bf.py	/^    def _initialize_L_aug(self, L):$/;"	m	class:BalsubramaniFreund
+_initialize_L_aug	dawid_skene.py	/^    def _initialize_L_aug(self, L):$/;"	m	class:DawidSkene
+_initialize_Y_p	dawid_skene.py	/^    def _initialize_Y_p(self, L):$/;"	m	class:DawidSkene
+_initialize_one_hot_labels	amcl_cc.py	/^    def _initialize_one_hot_labels(self, y, n_class):$/;"	m	class:AMCL_CC
+_initialize_one_hot_labels	bf.py	/^    def _initialize_one_hot_labels(self, y):$/;"	m	class:BalsubramaniFreund
+_m_step	dawid_skene.py	/^    def _m_step(self, L_aug, Y_p):$/;"	m	class:DawidSkene
+_make_bf_preds	bf.py	/^    def _make_bf_preds(self, L_aug, param_wts, class_freq_wts):$/;"	m	class:BalsubramaniFreund
+_make_confidence_progs	bf.py	/^    def _make_confidence_progs(self, z, constrs, n_points, bf_preds=None):$/;"	m	class:BalsubramaniFreund
+_make_dual_cp	bf.py	/^    def _make_dual_cp(self, L_aug, param_cts, class_freq_cts,$/;"	m	class:BalsubramaniFreund
+_mean_group_preds	bf.py	/^    def _mean_group_preds(self, selections, preds):$/;"	m	class:BalsubramaniFreund
+_pattern_neighborhood_selections	bf.py	/^    def _pattern_neighborhood_selections(self, L, neighbor_dist):$/;"	m	class:BalsubramaniFreund
+_pattern_selections	bf.py	/^    def _pattern_selections(self, L):$/;"	m	class:BalsubramaniFreund
+_predicted_prob_selections	bf.py	/^    def _predicted_prob_selections(self, preds, L, prediction_thresholds,$/;"	m	class:BalsubramaniFreund
+_process_dependency_graph	generative_model_src.py	/^    def _process_dependency_graph(self, L, deps):$/;"	m	class:SrcGenerativeModel
+_process_learned_weights	generative_model_src.py	/^    def _process_learned_weights(self, L, fg, LF_acc_prior_weights, is_fixed):$/;"	m	class:SrcGenerativeModel
+_remap_scoped_categoricals	generative_model_src.py	/^    def _remap_scoped_categoricals(self, L_in, candidate_ranges):$/;"	m	class:SrcGenerativeModel
+_scale_probs_to_cts	bf.py	/^    def _scale_probs_to_cts(self, param_probs, class_freq_probs, n_datapoints,$/;"	m	class:BalsubramaniFreund
+_set_dependencies	metal.py	/^    def _set_dependencies(self, deps):$/;"	m	class:LabelModel
+_weight_is_sign_sparsitent	generative_model_src.py	/^    def _weight_is_sign_sparsitent(self, w1, w2, threshold):$/;"	m	class:SrcGenerativeModelWeights
+alpha_0	fable.py	/^    alpha_0 = q_0_vec.mul(r_vec).sum(dim_dimension)$/;"	v
+alpha_curr	fable.py	/^        alpha_curr = q_curr_vec.mul(r_vec).sum(dim_dimension, keepdim=True)$/;"	v
+beta_0	fable.py	/^    beta_0 = torch.norm(r_vec, 2, dim=dim_dimension)$/;"	v
+beta_curr	fable.py	/^            beta_curr = r_vec_norm.squeeze_(dim_dimension)$/;"	v
+beta_prev	fable.py	/^        beta_prev = t_mat[k, k - 1].unsqueeze(dim_dimension)$/;"	v
+brier_loss_linear	amcl_cc.py	/^    def brier_loss_linear(self, labels, preds):$/;"	m	class:AMCL_CC
+brier_loss_linear_vectorized	amcl_cc.py	/^    def brier_loss_linear_vectorized(self, labels, preds):$/;"	m	class:AMCL_CC
+brier_score_amcl	amcl_cc.py	/^    def brier_score_amcl(self, preds):$/;"	m	class:AMCL_CC
+brier_score_amcl_vectorized	amcl_cc.py	/^    def brier_score_amcl_vectorized(self, preds):$/;"	m	class:AMCL_CC
+closest	epoxy.py	/^        closest = [$/;"	v
+closest_l	epoxy.py	/^    closest_l = []$/;"	v
+comp_similarity	epoxy.py	/^            def comp_similarity(embs):$/;"	f	function:Epoxy.preprocess
+compute_constraints_with_loss2	amcl_cc.py	/^    def compute_constraints_with_loss2(self, lf1, lf2,$/;"	m	class:AMCL_CC
+compute_gradient_comb	amcl_cc.py	/^    def compute_gradient_comb(self, theta, X, Y, h):$/;"	m	class:AMCL_CC
+correction	fable.py	/^                correction = q_mat[: k + 1].mul(correction).sum(0)$/;"	v
+correction	fable.py	/^                correction = r_vec.unsqueeze(0).mul(q_mat[: k + 1]).sum(dim_dimension, keepdim=True)$/;"	v
+correction	fable.py	/^            correction = q_mat[: k + 1].mul(correction).sum(0)$/;"	v
+correction	fable.py	/^            correction = r_vec.unsqueeze(0).mul(q_mat[: k + 1]).sum(dim_dimension, keepdim=True)$/;"	v
+could_reorthogonalize	fable.py	/^                    could_reorthogonalize = True$/;"	v
+could_reorthogonalize	fable.py	/^            could_reorthogonalize = False$/;"	v
+covered_by_	weapo.py	/^def covered_by_(l1, l2):$/;"	f
+create_tuples	fable.py	/^def create_tuples(dataset: Union[BaseDataset, np.ndarray]):$/;"	f
+dep_names	generative_model_src.py	/^    dep_names = ($/;"	v	class:SrcGenerativeModel
+dim_dimension	fable.py	/^    dim_dimension = -2$/;"	v
+dists	epoxy.py	/^        dists = [$/;"	v
+ebcc_vb	ebcc.py	/^def ebcc_vb(L,$/;"	f
+estimate_label_model	label_model_src.py	/^    def estimate_label_model(self, *args, config=None):$/;"	m	class:LabelModel
+estimate_label_model	label_model_src.py	/^    def estimate_label_model(self, votes, config=None):$/;"	m	class:NaiveBayes
+eval_theta	amcl_cc.py	/^        def eval_theta(th):$/;"	f	function:AMCL_CC.sub_gradient_method2
+expanded_L_mat	epoxy.py	/^    expanded_L_mat = np.copy(L_mat)$/;"	v
+extend	epoxy.py	/^    def extend(self, thresholds):$/;"	m	class:Epoxy
+extend_lfs	epoxy.py	/^def extend_lfs($/;"	f
+fable_vb	fable.py	/^def fable_vb(tuples,$/;"	f
+fit	amcl_cc.py	/^    def fit(self,$/;"	m	class:AMCL_CC
+fit	bf.py	/^    def fit(self,$/;"	m	class:BalsubramaniFreund
+fit	dawid_skene.py	/^    def fit(self,$/;"	m	class:DawidSkene
+fit	ebcc.py	/^    def fit(self,$/;"	m	class:EBCC
+fit	fable.py	/^    def fit(self,$/;"	m	class:Fable
+fit	flyingsquid.py	/^    def fit(self,$/;"	m	class:FlyingSquid
+fit	generative_model.py	/^    def fit(self,$/;"	m	class:GenerativeModel
+fit	gold.py	/^    def fit(self,$/;"	m	class:GoldCondProb
+fit	hyper_label_model.py	/^    def fit(self,$/;"	m	class:HyperLM
+fit	ibcc.py	/^    def fit(self,$/;"	m	class:IBCC
+fit	majority_voting.py	/^    def fit(self,$/;"	m	class:MajorityVoting
+fit	majority_voting.py	/^    def fit(self,$/;"	m	class:MajorityWeightedVoting
+fit	metal.py	/^    def fit(self,$/;"	m	class:MeTaL
+fit	naive_bayes.py	/^    def fit(self,$/;"	m	class:NaiveBayesModel
+fit	snorkel.py	/^    def fit(self,$/;"	m	class:Snorkel
+fit	weapo.py	/^    def fit(self,$/;"	m	class:Weapo
+forward	label_model_src.py	/^    def forward(self, *args):$/;"	m	class:LabelModel
+forward	label_model_src.py	/^    def forward(self, votes):$/;"	m	class:NaiveBayes
+generic_logger	bf.py	/^generic_logger = logging.getLogger(__name__)$/;"	v
+get_accuracies	label_model_src.py	/^    def get_accuracies(self):$/;"	m	class:ClassConditionalLabelModel
+get_binary_constraints	weapo.py	/^def get_binary_constraints(L, min_cnt=0.0, exclude_all_abstain=True):$/;"	f
+get_class_balance	label_model_src.py	/^    def get_class_balance(self):$/;"	m	class:NaiveBayes
+get_components	weapo.py	/^def get_components(L, single=False):$/;"	f
+get_confidences	bf.py	/^    def get_confidences(self, data, grouping="pattern_neigh",$/;"	m	class:BalsubramaniFreund
+get_constraints	weapo.py	/^def get_constraints(L, full=False):$/;"	f
+get_deps_from_inverse_sig	dependency_structure.py	/^def get_deps_from_inverse_sig(J, thresh=0.2):$/;"	f
+get_distance_matrix	epoxy.py	/^    def get_distance_matrix(self):$/;"	m	class:Epoxy
+get_label_distribution	label_model_src.py	/^    def get_label_distribution(self, *args):$/;"	m	class:LabelModel
+get_label_distribution	label_model_src.py	/^    def get_label_distribution(self, votes):$/;"	m	class:NaiveBayes
+get_most_probable_labels	label_model_src.py	/^    def get_most_probable_labels(self, *args):$/;"	m	class:LabelModel
+get_most_probable_labels	label_model_src.py	/^    def get_most_probable_labels(self, votes):$/;"	m	class:NaiveBayes
+get_partial_order_tree	weapo.py	/^def get_partial_order_tree(unique_L, exclude_all_abstain=True):$/;"	f
+get_propensities	label_model_src.py	/^    def get_propensities(self):$/;"	m	class:ClassConditionalLabelModel
+help_e_step	dawid_skene.py	/^def help_e_step(Y_p, error_rates, L_aug):$/;"	f
+ibcc	ibcc.py	/^def ibcc(tuples,$/;"	f
+init_random	label_model_src.py	/^def init_random(seed):$/;"	f
+init_vecs	fable.py	/^        init_vecs = init_vecs.expand(*batch_shape, matrix_shape[-1], num_init_vecs)$/;"	v
+init_vecs	fable.py	/^        init_vecs = torch.randn(matrix_shape[-1], num_init_vecs, dtype=dtype, device=device)$/;"	v
+initialize_Y_p	dawid_skene.py	/^def initialize_Y_p(Y_p, L, n_class):$/;"	f
+inner_products	fable.py	/^                inner_products = q_mat[: k + 1].mul(r_vec.unsqueeze(0)).sum(dim_dimension)$/;"	v
+inner_products	fable.py	/^            inner_products = q_mat[: k + 1].mul(r_vec.unsqueeze(0)).sum(dim_dimension)$/;"	v
+is_sign_sparsistent	generative_model_src.py	/^    def is_sign_sparsistent(self, other, threshold=0.1):$/;"	m	class:SrcGenerativeModelWeights
+lanczos_tridiag	fable.py	/^def lanczos_tridiag($/;"	f
+learn_structure	dependency_structure.py	/^def learn_structure(L, thresh=1.5):$/;"	f
+learned_lf_stats	generative_model_src.py	/^    def learned_lf_stats(self):$/;"	m	class:SrcGenerativeModel
+linear_combination_labeler	amcl_cc.py	/^    def linear_combination_labeler(self, theta, X):$/;"	m	class:AMCL_CC
+linear_combination_labeler_vectorized	amcl_cc.py	/^    def linear_combination_labeler_vectorized(self, theta, X):$/;"	m	class:AMCL_CC
+load	generative_model_src.py	/^    def load(self, model_name=None, save_dir='checkpoints', verbose=True):$/;"	m	class:SrcGenerativeModel
+logger	dawid_skene.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	flyingsquid.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	generative_model.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	gold.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	hyper_label_model.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	majority_voting.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	metal.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	naive_bayes.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	snorkel.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	weapo.py	/^logger = logging.getLogger(__name__)$/;"	v
+m	epoxy.py	/^    m = L_mat.shape[1]$/;"	v
+marginals	generative_model_src.py	/^    def marginals(self, L, candidate_ranges=None, batch_size=None):$/;"	m	class:SrcGenerativeModel
+mat_abstains	epoxy.py	/^    mat_abstains = [$/;"	v
+max_dist	epoxy.py	/^            max_dist = [$/;"	v
+max_dist_l	epoxy.py	/^        max_dist_l = []$/;"	v
+min_dist	epoxy.py	/^            min_dist = [$/;"	v
+min_dist_l	epoxy.py	/^        min_dist_l = []$/;"	v
+multiple_init_vecs	fable.py	/^    multiple_init_vecs = False$/;"	v
+new	epoxy.py	/^            new = [$/;"	v
+new_l	epoxy.py	/^    new_l = []$/;"	v
+num_init_vecs	fable.py	/^        num_init_vecs = init_vecs.size(-1)$/;"	v
+num_iter	fable.py	/^    num_iter = k + 1$/;"	v
+num_iter	fable.py	/^    num_iter = min(max_iter, matrix_shape[-1])$/;"	v
+optional_names	generative_model_src.py	/^    optional_names = ('lf_prior', 'lf_propensity', 'lf_class_propensity')$/;"	v	class:SrcGenerativeModel
+predict_proba	amcl_cc.py	/^    def predict_proba(self,$/;"	m	class:AMCL_CC
+predict_proba	bf.py	/^    def predict_proba(self,$/;"	m	class:BalsubramaniFreund
+predict_proba	dawid_skene.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], oracle=False, **kwargs: Any) -> np.ndarray:$/;"	m	class:DawidSkene
+predict_proba	ebcc.py	/^    def predict_proba(self,$/;"	m	class:EBCC
+predict_proba	fable.py	/^    def predict_proba(self,$/;"	m	class:Fable
+predict_proba	flyingsquid.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], **kwargs: Any) -> np.ndarray:$/;"	m	class:FlyingSquid
+predict_proba	generative_model.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], **kwargs: Any) -> np.ndarray:$/;"	m	class:GenerativeModel
+predict_proba	generative_model_src.py	/^    def predict_proba(self, X, batch_size=None):$/;"	m	class:SrcGenerativeModel
+predict_proba	gold.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], weight: Optional[np.ndarray] = None,$/;"	m	class:GoldCondProb
+predict_proba	hyper_label_model.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], weak: Optional[int] = None, n_weaks: Optional[int] = None, random_guess: Optional[int] = None, seed: Optional[int] = None,$/;"	m	class:HyperLM
+predict_proba	ibcc.py	/^    def predict_proba(self,$/;"	m	class:IBCC
+predict_proba	majority_voting.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], **kwargs: Any) -> np.ndarray:$/;"	m	class:MajorityWeightedVoting
+predict_proba	majority_voting.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], weight: Optional[np.ndarray] = None, weak: Optional[int] = None, n_weaks: Optional[int] = None, random_guess: Optional[int] = None, seed: Optional[int] = None,$/;"	m	class:MajorityVoting
+predict_proba	metal.py	/^    def predict_proba(self, L):$/;"	m	class:LabelModel
+predict_proba	metal.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], **kwargs: Any) -> np.ndarray:$/;"	m	class:MeTaL
+predict_proba	naive_bayes.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], **kwargs: Any) -> np.ndarray:$/;"	m	class:NaiveBayesModel
+predict_proba	snorkel.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], weak: Optional[int] = None, n_weaks: Optional[int] = None, random_guess: Optional[int] = None, seed: Optional[int] = None, **kwargs: Any) -> np.ndarray:$/;"	m	class:Snorkel
+predict_proba	weapo.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], **kwargs: Any) -> np.ndarray:$/;"	m	class:Weapo
+predictions	generative_model_src.py	/^    def predictions(self, X, b=0.5, batch_size=None):$/;"	m	class:SrcGenerativeModel
+preprocess	epoxy.py	/^    def preprocess($/;"	m	class:Epoxy
+preprocess_lfs	epoxy.py	/^def preprocess_lfs($/;"	f
+process_fn	weapo.py	/^def process_fn(i, L_i, exclude_all_abstain=True):$/;"	f
+process_label_matrix	generative_model.py	/^    def process_label_matrix(self, L_):$/;"	m	class:GenerativeModel
+project_to_simplex	amcl_cc.py	/^    def project_to_simplex(self, v):$/;"	m	class:AMCL_CC
+pytorch_cosine_similarity	epoxy.py	/^def pytorch_cosine_similarity(a, b):$/;"	f
+pytorch_l2_distance	epoxy.py	/^def pytorch_l2_distance(a, b):$/;"	f
+q_0_vec	fable.py	/^    q_0_vec = init_vecs \/ torch.norm(init_vecs, 2, dim=dim_dimension).unsqueeze(dim_dimension)$/;"	v
+q_curr_vec	fable.py	/^        q_curr_vec = q_mat[k]$/;"	v
+q_mat	fable.py	/^    q_mat = q_mat[:num_iter].permute(-1, *range(1, 1 + len(batch_shape)), -2, 0).contiguous()$/;"	v
+q_mat	fable.py	/^    q_mat = torch.zeros(num_iter, *batch_shape, matrix_shape[-1], num_init_vecs, dtype=dtype, device=device)$/;"	v
+q_prev_vec	fable.py	/^        q_prev_vec = q_mat[k - 1]$/;"	v
+r_vec	fable.py	/^        r_vec = matmul_closure(q_curr_vec) - q_prev_vec.mul(beta_prev)$/;"	v
+r_vec	fable.py	/^    r_vec = matmul_closure(q_0_vec)$/;"	v
+r_vec_norm	fable.py	/^                r_vec_norm = torch.norm(r_vec, 2, dim=dim_dimension, keepdim=True)$/;"	v
+r_vec_norm	fable.py	/^            r_vec_norm = torch.norm(r_vec, 2, dim=dim_dimension, keepdim=True)$/;"	v
+save	generative_model_src.py	/^    def save(self, model_name=None, save_dir='checkpoints', verbose=True):$/;"	m	class:SrcGenerativeModel
+scale	fable.py	/^def scale(data):$/;"	f
+set_numba_seeds	generative_model_src.py	/^def set_numba_seeds(seed):$/;"	f
+solve_lp_given_cost2	amcl_cc.py	/^    def solve_lp_given_cost2(self, Y, constraints, cost, prob=None):$/;"	m	class:AMCL_CC
+sub_gradient_method2	amcl_cc.py	/^    def sub_gradient_method2(self, X_unlabeled, Y, constraints, lf, h,$/;"	m	class:AMCL_CC
+t_mat	fable.py	/^    t_mat = t_mat[:num_iter, :num_iter].permute(-1, *range(2, 2 + len(batch_shape)), 0, 1).contiguous()$/;"	v
+t_mat	fable.py	/^    t_mat = torch.zeros(num_iter, num_iter, *batch_shape, num_init_vecs, dtype=dtype, device=device)$/;"	v
+temp	epoxy.py	/^            temp = np.stack(min_dist).T$/;"	v
+train	generative_model_src.py	/^    def train(self, L, deps=(), LF_acc_prior_weights=None,$/;"	m	class:SrcGenerativeModel
+train_support	epoxy.py	/^        train_support = [$/;"	v

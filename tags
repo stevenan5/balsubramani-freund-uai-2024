@@ -1,0 +1,1955 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABSTAIN	wrench/classification/astra.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	wrench/classification/implyloss.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	wrench/classification/weasel.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	wrench/explainer/explainer.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	wrench/labelmodel/dawid_skene.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	wrench/labelmodel/flyingsquid.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	wrench/labelmodel/generative_model.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	wrench/labelmodel/gold.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	wrench/labelmodel/hyper_label_model.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	wrench/labelmodel/majority_voting.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	wrench/labelmodel/metal.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	wrench/labelmodel/snorkel.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	wrench/labelmodel/weapo.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	wrench/labelmodel/wmrc.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	wrench/seq_labelmodel/hmm.py	/^ABSTAIN = -1$/;"	v
+ABSTAIN	wrench/synthetic/lf_generator.py	/^ABSTAIN = -1$/;"	v
+AMCL_CC	wrench/labelmodel/amcl_cc.py	/^class AMCL_CC(BaseLabelModel):$/;"	c
+ARS2	wrench/endmodel/ars2.py	/^class ARS2(BaseTorchClassModel):$/;"	c
+AbstractLFApplier	wrench/synthetic/lf_generator.py	/^class AbstractLFApplier:$/;"	c
+AbstractLFGenerator	wrench/synthetic/lf_generator.py	/^class AbstractLFGenerator(ABC):$/;"	c
+AbstractModel	wrench/explainer/explainer.py	/^class AbstractModel(torch.nn.Module):$/;"	c
+AndExpression	wrench/synthetic/lf_generator.py	/^class AndExpression(BinaryExpression):$/;"	c
+AssembleModel	wrench/classification/denoise.py	/^class AssembleModel(BackBone):$/;"	c
+Astra	wrench/classification/astra.py	/^class Astra(BaseTorchClassModel):$/;"	c
+AstraModel	wrench/classification/astra.py	/^class AstraModel(BackBone):$/;"	c
+AttentionModel	wrench/classification/denoise.py	/^class AttentionModel(nn.Module):$/;"	c
+AverageMeter	wrench/evaluation.py	/^class AverageMeter:$/;"	c
+BERTBackBone	wrench/backbone.py	/^class BERTBackBone(BackBone):$/;"	c
+BERTConNet	wrench/seqtagging/connet.py	/^class BERTConNet(BaseConNet):$/;"	c
+BERTConNetModel	wrench/seqtagging/connet.py	/^class BERTConNetModel(BERTTaggerModel):$/;"	c
+BERTTaggerModel	wrench/seq_endmodel/bert_crf_model.py	/^class BERTTaggerModel(BaseTorchSeqModel):$/;"	c
+BERTTorchDataset	wrench/dataset/torchdataset.py	/^class BERTTorchDataset(TorchDataset):$/;"	c
+BERTTorchRelationClassDataset	wrench/dataset/torchdataset.py	/^class BERTTorchRelationClassDataset(BERTTorchDataset):$/;"	c
+BERTTorchSeqDataset	wrench/seq_endmodel/bert_crf_model.py	/^class BERTTorchSeqDataset(Dataset):$/;"	c
+BERTTorchTextClassDataset	wrench/dataset/torchdataset.py	/^class BERTTorchTextClassDataset(BERTTorchDataset):$/;"	c
+BackBone	wrench/backbone.py	/^class BackBone(nn.Module):$/;"	c
+BaseClassModel	wrench/basemodel.py	/^class BaseClassModel(BaseModel, ABC):$/;"	c
+BaseConNet	wrench/seqtagging/connet.py	/^class BaseConNet(BackBone, ABC):$/;"	c
+BaseDataset	wrench/dataset/basedataset.py	/^class BaseDataset(ABC):$/;"	c
+BaseLabelModel	wrench/basemodel.py	/^class BaseLabelModel(BaseClassModel):$/;"	c
+BaseModel	wrench/basemodel.py	/^class BaseModel(ABC):$/;"	c
+BaseSeqDataset	wrench/dataset/seqdataset.py	/^class BaseSeqDataset:$/;"	c
+BaseSeqModel	wrench/basemodel.py	/^class BaseSeqModel(BaseModel, ABC):$/;"	c
+BaseSyntheticGenerator	wrench/synthetic/syntheticdataset.py	/^class BaseSyntheticGenerator(ABC):$/;"	c
+BaseTorchClassModel	wrench/basemodel.py	/^class BaseTorchClassModel(BaseClassModel, BaseTorchModel, ABC):$/;"	c
+BaseTorchModel	wrench/basemodel.py	/^class BaseTorchModel(BaseModel, ABC):$/;"	c
+BaseTorchSeqModel	wrench/basemodel.py	/^class BaseTorchSeqModel(BaseSeqModel, BaseTorchModel, ABC):$/;"	c
+BatchNormController	wrench/semisupervisedlearning/utils.py	/^class BatchNormController:$/;"	c
+BertClassifierModel	wrench/endmodel/bert_model.py	/^class BertClassifierModel(BaseTorchClassModel):$/;"	c
+BertRelationClassifier	wrench/backbone.py	/^class BertRelationClassifier(BERTBackBone):$/;"	c
+BertSeqTagger	wrench/backbone.py	/^class BertSeqTagger(CRFTagger):$/;"	c
+BertTextClassifier	wrench/backbone.py	/^class BertTextClassifier(BERTBackBone):$/;"	c
+BinaryExpression	wrench/synthetic/lf_generator.py	/^class BinaryExpression(Expression):$/;"	c
+CB_loss	wrench/endmodel/loss/effective_number.py	/^def CB_loss(logit,$/;"	f
+CHMM	wrench/seq_labelmodel/chmm.py	/^class CHMM(BaseSeqModel):$/;"	c
+CHMM	wrench/seq_labelmodel/chmm_src/CHMM/Model.py	/^class CHMM(nn.Module):$/;"	c
+CHMMArguments	wrench/seq_labelmodel/chmm_src/Src/Args.py	/^class CHMMArguments:$/;"	c
+CHMMConfig	wrench/seq_labelmodel/chmm_src/Src/Args.py	/^class CHMMConfig(CHMMArguments):$/;"	c
+CHMMTorchSeqDataset	wrench/seq_labelmodel/chmm.py	/^class CHMMTorchSeqDataset(Dataset):$/;"	c
+CHMMTrainer	wrench/seq_labelmodel/chmm_src/CHMM/Train.py	/^class CHMMTrainer:$/;"	c
+CRF	wrench/backbone.py	/^class CRF(BackBone):$/;"	c
+CRFTagger	wrench/backbone.py	/^class CRFTagger(BackBone):$/;"	c
+CharBiLSTM	wrench/layers.py	/^class CharBiLSTM(nn.Module):$/;"	c
+CharCNN	wrench/layers.py	/^class CharCNN(nn.Module):$/;"	c
+ClassConditionalLabelModel	wrench/labelmodel/label_model_src.py	/^class ClassConditionalLabelModel(LabelModel):$/;"	c
+ConditionalIndependentGenerator	wrench/synthetic/dataset_generator.py	/^class ConditionalIndependentGenerator(BaseSyntheticGenerator):$/;"	c
+Config	wrench/config.py	/^class Config:$/;"	c
+CorrelatedGenerator	wrench/synthetic/dataset_generator.py	/^class CorrelatedGenerator(ConditionalIndependentGenerator):$/;"	c
+Cosine	wrench/endmodel/cosine.py	/^class Cosine(BaseTorchClassModel):$/;"	c
+DEFAULT_BACKBONE_CONFIG	wrench/config.py	/^DEFAULT_BACKBONE_CONFIG = {$/;"	v
+DEFAULT_BACKBONE_MAP	wrench/config.py	/^DEFAULT_BACKBONE_MAP = {$/;"	v
+DEFAULT_BERT_CONFIG	wrench/config.py	/^DEFAULT_BERT_CONFIG = {$/;"	v
+DEFAULT_IMAGE_CLASSIFIER_CONFIG	wrench/config.py	/^DEFAULT_IMAGE_CLASSIFIER_CONFIG = {$/;"	v
+DEFAULT_LABEL_MODEL_CONFIG	wrench/config.py	/^DEFAULT_LABEL_MODEL_CONFIG = {$/;"	v
+DEFAULT_LOGREG_CONFIG	wrench/config.py	/^DEFAULT_LOGREG_CONFIG = {$/;"	v
+DEFAULT_LR_SCHEDULER_CONFIG	wrench/config.py	/^DEFAULT_LR_SCHEDULER_CONFIG = {$/;"	v
+DEFAULT_MLP_CONFIG	wrench/config.py	/^DEFAULT_MLP_CONFIG = {$/;"	v
+DEFAULT_OPTIMIZER_CONFIG	wrench/config.py	/^DEFAULT_OPTIMIZER_CONFIG = {$/;"	v
+DEP_EXCLUSIVE	wrench/labelmodel/generative_model_src.py	/^DEP_EXCLUSIVE = 3$/;"	v
+DEP_FIXING	wrench/labelmodel/generative_model_src.py	/^DEP_FIXING = 1$/;"	v
+DEP_REINFORCING	wrench/labelmodel/generative_model_src.py	/^DEP_REINFORCING = 2$/;"	v
+DEP_SIMILAR	wrench/labelmodel/generative_model_src.py	/^DEP_SIMILAR = 0$/;"	v
+DataDependentGenerator	wrench/synthetic/dataset_generator.py	/^class DataDependentGenerator(ConditionalIndependentGenerator):$/;"	c
+DawidSkene	wrench/labelmodel/dawid_skene.py	/^class DawidSkene(BaseLabelModel):$/;"	c
+Denoise	wrench/classification/denoise.py	/^class Denoise(BaseTorchClassModel):$/;"	c
+DiceLoss	wrench/endmodel/loss/dice_loss.py	/^class DiceLoss(nn.Module):$/;"	c
+EBCC	wrench/labelmodel/ebcc.py	/^class EBCC(BaseLabelModel):$/;"	c
+EMA	wrench/semisupervisedlearning/meanteacher.py	/^class EMA:$/;"	c
+Encoder	wrench/classification/weasel.py	/^class Encoder(BackBone):$/;"	c
+EndClassifierModel	wrench/endmodel/end_model.py	/^class EndClassifierModel(BaseTorchClassModel):$/;"	c
+Epoxy	wrench/labelmodel/epoxy.py	/^class Epoxy:$/;"	c
+EqualExpression	wrench/synthetic/lf_generator.py	/^class EqualExpression(UnaryExpression):$/;"	c
+Explainer	wrench/explainer/explainer.py	/^class Explainer:$/;"	c
+Expression	wrench/synthetic/lf_generator.py	/^class Expression(ABC):$/;"	c
+FClayer	wrench/backbone.py	/^class FClayer(nn.Module):$/;"	c
+Fable	wrench/labelmodel/fable.py	/^class Fable(BaseLabelModel):$/;"	c
+FeatureLFApplier	wrench/synthetic/lf_generator.py	/^class FeatureLFApplier(AbstractLFApplier):$/;"	c
+FeatureLFGenerator	wrench/synthetic/lf_generator.py	/^class FeatureLFGenerator(AbstractLFGenerator):$/;"	c
+FlyingSquid	wrench/labelmodel/flyingsquid.py	/^class FlyingSquid(BaseLabelModel):$/;"	c
+GenerativeModel	wrench/labelmodel/generative_model.py	/^class GenerativeModel(BaseLabelModel):$/;"	c
+GoldCondProb	wrench/labelmodel/gold.py	/^class GoldCondProb(BaseLabelModel):$/;"	c
+GraphDataset	wrench/dataset/graphdataset.py	/^class GraphDataset(BaseDataset):$/;"	c
+GraphNumericDataset	wrench/dataset/graphdataset.py	/^class GraphNumericDataset(GraphDataset, NumericDataset):$/;"	c
+GraphTextDataset	wrench/dataset/graphdataset.py	/^class GraphTextDataset(GraphDataset, TextDataset):$/;"	c
+GreaterExpression	wrench/synthetic/lf_generator.py	/^class GreaterExpression(UnaryExpression):$/;"	c
+HMM	wrench/seq_labelmodel/hmm.py	/^class HMM(BaseSeqModel):$/;"	c
+HyperLM	wrench/labelmodel/hyper_label_model.py	/^class HyperLM(BaseLabelModel):$/;"	c
+IBCC	wrench/labelmodel/ibcc.py	/^class IBCC(BaseLabelModel):$/;"	c
+IF	wrench/explainer/influence_function.py	/^class IF(nn.Module):$/;"	c
+IF_score	examples/run_explainer.py	/^IF_score = explainer.compute_IF_score($/;"	v
+ImageClassifier	wrench/backbone.py	/^class ImageClassifier(BackBone):$/;"	c
+ImageDataset	wrench/dataset/dataset.py	/^class ImageDataset(BaseDataset):$/;"	c
+ImageTorchDataset	wrench/dataset/torchdataset.py	/^class ImageTorchDataset(TorchDataset):$/;"	c
+ImplyLoss	wrench/classification/implyloss.py	/^class ImplyLoss(BaseTorchClassModel):$/;"	c
+ImplyLossModel	wrench/classification/implyloss.py	/^class ImplyLossModel(BackBone):$/;"	c
+InIntervalExpression	wrench/synthetic/lf_generator.py	/^class InIntervalExpression(UnaryExpression):$/;"	c
+L	examples/run_explainer.py	/^L = np.array(train_data.weak_labels)$/;"	v
+LDAMLoss	wrench/endmodel/loss/LDAM_loss.py	/^class LDAMLoss(nn.Module):$/;"	c
+LF	wrench/synthetic/lf_generator.py	/^class LF:$/;"	c
+LSTMConNet	wrench/seqtagging/connet.py	/^class LSTMConNet(BaseConNet):$/;"	c
+LSTMConNetModel	wrench/seqtagging/connet.py	/^class LSTMConNetModel(LSTMTaggerModel):$/;"	c
+LSTMSeqTagger	wrench/backbone.py	/^class LSTMSeqTagger(CRFTagger):$/;"	c
+LSTMTaggerModel	wrench/seq_endmodel/lstm_crf_model.py	/^class LSTMTaggerModel(BaseTorchSeqModel):$/;"	c
+LSTMTorchSeqDataset	wrench/seq_endmodel/lstm_crf_model.py	/^class LSTMTorchSeqDataset(Dataset):$/;"	c
+LabelModel	wrench/labelmodel/label_model_src.py	/^class LabelModel(nn.Module):$/;"	c
+LabelModel	wrench/labelmodel/metal.py	/^class LabelModel(LabelModel_):$/;"	c
+LearningConfig	wrench/labelmodel/label_model_src.py	/^class LearningConfig(object):$/;"	c
+LearningToReweight	wrench/metalearning/learn_to_reweight.py	/^class LearningToReweight(BaseTorchClassModel):$/;"	c
+LessExpression	wrench/synthetic/lf_generator.py	/^class LessExpression(UnaryExpression):$/;"	c
+LinearModel	wrench/explainer/explainer.py	/^class LinearModel(AbstractModel):$/;"	c
+LogReg	wrench/backbone.py	/^class LogReg(BackBone):$/;"	c
+LogRegModel	wrench/endmodel/linear_model.py	/^class LogRegModel(BaseTorchClassModel):$/;"	c
+LoggingHandler	wrench/_logging.py	/^class LoggingHandler(logging.Handler):$/;"	c
+METRIC	wrench/evaluation.py	/^METRIC = {$/;"	v
+MLP	wrench/backbone.py	/^class MLP(BackBone):$/;"	c
+MLPModel	wrench/endmodel/neural_model.py	/^class MLPModel(BaseTorchClassModel):$/;"	c
+MajorityVoting	wrench/labelmodel/majority_voting.py	/^class MajorityVoting(BaseLabelModel):$/;"	c
+MajorityWeightedVoting	wrench/labelmodel/majority_voting.py	/^class MajorityWeightedVoting(BaseLabelModel):$/;"	c
+MeTaL	wrench/labelmodel/metal.py	/^class MeTaL(BaseLabelModel):$/;"	c
+MeanTeacher	wrench/semisupervisedlearning/meanteacher.py	/^class MeanTeacher(BaseTorchClassModel):$/;"	c
+MetaWeightNet	wrench/metalearning/meta_weight_net.py	/^class MetaWeightNet(BaseTorchClassModel):$/;"	c
+MultiCRF	wrench/backbone.py	/^class MultiCRF(CRF):$/;"	c
+NGramExpression	wrench/synthetic/lf_generator.py	/^class NGramExpression(Expression):$/;"	c
+NGramLFApplier	wrench/synthetic/lf_generator.py	/^class NGramLFApplier(AbstractLFApplier):$/;"	c
+NGramLFGenerator	wrench/synthetic/lf_generator.py	/^class NGramLFGenerator(AbstractLFGenerator):$/;"	c
+NaiveBayes	wrench/labelmodel/label_model_src.py	/^class NaiveBayes(ClassConditionalLabelModel):$/;"	c
+NaiveBayesModel	wrench/labelmodel/naive_bayes.py	/^class NaiveBayesModel(BaseLabelModel):$/;"	c
+NeuralModule	wrench/seq_labelmodel/chmm_src/CHMM/Model.py	/^class NeuralModule(nn.Module):$/;"	c
+NoEnoughLFError	wrench/synthetic/lf_generator.py	/^class NoEnoughLFError(Exception):$/;"	c
+NumericDataset	wrench/dataset/dataset.py	/^class NumericDataset(BaseDataset):$/;"	c
+OUT_PRECISION	wrench/seq_labelmodel/chmm_src/Src/DataAssist.py	/^OUT_PRECISION = 0.8$/;"	v
+OUT_RECALL	wrench/seq_labelmodel/chmm_src/Src/DataAssist.py	/^OUT_RECALL = 0.9$/;"	v
+OrExpression	wrench/synthetic/lf_generator.py	/^class OrExpression(BinaryExpression):$/;"	c
+OutIntervalExpression	wrench/synthetic/lf_generator.py	/^class OutIntervalExpression(UnaryExpression):$/;"	c
+PAD	examples/run_two_stage_pipeline_seq.py	/^    PAD=train_data.PAD,$/;"	v
+RandomGridSampler	wrench/search.py	/^class RandomGridSampler(GridSampler):$/;"	c
+RecordCallback	wrench/search.py	/^class RecordCallback:$/;"	c
+RelationDataset	wrench/dataset/dataset.py	/^class RelationDataset(BaseDataset):$/;"	c
+RuleAttentionTeacherNetwork	wrench/classification/astra.py	/^class RuleAttentionTeacherNetwork(BackBone):$/;"	c
+RuleNetwork	wrench/classification/implyloss.py	/^class RuleNetwork(nn.Module):$/;"	c
+SEARCH_SPACE	wrench/search_space.py	/^SEARCH_SPACE = {$/;"	v
+SEQ_METRIC	wrench/evaluation.py	/^SEQ_METRIC = {$/;"	v
+START_TAG	wrench/backbone.py	/^START_TAG = -2$/;"	v
+STOP_TAG	wrench/backbone.py	/^STOP_TAG = -1$/;"	v
+SeqLabelModelWrapper	wrench/seq_labelmodel/seq_wrapper.py	/^class SeqLabelModelWrapper(BaseSeqModel):$/;"	c
+Snorkel	wrench/labelmodel/snorkel.py	/^class Snorkel(BaseLabelModel):$/;"	c
+SrcGenerativeModel	wrench/labelmodel/generative_model_src.py	/^class SrcGenerativeModel:$/;"	c
+SrcGenerativeModelWeights	wrench/labelmodel/generative_model_src.py	/^class SrcGenerativeModelWeights(object):$/;"	c
+StopWhenNotImproved	wrench/search.py	/^class StopWhenNotImproved:$/;"	c
+SyntheticDataset	wrench/synthetic/syntheticdataset.py	/^class SyntheticDataset(BaseDataset):$/;"	c
+TextDataset	wrench/dataset/dataset.py	/^class TextDataset(BaseDataset):$/;"	c
+TorchDataset	wrench/dataset/torchdataset.py	/^class TorchDataset(Dataset):$/;"	c
+UNK	examples/run_two_stage_pipeline_seq.py	/^    UNK=train_data.UNK$/;"	v
+UnaryExpression	wrench/synthetic/lf_generator.py	/^class UnaryExpression(Expression):$/;"	c
+VERSION	wrench/version.py	/^VERSION = f"{_MAJOR}.{_MINOR}.{_REVISION}"$/;"	v
+VERSION_SHORT	wrench/version.py	/^VERSION_SHORT = f"{_MAJOR}.{_MINOR}"$/;"	v
+VNet	wrench/metalearning/meta_weight_net.py	/^class VNet(nn.Module):$/;"	c
+WMRC	wrench/labelmodel/wmrc.py	/^class WMRC(BaseLabelModel):$/;"	c
+WeaSEL	wrench/classification/weasel.py	/^class WeaSEL(BaseTorchClassModel):$/;"	c
+WeaSELModel	wrench/classification/weasel.py	/^class WeaSELModel(BackBone):$/;"	c
+Weapo	wrench/labelmodel/weapo.py	/^class Weapo(BaseLabelModel):$/;"	c
+WordRep	wrench/layers.py	/^class WordRep(nn.Module):$/;"	c
+WordSequence	wrench/layers.py	/^class WordSequence(nn.Module):$/;"	c
+_LF_re_correction	wrench/endmodel/ars2.py	/^def _LF_re_correction(dataset: BaseDataset, ranking: np.ndarray, n: int):$/;"	f
+_MAJOR	wrench/version.py	/^_MAJOR = "0"$/;"	v
+_MINOR	wrench/version.py	/^_MINOR = "1"$/;"	v
+_REVISION	wrench/version.py	/^_REVISION = ""$/;"	v
+_TORCH_AMP	wrench/__init__.py	/^_TORCH_AMP = False$/;"	v
+_TORCH_NUMBER_WORKER	wrench/__init__.py	/^_TORCH_NUMBER_WORKER = 0$/;"	v
+_TORCH_PIN_MEMORY	wrench/__init__.py	/^_TORCH_PIN_MEMORY = False$/;"	v
+__call__	wrench/search.py	/^    def __call__(self, study: optuna.study.Study, trial: optuna.trial.FrozenTrial) -> None:$/;"	m	class:RecordCallback	file:
+__call__	wrench/search.py	/^    def __call__(self, study: optuna.study.Study, trial: optuna.trial.FrozenTrial) -> None:$/;"	m	class:StopWhenNotImproved	file:
+__enter__	wrench/__init__.py	/^    def __enter__(self):$/;"	m	class:efficient_training	file:
+__exit__	wrench/__init__.py	/^    def __exit__(self, exc_type: Any, exc_value: Any, traceback: Any) -> None:$/;"	m	class:efficient_training	file:
+__getitem__	wrench/dataset/torchdataset.py	/^    def __getitem__(self, idx):$/;"	m	class:BERTTorchDataset	file:
+__getitem__	wrench/dataset/torchdataset.py	/^    def __getitem__(self, idx):$/;"	m	class:ImageTorchDataset	file:
+__getitem__	wrench/dataset/torchdataset.py	/^    def __getitem__(self, idx):$/;"	m	class:TorchDataset	file:
+__getitem__	wrench/seq_endmodel/bert_crf_model.py	/^    def __getitem__(self, idx):$/;"	m	class:BERTTorchSeqDataset	file:
+__getitem__	wrench/seq_endmodel/lstm_crf_model.py	/^    def __getitem__(self, idx):$/;"	m	class:LSTMTorchSeqDataset	file:
+__getitem__	wrench/seq_labelmodel/chmm.py	/^    def __getitem__(self, idx):$/;"	m	class:CHMMTorchSeqDataset	file:
+__init__	wrench/__init__.py	/^    def __init__(self, amp: bool = False, num_workers: int = 0, pin_memory: bool = False):$/;"	m	class:efficient_training
+__init__	wrench/_logging.py	/^    def __init__(self, level=logging.NOTSET):$/;"	m	class:LoggingHandler
+__init__	wrench/backbone.py	/^    def __init__(self, input_dim, hidden_size=100, dropout=0., activation=True):$/;"	m	class:FClayer
+__init__	wrench/backbone.py	/^    def __init__(self, n_class, batch_mode=True):$/;"	m	class:CRF
+__init__	wrench/backbone.py	/^    def __init__(self, n_class, binary_mode=False):$/;"	m	class:BackBone
+__init__	wrench/backbone.py	/^    def __init__(self, n_class, input_size, binary_mode=False, **kwargs):$/;"	m	class:LogReg
+__init__	wrench/backbone.py	/^    def __init__(self, n_class, input_size, n_hidden_layers=1, hidden_size=100, dropout=0.0, binary_mode=False, **kwargs):$/;"	m	class:MLP
+__init__	wrench/backbone.py	/^    def __init__(self, n_class, model_name='bert-base-cased', fine_tune_layers=-1, binary_mode=False):$/;"	m	class:BERTBackBone
+__init__	wrench/backbone.py	/^    def __init__(self, n_class, model_name='bert-base-cased', fine_tune_layers=-1, binary_mode=False, **kwargs):$/;"	m	class:BertRelationClassifier
+__init__	wrench/backbone.py	/^    def __init__(self, n_class, model_name='bert-base-cased', fine_tune_layers=-1, max_tokens=512, binary_mode=False, **kwargs):$/;"	m	class:BertTextClassifier
+__init__	wrench/backbone.py	/^    def __init__(self, n_class, model_name='bert-base-cased', fine_tune_layers=-1, use_crf=True, **kwargs):$/;"	m	class:BertSeqTagger
+__init__	wrench/backbone.py	/^    def __init__(self, n_class, model_name='resnet18', binary_mode=False, **kwargs):$/;"	m	class:ImageClassifier
+__init__	wrench/backbone.py	/^    def __init__(self, n_class, n_source, batch_mode=True):$/;"	m	class:MultiCRF
+__init__	wrench/backbone.py	/^    def __init__(self, n_class, use_crf):$/;"	m	class:CRFTagger
+__init__	wrench/backbone.py	/^    def __init__(self,$/;"	m	class:LSTMSeqTagger
+__init__	wrench/basemodel.py	/^    def __init__(self, **kwargs: Any):$/;"	m	class:BaseModel
+__init__	wrench/classification/astra.py	/^    def __init__(self, rule_embed_size, dropout, n_rules, n_class, backbone):$/;"	m	class:AstraModel
+__init__	wrench/classification/astra.py	/^    def __init__(self, rule_embed_size, n_rules, n_class, hidden_size, dropout):$/;"	m	class:RuleAttentionTeacherNetwork
+__init__	wrench/classification/astra.py	/^    def __init__(self,$/;"	m	class:Astra
+__init__	wrench/classification/denoise.py	/^    def __init__(self, input_size, n_rules, hidden_size, n_class):$/;"	m	class:AttentionModel
+__init__	wrench/classification/denoise.py	/^    def __init__(self, input_size, n_rules, hidden_size, n_class, backbone):$/;"	m	class:AssembleModel
+__init__	wrench/classification/denoise.py	/^    def __init__(self,$/;"	m	class:Denoise
+__init__	wrench/classification/implyloss.py	/^    def __init__(self, input_size, n_rules, hidden_size, dropout=0.8):$/;"	m	class:RuleNetwork
+__init__	wrench/classification/implyloss.py	/^    def __init__(self, input_size, n_rules, n_class, backbone, hidden_size, q, dropout=0.8):$/;"	m	class:ImplyLossModel
+__init__	wrench/classification/implyloss.py	/^    def __init__(self,$/;"	m	class:ImplyLoss
+__init__	wrench/classification/weasel.py	/^    def __init__(self, input_size, n_rules, hidden_size, n_class, temperature, dropout, backbone, balance):$/;"	m	class:WeaSELModel
+__init__	wrench/classification/weasel.py	/^    def __init__(self, input_size, n_rules, hidden_size, n_class, temperature, dropout=0.3, balance=None):$/;"	m	class:Encoder
+__init__	wrench/classification/weasel.py	/^    def __init__(self,$/;"	m	class:WeaSEL
+__init__	wrench/config.py	/^    def __init__(self,$/;"	m	class:Config
+__init__	wrench/dataset/basedataset.py	/^    def __init__(self,$/;"	m	class:BaseDataset
+__init__	wrench/dataset/dataset.py	/^    def __init__(self,$/;"	m	class:ImageDataset
+__init__	wrench/dataset/graphdataset.py	/^    def __init__(self,$/;"	m	class:GraphDataset
+__init__	wrench/dataset/graphdataset.py	/^    def __init__(self,$/;"	m	class:GraphNumericDataset
+__init__	wrench/dataset/graphdataset.py	/^    def __init__(self,$/;"	m	class:GraphTextDataset
+__init__	wrench/dataset/seqdataset.py	/^    def __init__(self,$/;"	m	class:BaseSeqDataset
+__init__	wrench/dataset/torchdataset.py	/^    def __init__(self, dataset: BaseDataset, n_data: Optional[int] = 0):$/;"	m	class:TorchDataset
+__init__	wrench/dataset/torchdataset.py	/^    def __init__(self, dataset: ImageDataset, n_data: Optional[int] = 0):$/;"	m	class:ImageTorchDataset
+__init__	wrench/dataset/torchdataset.py	/^    def __init__(self,$/;"	m	class:BERTTorchDataset
+__init__	wrench/dataset/torchdataset.py	/^    def __init__(self,$/;"	m	class:BERTTorchRelationClassDataset
+__init__	wrench/dataset/torchdataset.py	/^    def __init__(self,$/;"	m	class:BERTTorchTextClassDataset
+__init__	wrench/endmodel/ars2.py	/^    def __init__(self,$/;"	m	class:ARS2
+__init__	wrench/endmodel/bert_model.py	/^    def __init__(self,$/;"	m	class:BertClassifierModel
+__init__	wrench/endmodel/cosine.py	/^    def __init__(self,$/;"	m	class:Cosine
+__init__	wrench/endmodel/end_model.py	/^    def __init__(self,$/;"	m	class:EndClassifierModel
+__init__	wrench/endmodel/linear_model.py	/^    def __init__(self,$/;"	m	class:LogRegModel
+__init__	wrench/endmodel/loss/LDAM_loss.py	/^    def __init__(self, cls_num_list, max_m=0.5, weight=None, s=30, device=None):$/;"	m	class:LDAMLoss
+__init__	wrench/endmodel/loss/dice_loss.py	/^    def __init__(self,$/;"	m	class:DiceLoss
+__init__	wrench/endmodel/neural_model.py	/^    def __init__(self,$/;"	m	class:MLPModel
+__init__	wrench/evaluation.py	/^    def __init__(self, names: List[str]):$/;"	m	class:AverageMeter
+__init__	wrench/explainer/explainer.py	/^    def __init__(self, input_size, n_class):$/;"	m	class:LinearModel
+__init__	wrench/explainer/explainer.py	/^    def __init__(self,$/;"	m	class:Explainer
+__init__	wrench/explainer/influence_function.py	/^    def __init__(self, model, tr_ds, val_ds, n_lf, n_class, device: Optional[torch.device] = None,$/;"	m	class:IF
+__init__	wrench/labelmodel/amcl_cc.py	/^    def __init__(self,$/;"	m	class:AMCL_CC
+__init__	wrench/labelmodel/dawid_skene.py	/^    def __init__(self,$/;"	m	class:DawidSkene
+__init__	wrench/labelmodel/ebcc.py	/^    def __init__(self,$/;"	m	class:EBCC
+__init__	wrench/labelmodel/epoxy.py	/^    def __init__($/;"	m	class:Epoxy
+__init__	wrench/labelmodel/fable.py	/^    def __init__(self,$/;"	m	class:Fable
+__init__	wrench/labelmodel/flyingsquid.py	/^    def __init__(self, **kwargs: Any):$/;"	m	class:FlyingSquid
+__init__	wrench/labelmodel/generative_model.py	/^    def __init__(self,$/;"	m	class:GenerativeModel
+__init__	wrench/labelmodel/generative_model_src.py	/^    def __init__(self, class_prior=False, lf_prior=False, lf_propensity=False,$/;"	m	class:SrcGenerativeModel
+__init__	wrench/labelmodel/generative_model_src.py	/^    def __init__(self, n):$/;"	m	class:SrcGenerativeModelWeights
+__init__	wrench/labelmodel/gold.py	/^    def __init__(self, **kwargs: Any):$/;"	m	class:GoldCondProb
+__init__	wrench/labelmodel/hyper_label_model.py	/^    def __init__(self, **kwargs: Any):$/;"	m	class:HyperLM
+__init__	wrench/labelmodel/ibcc.py	/^    def __init__(self,$/;"	m	class:IBCC
+__init__	wrench/labelmodel/label_model_src.py	/^    def __init__(self):$/;"	m	class:LearningConfig
+__init__	wrench/labelmodel/label_model_src.py	/^    def __init__(self, num_classes, num_lfs, init_acc, acc_prior):$/;"	m	class:ClassConditionalLabelModel
+__init__	wrench/labelmodel/label_model_src.py	/^    def __init__(self, num_classes, num_lfs, init_acc=.9, acc_prior=0.025,$/;"	m	class:NaiveBayes
+__init__	wrench/labelmodel/majority_voting.py	/^    def __init__(self, **kwargs: Any):$/;"	m	class:MajorityVoting
+__init__	wrench/labelmodel/majority_voting.py	/^    def __init__(self, **kwargs: Any):$/;"	m	class:MajorityWeightedVoting
+__init__	wrench/labelmodel/metal.py	/^    def __init__(self,$/;"	m	class:MeTaL
+__init__	wrench/labelmodel/naive_bayes.py	/^    def __init__(self,$/;"	m	class:NaiveBayesModel
+__init__	wrench/labelmodel/snorkel.py	/^    def __init__(self,$/;"	m	class:Snorkel
+__init__	wrench/labelmodel/weapo.py	/^    def __init__(self, prior_cons=True, **kwargs: Any):$/;"	m	class:Weapo
+__init__	wrench/labelmodel/wmrc.py	/^    def __init__(self,$/;"	m	class:WMRC
+__init__	wrench/layers.py	/^    def __init__(self,$/;"	m	class:CharBiLSTM
+__init__	wrench/layers.py	/^    def __init__(self,$/;"	m	class:CharCNN
+__init__	wrench/layers.py	/^    def __init__(self,$/;"	m	class:WordRep
+__init__	wrench/layers.py	/^    def __init__(self,$/;"	m	class:WordSequence
+__init__	wrench/metalearning/learn_to_reweight.py	/^    def __init__(self,$/;"	m	class:LearningToReweight
+__init__	wrench/metalearning/meta_weight_net.py	/^    def __init__(self, input_size, hidden_size, output_size=1):$/;"	m	class:VNet
+__init__	wrench/metalearning/meta_weight_net.py	/^    def __init__(self,$/;"	m	class:MetaWeightNet
+__init__	wrench/search.py	/^    def __init__(self, metric: str, save_path: str):$/;"	m	class:RecordCallback
+__init__	wrench/search.py	/^    def __init__(self, patience: int, min_trials: int):$/;"	m	class:StopWhenNotImproved
+__init__	wrench/search.py	/^    def __init__(self, search_space, filter_fn: Optional[Callable] = None) -> None:$/;"	m	class:RandomGridSampler
+__init__	wrench/semisupervisedlearning/meanteacher.py	/^    def __init__(self, model, decay):$/;"	m	class:EMA
+__init__	wrench/semisupervisedlearning/meanteacher.py	/^    def __init__(self,$/;"	m	class:MeanTeacher
+__init__	wrench/semisupervisedlearning/utils.py	/^    def __init__(self):$/;"	m	class:BatchNormController
+__init__	wrench/seq_endmodel/bert_crf_model.py	/^    def __init__(self, dataset: BaseSeqDataset, tokenizer, max_seq_length, use_crf, n_data: Optional[int] = 0):$/;"	m	class:BERTTorchSeqDataset
+__init__	wrench/seq_endmodel/bert_crf_model.py	/^    def __init__(self,$/;"	m	class:BERTTaggerModel
+__init__	wrench/seq_endmodel/lstm_crf_model.py	/^    def __init__(self, dataset: BaseSeqDataset, n_data: Optional[int] = 0):$/;"	m	class:LSTMTorchSeqDataset
+__init__	wrench/seq_endmodel/lstm_crf_model.py	/^    def __init__(self,$/;"	m	class:LSTMTaggerModel
+__init__	wrench/seq_labelmodel/chmm.py	/^    def __init__(self, dataset: BaseSeqDataset, for_train=True):$/;"	m	class:CHMMTorchSeqDataset
+__init__	wrench/seq_labelmodel/chmm.py	/^    def __init__(self,$/;"	m	class:CHMM
+__init__	wrench/seq_labelmodel/chmm_src/CHMM/Model.py	/^    def __init__(self,$/;"	m	class:CHMM
+__init__	wrench/seq_labelmodel/chmm_src/CHMM/Model.py	/^    def __init__(self,$/;"	m	class:NeuralModule
+__init__	wrench/seq_labelmodel/chmm_src/CHMM/Train.py	/^    def __init__(self,$/;"	m	class:CHMMTrainer
+__init__	wrench/seq_labelmodel/hmm.py	/^    def __init__(self,$/;"	m	class:HMM
+__init__	wrench/seq_labelmodel/seq_wrapper.py	/^    def __init__(self, label_model_class, **kwargs: Any):$/;"	m	class:SeqLabelModelWrapper
+__init__	wrench/seqtagging/connet.py	/^    def __init__(self, n_class, n_source, model_name='bert-base-cased', fine_tune_layers=-1, **kwargs):$/;"	m	class:BERTConNet
+__init__	wrench/seqtagging/connet.py	/^    def __init__(self, n_class,$/;"	m	class:LSTMConNet
+__init__	wrench/seqtagging/connet.py	/^    def __init__(self,$/;"	m	class:BERTConNetModel
+__init__	wrench/seqtagging/connet.py	/^    def __init__(self,$/;"	m	class:LSTMConNetModel
+__init__	wrench/synthetic/dataset_generator.py	/^    def __init__(self,$/;"	m	class:ConditionalIndependentGenerator
+__init__	wrench/synthetic/dataset_generator.py	/^    def __init__(self,$/;"	m	class:CorrelatedGenerator
+__init__	wrench/synthetic/dataset_generator.py	/^    def __init__(self,$/;"	m	class:DataDependentGenerator
+__init__	wrench/synthetic/lf_generator.py	/^    def __init__(self, e1: Expression, e2: Expression):$/;"	m	class:BinaryExpression
+__init__	wrench/synthetic/lf_generator.py	/^    def __init__(self, e: Expression, label: int, acc: float = -1.0, propensity: float = -1.0):$/;"	m	class:LF
+__init__	wrench/synthetic/lf_generator.py	/^    def __init__(self, idx, threshold):$/;"	m	class:UnaryExpression
+__init__	wrench/synthetic/lf_generator.py	/^    def __init__(self, idx, threshold, ngram):$/;"	m	class:NGramExpression
+__init__	wrench/synthetic/lf_generator.py	/^    def __init__(self, label=None):$/;"	m	class:NoEnoughLFError
+__init__	wrench/synthetic/lf_generator.py	/^    def __init__(self, lf_list: List[LF]):$/;"	m	class:AbstractLFApplier
+__init__	wrench/synthetic/lf_generator.py	/^    def __init__(self, lf_list: List[LF], preprocessor: Optional[Callable] = None):$/;"	m	class:FeatureLFApplier
+__init__	wrench/synthetic/lf_generator.py	/^    def __init__(self, lf_list: List[LF], vectorizer: CountVectorizer):$/;"	m	class:NGramLFApplier
+__init__	wrench/synthetic/lf_generator.py	/^    def __init__(self,$/;"	m	class:AbstractLFGenerator
+__init__	wrench/synthetic/lf_generator.py	/^    def __init__(self,$/;"	m	class:FeatureLFGenerator
+__init__	wrench/synthetic/lf_generator.py	/^    def __init__(self,$/;"	m	class:NGramLFGenerator
+__init__	wrench/synthetic/syntheticdataset.py	/^    def __init__(self, n_class: int, n_lfs: int, class_prior: Optional[Union[list, np.ndarray]] = None,$/;"	m	class:BaseSyntheticGenerator
+__init__	wrench/synthetic/syntheticdataset.py	/^    def __init__(self,$/;"	m	class:SyntheticDataset
+__len__	wrench/dataset/basedataset.py	/^    def __len__(self):$/;"	m	class:BaseDataset	file:
+__len__	wrench/dataset/seqdataset.py	/^    def __len__(self):$/;"	m	class:BaseSeqDataset	file:
+__len__	wrench/dataset/torchdataset.py	/^    def __len__(self):$/;"	m	class:TorchDataset	file:
+__len__	wrench/seq_endmodel/bert_crf_model.py	/^    def __len__(self):$/;"	m	class:BERTTorchSeqDataset	file:
+__len__	wrench/seq_endmodel/lstm_crf_model.py	/^    def __len__(self):$/;"	m	class:LSTMTorchSeqDataset	file:
+__len__	wrench/seq_labelmodel/chmm.py	/^    def __len__(self):$/;"	m	class:CHMMTorchSeqDataset	file:
+__len__	wrench/synthetic/lf_generator.py	/^    def __len__(self):$/;"	m	class:AbstractLFApplier	file:
+__repr__	wrench/config.py	/^    def __repr__(self):$/;"	m	class:Config	file:
+__repr__	wrench/endmodel/loss/dice_loss.py	/^    def __repr__(self):$/;"	m	class:DiceLoss	file:
+__str__	wrench/endmodel/loss/dice_loss.py	/^    def __str__(self):$/;"	m	class:DiceLoss	file:
+__str__	wrench/synthetic/lf_generator.py	/^    def __str__(self):$/;"	m	class:NGramExpression	file:
+__str__	wrench/synthetic/lf_generator.py	/^    def __str__(self):$/;"	m	class:UnaryExpression	file:
+_add_majority_vote_const	wrench/labelmodel/wmrc.py	/^    def _add_majority_vote_const(self, dataset):$/;"	m	class:WMRC
+_aggregate_weights	wrench/labelmodel/wmrc.py	/^    def _aggregate_weights(self, L_aug, param_wts, class_freq_wts, mod=cp):$/;"	m	class:WMRC
+_backward_step	wrench/seq_labelmodel/chmm_src/CHMM/Model.py	/^    def _backward_step(self, t):$/;"	m	class:CHMM
+_binary_class	wrench/endmodel/loss/dice_loss.py	/^    def _binary_class(self, input, target, mask=None):$/;"	m	class:DiceLoss
+_build_mask	wrench/labelmodel/metal.py	/^    def _build_mask(self):$/;"	m	class:LabelModel
+_calc_likelihood	wrench/labelmodel/dawid_skene.py	/^    def _calc_likelihood(self, L_aug, class_marginals, error_rates):$/;"	m	class:DawidSkene
+_calc_loss	wrench/endmodel/ars2.py	/^    def _calc_loss(self,$/;"	m	class:ARS2
+_calc_score	wrench/endmodel/ars2.py	/^    def _calc_score(self, data, y_train, teacher_model: BaseTorchClassModel = None):$/;"	m	class:ARS2
+_calc_valid_metric	wrench/basemodel.py	/^    def _calc_valid_metric(self, **kwargs):$/;"	m	class:BaseTorchClassModel
+_calc_valid_metric	wrench/basemodel.py	/^    def _calc_valid_metric(self, **kwargs):$/;"	m	class:BaseTorchModel
+_calc_valid_metric	wrench/basemodel.py	/^    def _calc_valid_metric(self, **kwargs):$/;"	m	class:BaseTorchSeqModel
+_compile	wrench/labelmodel/generative_model_src.py	/^    def _compile(self, L, init_deps, init_class_prior, LF_acc_prior_weights, is_fixed, cardinalities):$/;"	m	class:SrcGenerativeModel
+_compile_dep_factors	wrench/labelmodel/generative_model_src.py	/^    def _compile_dep_factors(self, L, factors, factors_offset, ftv, ftv_offset, weight_offset, j, k, factor_name,$/;"	m	class:SrcGenerativeModel
+_compile_output_factors	wrench/labelmodel/generative_model_src.py	/^    def _compile_output_factors(self, L, factors, factors_offset, ftv,$/;"	m	class:SrcGenerativeModel
+_compute_dice_loss	wrench/endmodel/loss/dice_loss.py	/^    def _compute_dice_loss(self, flat_input, flat_target):$/;"	m	class:DiceLoss
+_compute_xi	wrench/seq_labelmodel/chmm_src/CHMM/Model.py	/^    def _compute_xi(self, t):$/;"	m	class:CHMM
+_create_minibatches	wrench/labelmodel/label_model_src.py	/^    def _create_minibatches(self, votes, batch_size, shuffle_rows=False):$/;"	m	class:NaiveBayes
+_do_estimate_label_model	wrench/labelmodel/label_model_src.py	/^    def _do_estimate_label_model(self, batches, config):$/;"	m	class:LabelModel
+_e_step	wrench/labelmodel/dawid_skene.py	/^    def _e_step(self, L_aug, class_marginals, error_rates):$/;"	m	class:DawidSkene
+_expand_sels	wrench/labelmodel/wmrc.py	/^    def _expand_sels(self, selection, n_points, n_class, specific_class=None):$/;"	m	class:WMRC
+_expected_complete_log_likelihood	wrench/seq_labelmodel/chmm_src/CHMM/Model.py	/^    def _expected_complete_log_likelihood(self, seq_lengths):$/;"	m	class:CHMM
+_finalize	wrench/basemodel.py	/^    def _finalize(self):$/;"	m	class:BaseTorchModel
+_forward_alg	wrench/backbone.py	/^    def _forward_alg(self, feats, transitions=None):$/;"	m	class:CRF
+_forward_alg_batch	wrench/backbone.py	/^    def _forward_alg_batch(self, feats, mask, transitions=None):$/;"	m	class:CRF
+_forward_alg_batch_w_transitions	wrench/backbone.py	/^    def _forward_alg_batch_w_transitions(self, feats, mask, transitions):$/;"	m	class:MultiCRF
+_forward_backward	wrench/seq_labelmodel/chmm_src/CHMM/Model.py	/^    def _forward_backward(self, seq_lengths):$/;"	m	class:CHMM
+_forward_step	wrench/seq_labelmodel/chmm_src/CHMM/Model.py	/^    def _forward_step(self, t):$/;"	m	class:CHMM
+_generate_O	wrench/labelmodel/metal.py	/^    def _generate_O(self, L):$/;"	m	class:LabelModel
+_get_hidden_dim	wrench/seq_labelmodel/chmm_src/Src/Args.py	/^    def _get_hidden_dim(self) -> "int":$/;"	m	class:CHMMConfig
+_get_labeling_function_likelihoods	wrench/labelmodel/label_model_src.py	/^    def _get_labeling_function_likelihoods(self, votes):$/;"	m	class:ClassConditionalLabelModel
+_get_new_dataset	wrench/endmodel/ars2.py	/^    def _get_new_dataset(self,$/;"	m	class:ARS2
+_get_new_dataset	wrench/endmodel/cosine.py	/^    def _get_new_dataset(self, dataset, n, thresh):$/;"	m	class:Cosine
+_get_norm_class_balance	wrench/labelmodel/label_model_src.py	/^    def _get_norm_class_balance(self):$/;"	m	class:NaiveBayes
+_get_primal_constraints	wrench/labelmodel/wmrc.py	/^    def _get_primal_constraints(self, L, z):$/;"	m	class:WMRC
+_get_prob_bounds	wrench/labelmodel/wmrc.py	/^    def _get_prob_bounds(self, dataset, method='binomial', bound_scale=1):$/;"	m	class:WMRC
+_get_regularization_loss	wrench/labelmodel/label_model_src.py	/^    def _get_regularization_loss(self):$/;"	m	class:ClassConditionalLabelModel
+_get_regularization_loss	wrench/labelmodel/label_model_src.py	/^    def _get_regularization_loss(self):$/;"	m	class:LabelModel
+_get_regularization_loss	wrench/labelmodel/label_model_src.py	/^    def _get_regularization_loss(self):$/;"	m	class:NaiveBayes
+_init_balance	wrench/basemodel.py	/^    def _init_balance(L: np.ndarray,$/;"	m	class:BaseLabelModel
+_init_dataloader	wrench/basemodel.py	/^    def _init_dataloader(self,$/;"	m	class:BaseTorchClassModel
+_init_label_model	wrench/basemodel.py	/^    def _init_label_model(self,$/;"	m	class:BaseTorchClassModel
+_init_label_model	wrench/basemodel.py	/^    def _init_label_model(self,$/;"	m	class:BaseTorchSeqModel
+_init_model	wrench/basemodel.py	/^    def _init_model(self,$/;"	m	class:BaseTorchClassModel
+_init_optimizer_and_lr_scheduler	wrench/basemodel.py	/^    def _init_optimizer_and_lr_scheduler(self,$/;"	m	class:BaseTorchModel
+_init_parameters	wrench/seq_labelmodel/chmm_src/CHMM/Model.py	/^    def _init_parameters(self):$/;"	m	class:NeuralModule
+_init_train_dataloader	wrench/basemodel.py	/^    def _init_train_dataloader(self,$/;"	m	class:BaseTorchClassModel
+_init_valid	wrench/basemodel.py	/^    def _init_valid(self,$/;"	m	class:BaseTorchModel
+_init_valid_dataloader	wrench/basemodel.py	/^    def _init_valid_dataloader(self, dataset_valid, **kwargs: Any) -> DataLoader:$/;"	m	class:BaseTorchModel
+_init_valid_dataloader	wrench/basemodel.py	/^    def _init_valid_dataloader(self,$/;"	m	class:BaseTorchClassModel
+_init_valid_dataloader	wrench/seq_endmodel/bert_crf_model.py	/^    def _init_valid_dataloader(self, dataset_valid: BaseSeqDataset) -> DataLoader:$/;"	m	class:BERTTaggerModel
+_init_valid_dataloader	wrench/seq_endmodel/lstm_crf_model.py	/^    def _init_valid_dataloader(self, dataset_valid: BaseSeqDataset) -> DataLoader:$/;"	m	class:LSTMTaggerModel
+_init_valid_step	wrench/basemodel.py	/^    def _init_valid_step(self,$/;"	m	class:BaseTorchClassModel
+_init_valid_step	wrench/basemodel.py	/^    def _init_valid_step(self,$/;"	m	class:BaseTorchModel
+_init_valid_step	wrench/basemodel.py	/^    def _init_valid_step(self,$/;"	m	class:BaseTorchSeqModel
+_initialize_L_aug	wrench/labelmodel/amcl_cc.py	/^    def _initialize_L_aug(self, L, n_class):$/;"	m	class:AMCL_CC
+_initialize_L_aug	wrench/labelmodel/dawid_skene.py	/^    def _initialize_L_aug(self, L):$/;"	m	class:DawidSkene
+_initialize_L_aug	wrench/labelmodel/wmrc.py	/^    def _initialize_L_aug(self, L):$/;"	m	class:WMRC
+_initialize_Y_p	wrench/labelmodel/dawid_skene.py	/^    def _initialize_Y_p(self, L):$/;"	m	class:DawidSkene
+_initialize_model	wrench/seq_labelmodel/chmm_src/CHMM/Model.py	/^    def _initialize_model(self,$/;"	m	class:CHMM
+_initialize_one_hot_labels	wrench/labelmodel/amcl_cc.py	/^    def _initialize_one_hot_labels(self, y, n_class):$/;"	m	class:AMCL_CC
+_initialize_one_hot_labels	wrench/labelmodel/wmrc.py	/^    def _initialize_one_hot_labels(self, y):$/;"	m	class:WMRC
+_initialize_states	wrench/seq_labelmodel/chmm_src/CHMM/Model.py	/^    def _initialize_states(self,$/;"	m	class:CHMM
+_m_step	wrench/labelmodel/dawid_skene.py	/^    def _m_step(self, L_aug, Y_p):$/;"	m	class:DawidSkene
+_make_confidence_progs	wrench/labelmodel/wmrc.py	/^    def _make_confidence_progs(self, z, constrs, n_points, wmrc_preds=None):$/;"	m	class:WMRC
+_make_dual_cp	wrench/labelmodel/wmrc.py	/^    def _make_dual_cp(self, L_aug, param_cts, class_freq_cts,$/;"	m	class:WMRC
+_make_wmrc_preds	wrench/labelmodel/wmrc.py	/^    def _make_wmrc_preds(self, L_aug, param_wts, class_freq_wts):$/;"	m	class:WMRC
+_mean_group_preds	wrench/labelmodel/wmrc.py	/^    def _mean_group_preds(self, selections, preds):$/;"	m	class:WMRC
+_multiple_class	wrench/endmodel/loss/dice_loss.py	/^    def _multiple_class(self, input, target, logits_size, mask=None):$/;"	m	class:DiceLoss
+_pattern_neighborhood_selections	wrench/labelmodel/wmrc.py	/^    def _pattern_neighborhood_selections(self, L, neighbor_dist):$/;"	m	class:WMRC
+_pattern_selections	wrench/labelmodel/wmrc.py	/^    def _pattern_selections(self, L):$/;"	m	class:WMRC
+_predicted_prob_selections	wrench/labelmodel/wmrc.py	/^    def _predicted_prob_selections(self, preds, L, prediction_thresholds,$/;"	m	class:WMRC
+_process_dependency_graph	wrench/labelmodel/generative_model_src.py	/^    def _process_dependency_graph(self, L, deps):$/;"	m	class:SrcGenerativeModel
+_process_learned_weights	wrench/labelmodel/generative_model_src.py	/^    def _process_learned_weights(self, L, fg, LF_acc_prior_weights, is_fixed):$/;"	m	class:SrcGenerativeModel
+_remap_scoped_categoricals	wrench/labelmodel/generative_model_src.py	/^    def _remap_scoped_categoricals(self, L_in, candidate_ranges):$/;"	m	class:SrcGenerativeModel
+_reset_valid	wrench/basemodel.py	/^    def _reset_valid(self):$/;"	m	class:BaseTorchModel
+_scale_probs_to_cts	wrench/labelmodel/wmrc.py	/^    def _scale_probs_to_cts(self, param_probs, class_freq_probs, n_datapoints,$/;"	m	class:WMRC
+_score_sentence	wrench/backbone.py	/^    def _score_sentence(self, feats, tags, transitions=None):$/;"	m	class:CRF
+_score_sentence_batch	wrench/backbone.py	/^    def _score_sentence_batch(self, feats, tags, mask, transitions=None):$/;"	m	class:CRF
+_score_sentence_w_transitions	wrench/backbone.py	/^    def _score_sentence_w_transitions(self, feats, tags, mask, transitions):$/;"	m	class:MultiCRF
+_set_dependencies	wrench/labelmodel/metal.py	/^    def _set_dependencies(self, deps):$/;"	m	class:LabelModel
+_update_hyperparas	wrench/basemodel.py	/^    def _update_hyperparas(self, **kwargs: Any):$/;"	m	class:BaseModel
+_valid_step	wrench/basemodel.py	/^    def _valid_step(self, step, **kwargs):$/;"	m	class:BaseTorchModel
+_weight_is_sign_sparsitent	wrench/labelmodel/generative_model_src.py	/^    def _weight_is_sign_sparsitent(self, w1, w2, threshold):$/;"	m	class:SrcGenerativeModelWeights
+a	examples/run_weasel.py	/^a=1$/;"	v
+a_v	examples/run_ebcc_fable.py	/^    a_v=all_dataset.n_class * num_group * num_correct,$/;"	v
+aa2_dic	write_wmrc_settings.py	/^    aa2_dic = {$/;"	v
+aa2_dics	write_wmrc_settings.py	/^    aa2_dics = [dict(gen_dic, **aa2_dic) for gen_dic in dics_to_use]$/;"	v
+acc	examples/grid_search.py	/^    acc = model.test(test_data, 'acc')$/;"	v
+acc	examples/run_ars2.py	/^        acc = label_model.test(test_data, 'acc')$/;"	v
+acc	examples/run_denoise.py	/^acc = model.test(test_data, 'acc')$/;"	v
+acc	examples/run_explainer.py	/^acc = label_model.test(test_data, 'acc')$/;"	v
+acc	examples/run_explainer.py	/^acc = model.test(test_data, 'acc')$/;"	v
+acc	examples/run_learn_to_reweight.py	/^acc = label_model.test(test_data, 'acc')$/;"	v
+acc	examples/run_learn_to_reweight.py	/^acc = model.test(test_data, 'acc')$/;"	v
+acc	examples/run_meta_weight_net.py	/^acc = label_model.test(test_data, 'acc')$/;"	v
+acc	examples/run_meta_weight_net.py	/^acc = model.test(test_data, 'acc')$/;"	v
+acc	examples/run_torch_ddp.py	/^    acc = label_model.test(test_data, 'acc')$/;"	v
+acc	examples/run_torch_ddp.py	/^    acc = model.test(test_data, 'acc')$/;"	v
+acc	examples/run_two_stage_pipeline_cls.py	/^acc = label_model.test(test_data, 'acc')$/;"	v
+acc	examples/run_two_stage_pipeline_cls.py	/^acc = model.test(test_data, 'acc')$/;"	v
+acc_ebcc	examples/run_ibcc_ebcc.py	/^acc_ebcc = ebcc.test(train_data_c, 'acc')$/;"	v
+acc_hlm	examples/run_hyper_label_model.py	/^acc_hlm = hlm.test(train_data_c, 'acc')$/;"	v
+acc_ibcc	examples/run_ibcc_ebcc.py	/^acc_ibcc = ibcc.test(train_data_c, 'acc')$/;"	v
+acc_test_ebcc	examples/run_ibcc_ebcc.py	/^acc_test_ebcc = ebcc.test(test_data, 'acc')$/;"	v
+acc_test_hlm	examples/run_hyper_label_model.py	/^acc_test_hlm = hlm.test(test_data, 'acc')$/;"	v
+acc_test_ibcc	examples/run_ibcc_ebcc.py	/^acc_test_ibcc = ibcc.test(test_data, 'acc')$/;"	v
+accuracy_score_	wrench/evaluation.py	/^def accuracy_score_(y_true: np.ndarray, y_proba: np.ndarray, **kwargs):$/;"	f
+accurate_generate	wrench/synthetic/lf_generator.py	/^    def accurate_generate(self, n_lfs: Union[int, List[int]] = 10) -> AbstractLFApplier:$/;"	m	class:AbstractLFGenerator
+activation_func_dict	wrench/explainer/explainer.py	/^activation_func_dict = {$/;"	v
+add_bold	make_loss_tables.py	/^def add_bold(val):$/;"	f
+agg_labels	wrench/seqtagging/connet.py	/^def agg_labels(weak_labels, n_class):  # use MV (since no priors) to aggregate weak labels$/;"	f
+agg_loss	loss_t_test.py	/^        agg_loss = np.zeros(dist_results.shape)$/;"	v
+aggregated_hard_labels	examples/run_ars2.py	/^        aggregated_hard_labels = label_model.predict(train_data)$/;"	v
+aggregated_hard_labels	examples/run_torch_ddp.py	/^    aggregated_hard_labels = label_model.predict(train_data)$/;"	v
+aggregated_hard_labels	examples/run_two_stage_pipeline_cls.py	/^aggregated_hard_labels = label_model.predict(train_data)$/;"	v
+aggregated_labels	examples/run_learn_to_reweight.py	/^aggregated_labels = label_model.predict(train_data)$/;"	v
+aggregated_labels	examples/run_meta_weight_net.py	/^aggregated_labels = label_model.predict(train_data)$/;"	v
+aggregated_labels	examples/run_two_stage_pipeline_seq.py	/^aggregated_labels = label_model.predict(train_data)$/;"	v
+aggregated_soft_labels	examples/run_explainer.py	/^aggregated_soft_labels = label_model.predict_proba(train_data)$/;"	v
+aggregated_soft_labels	examples/run_torch_ddp.py	/^    aggregated_soft_labels = label_model.predict_proba(train_data)$/;"	v
+aggregated_soft_labels	examples/run_two_stage_pipeline_cls.py	/^aggregated_soft_labels = label_model.predict_proba(train_data)$/;"	v
+all_dataset	examples/run_ebcc_fable.py	/^all_dataset = concat(all_dataset, test_data, data)$/;"	v
+all_dataset	examples/run_ebcc_fable.py	/^all_dataset = concat(train_data, valid_data, data)$/;"	v
+alpha	examples/run_denoise.py	/^    alpha=0.6,$/;"	v
+alpha	examples/run_explainer.py	/^alpha = 0.8 # sample 80%$/;"	v
+alpha_0	wrench/labelmodel/fable.py	/^    alpha_0 = q_0_vec.mul(r_vec).sum(dim_dimension)$/;"	v
+alpha_curr	wrench/labelmodel/fable.py	/^        alpha_curr = q_curr_vec.mul(r_vec).sum(dim_dimension, keepdim=True)$/;"	v
+annotate_data	wrench/seq_labelmodel/chmm_src/CHMM/Train.py	/^    def annotate_data(self, partition, save_dir=''):$/;"	m	class:CHMMTrainer
+ap_score_	wrench/evaluation.py	/^def ap_score_(y_true: np.ndarray, y_proba: np.ndarray, **kwargs):$/;"	f
+apply	wrench/synthetic/lf_generator.py	/^    def apply(self, dataset):$/;"	m	class:AbstractLFApplier
+apply	wrench/synthetic/lf_generator.py	/^    def apply(self, dataset: Union[BaseDataset, np.ndarray]):$/;"	m	class:FeatureLFApplier
+apply	wrench/synthetic/lf_generator.py	/^    def apply(self, dataset: Union[TextDataset, csr_matrix]):$/;"	m	class:NGramLFApplier
+apply	wrench/synthetic/lf_generator.py	/^    def apply(self, x: np.ndarray):$/;"	m	class:BinaryExpression
+apply	wrench/synthetic/lf_generator.py	/^    def apply(self, x: np.ndarray):$/;"	m	class:Expression
+apply	wrench/synthetic/lf_generator.py	/^    def apply(self, x: np.ndarray):$/;"	m	class:LF
+apply	wrench/synthetic/lf_generator.py	/^    def apply(self, x: np.ndarray):$/;"	m	class:NGramExpression
+apply	wrench/synthetic/lf_generator.py	/^    def apply(self, x: np.ndarray):$/;"	m	class:UnaryExpression
+apply_	wrench/synthetic/lf_generator.py	/^    def apply_(self, x: np.ndarray):$/;"	m	class:EqualExpression
+apply_	wrench/synthetic/lf_generator.py	/^    def apply_(self, x: np.ndarray):$/;"	m	class:GreaterExpression
+apply_	wrench/synthetic/lf_generator.py	/^    def apply_(self, x: np.ndarray):$/;"	m	class:InIntervalExpression
+apply_	wrench/synthetic/lf_generator.py	/^    def apply_(self, x: np.ndarray):$/;"	m	class:LessExpression
+apply_	wrench/synthetic/lf_generator.py	/^    def apply_(self, x: np.ndarray):$/;"	m	class:OutIntervalExpression
+apply_	wrench/synthetic/lf_generator.py	/^    def apply_(self, x: np.ndarray):$/;"	m	class:UnaryExpression
+apply_label_model	wrench/explainer/explainer.py	/^    def apply_label_model(self, L):$/;"	m	class:Explainer
+apply_shadow	wrench/semisupervisedlearning/meanteacher.py	/^    def apply_shadow(self):$/;"	m	class:EMA
+approx_w	examples/run_explainer.py	/^approx_w = explainer.approximate_label_model(L, aggregated_soft_labels)$/;"	v
+approximate_label_model	wrench/explainer/explainer.py	/^    def approximate_label_model(self, L, y, w0=None):$/;"	m	class:Explainer
+args	examples/run_ars2.py	/^    args = parser.parse_args()$/;"	v
+array_to_marginals	wrench/utils.py	/^def array_to_marginals(y, cardinality=None):$/;"	f
+ars2	examples/run_ars2.py	/^    ars2 = args.ars2$/;"	v
+auc	examples/run_weapo.py	/^auc = label_model.test(test_data, 'auc')$/;"	v
+auc_score_	wrench/evaluation.py	/^def auc_score_(y_true: np.ndarray, y_proba: np.ndarray, **kwargs):$/;"	f
+augment_label_matrix	wrench/explainer/explainer.py	/^    def augment_label_matrix(self, L):$/;"	m	class:Explainer
+author	setup.py	/^    author="Jieyu Zhang",$/;"	v
+author_email	setup.py	/^    author_email="jieyuzhang97@gmail.com",$/;"	v
+avg_score_step	examples/run_ars2.py	/^                avg_score_step=10,$/;"	v
+b_v	examples/run_ebcc_fable.py	/^    b_v=1,$/;"	v
+backbone	examples/grid_search.py	/^        backbone='MLP',$/;"	v
+backbone	examples/run_astra.py	/^    backbone='MLP',$/;"	v
+backbone	examples/run_denoise.py	/^    backbone='BERT',$/;"	v
+backbone	examples/run_explainer.py	/^    backbone='LogReg',$/;"	v
+backbone	examples/run_implyloss.py	/^    backbone='MLP',$/;"	v
+backbone	examples/run_learn_to_reweight.py	/^    backbone='MLP',$/;"	v
+backbone	examples/run_meanteacher.py	/^    backbone='MLP',$/;"	v
+backbone	examples/run_meta_weight_net.py	/^    backbone='MLP',$/;"	v
+backbone	examples/run_torch_ddp.py	/^        backbone='BERT',$/;"	v
+backbone	examples/run_two_stage_pipeline_cls.py	/^    backbone='BERT',$/;"	v
+backbone	examples/run_two_stage_pipeline_cls.py	/^    backbone='MLP',$/;"	v
+backbone	examples/run_weasel.py	/^    backbone='MLP',$/;"	v
+backbone_dropout	examples/run_weasel.py	/^    backbone_dropout=0.2,  # fine  tune all$/;"	v
+backbone_fine_tune_layers	examples/run_denoise.py	/^    backbone_fine_tune_layers=-1,  # fine  tune all$/;"	v
+backbone_fine_tune_layers	examples/run_torch_ddp.py	/^        backbone_fine_tune_layers=-1, # fine  tune all$/;"	v
+backbone_fine_tune_layers	examples/run_two_stage_pipeline_cls.py	/^    backbone_fine_tune_layers=-1, # fine  tune all$/;"	v
+backbone_hidden_size	examples/run_weasel.py	/^    backbone_hidden_size=256,$/;"	v
+backbone_max_tokens	examples/run_torch_ddp.py	/^        backbone_max_tokens=128,$/;"	v
+backbone_max_tokens	examples/run_two_stage_pipeline_cls.py	/^    backbone_max_tokens=128,$/;"	v
+backbone_model_name	examples/run_denoise.py	/^    backbone_model_name=bert_model_name,$/;"	v
+backbone_model_name	examples/run_torch_ddp.py	/^        backbone_model_name='bert-base-cased',$/;"	v
+backbone_model_name	examples/run_two_stage_pipeline_cls.py	/^    backbone_model_name='bert-base-cased',$/;"	v
+backbone_n_hidden_layers	examples/run_weasel.py	/^    backbone_n_hidden_layers=2,$/;"	v
+bag_of_words_extractor	wrench/dataset/utils.py	/^def bag_of_words_extractor(data: List[Dict], **kwargs: Any):$/;"	f
+basketball_dic	write_wmrc_settings.py	/^    basketball_dic = {$/;"	v
+basketball_dics	write_wmrc_settings.py	/^    basketball_dics = [dict(gen_dic, **basketball_dic) for gen_dic in dics_to_use]$/;"	v
+batch_hvp_v3	wrench/explainer/influence_function.py	/^    def batch_hvp_v3(self, x, y, params_list, batch_grad_list):$/;"	m	class:IF
+batch_prep	wrench/seq_labelmodel/chmm_src/CHMM/Data.py	/^def batch_prep(emb_list: List[torch.Tensor],$/;"	f
+batch_s_test	wrench/explainer/influence_function.py	/^    def batch_s_test(self, batch_v, batch_h_estimate, mode, w, act_func):$/;"	m	class:IF
+batch_set	examples/run_ebcc_fable.py	/^        batch_set = create_dataset(batch, all_dataset, data)$/;"	v
+batch_size	examples/grid_search.py	/^        batch_size=128,$/;"	v
+batch_size	examples/run_astra.py	/^    batch_size=128,$/;"	v
+batch_size	examples/run_denoise.py	/^    batch_size=16,$/;"	v
+batch_size	examples/run_explainer.py	/^    batch_size=128,$/;"	v
+batch_size	examples/run_implyloss.py	/^    batch_size=128,$/;"	v
+batch_size	examples/run_learn_to_reweight.py	/^    batch_size=128,$/;"	v
+batch_size	examples/run_meanteacher.py	/^    batch_size=128,$/;"	v
+batch_size	examples/run_meta_weight_net.py	/^    batch_size=128,$/;"	v
+batch_size	examples/run_torch_ddp.py	/^        batch_size=32,$/;"	v
+batch_size	examples/run_two_stage_pipeline_cls.py	/^    batch_size=128,$/;"	v
+batch_size	examples/run_two_stage_pipeline_cls.py	/^    batch_size=32,$/;"	v
+batch_size	examples/run_two_stage_pipeline_seq.py	/^    batch_size=32,$/;"	v
+batch_size	examples/run_weasel.py	/^    batch_size=32,$/;"	v
+batchify	wrench/seq_endmodel/lstm_crf_model.py	/^def batchify(word_ids_list, char_ids_list, word_dict: Dict, char_dict: Dict):$/;"	f
+bert_model_name	examples/run_denoise.py	/^bert_model_name = 'bert-base-cased'$/;"	v
+bert_model_name	examples/run_weasel.py	/^bert_model_name = 'bert-base-cased'$/;"	v
+bert_relation_extractor	wrench/dataset/utils.py	/^def bert_relation_extractor(data: List[Dict], device: torch.device = None,$/;"	f
+bert_text_extractor	wrench/dataset/utils.py	/^def bert_text_extractor(data: List[Dict], device: torch.device = None, model_name: Optional[str] = 'bert-base-cased',$/;"	f
+best_log	examples/run_ars2.py	/^        best_log = {$/;"	v
+best_mthd_ind	loss_t_test.py	/^            best_mthd_ind = sorted_inds[0]$/;"	v
+beta_0	wrench/labelmodel/fable.py	/^    beta_0 = torch.norm(r_vec, 2, dim=dim_dimension)$/;"	v
+beta_curr	wrench/labelmodel/fable.py	/^            beta_curr = r_vec_norm.squeeze_(dim_dimension)$/;"	v
+beta_prev	wrench/labelmodel/fable.py	/^        beta_prev = t_mat[k, k - 1].unsqueeze(dim_dimension)$/;"	v
+bin_cls_dataset_list	wrench/dataset/__init__.py	/^bin_cls_dataset_list = numeric_datasets + ['cdr', 'spouse', 'sms', 'yelp', 'imdb', 'youtube']$/;"	v
+bio_id_to_io_id	wrench/seq_labelmodel/seq_wrapper.py	/^def bio_id_to_io_id(a):$/;"	f
+breast_cancer_dic	write_wmrc_settings.py	/^    breast_cancer_dic = {$/;"	v
+breast_cancer_dics	write_wmrc_settings.py	/^    breast_cancer_dics = [dict(gen_dic, **breast_cancer_dic) for gen_dic in dics_to_use]$/;"	v
+brier_loss_linear	wrench/labelmodel/amcl_cc.py	/^    def brier_loss_linear(self, labels, preds):$/;"	m	class:AMCL_CC
+brier_loss_linear_vectorized	wrench/labelmodel/amcl_cc.py	/^    def brier_loss_linear_vectorized(self, labels, preds):$/;"	m	class:AMCL_CC
+brier_score_amcl	wrench/labelmodel/amcl_cc.py	/^    def brier_score_amcl(self, preds):$/;"	m	class:AMCL_CC
+brier_score_amcl_vectorized	wrench/labelmodel/amcl_cc.py	/^    def brier_score_amcl_vectorized(self, preds):$/;"	m	class:AMCL_CC
+brier_score_loss	wrench/evaluation.py	/^def brier_score_loss(y_true: np.ndarray, y_proba: np.ndarray, ):$/;"	f
+build_bert_embeddings	wrench/dataset/seqdataset.py	/^def build_bert_embeddings(corpus, bert_model_name, device):$/;"	f
+c1	examples/run_denoise.py	/^    c1=0.2,$/;"	v
+c2	examples/run_denoise.py	/^    c2=0.7,$/;"	v
+cache_name	examples/grid_search.py	/^        cache_name='bert'$/;"	v
+cache_name	examples/run_denoise.py	/^    cache_name='bert'$/;"	v
+cache_name	examples/run_ebcc_fable.py	/^    cache_name='roberta',$/;"	v
+cache_name	examples/run_ibcc_ebcc.py	/^    cache_name='bert'$/;"	v
+cache_name	examples/run_learn_to_reweight.py	/^    cache_name='bert'$/;"	v
+cache_name	examples/run_meta_weight_net.py	/^    cache_name='bert'$/;"	v
+cache_name	examples/run_torch_ddp.py	/^        cache_name='bert'$/;"	v
+cache_name	examples/run_two_stage_pipeline_cls.py	/^    cache_name='bert'$/;"	v
+cache_name	examples/run_weasel.py	/^    cache_name='bert'$/;"	v
+calc_acc	wrench/synthetic/lf_generator.py	/^    def calc_acc(y):$/;"	m	class:AbstractLFGenerator
+calc_cmi_matrix	wrench/utils.py	/^def calc_cmi_matrix(y, L):$/;"	f
+calc_loss	wrench/endmodel/cosine.py	/^def calc_loss(inputs, target, reg=0.01):$/;"	f
+calc_phase1_loss	wrench/seqtagging/connet.py	/^    def calc_phase1_loss(self, batch, batch_weak_labels):$/;"	m	class:BaseConNet
+calc_phase2_loss	wrench/seqtagging/connet.py	/^    def calc_phase2_loss(self, batch, batch_agg_weak_labels):$/;"	m	class:BaseConNet
+calc_prior	wrench/endmodel/ars2.py	/^def calc_prior(labels: List, n_class: int):$/;"	f
+calculate_labeled_batch_loss	wrench/classification/implyloss.py	/^    def calculate_labeled_batch_loss(self, labeled_batch, data_exemplar_matrix):$/;"	m	class:ImplyLossModel
+calculate_loss	wrench/backbone.py	/^    def calculate_loss(self, batch, batch_label):$/;"	m	class:CRFTagger
+calculate_loss	wrench/classification/weasel.py	/^    def calculate_loss(self, batch):$/;"	m	class:WeaSELModel
+calculate_unlabeled_batch_loss	wrench/classification/implyloss.py	/^    def calculate_unlabeled_batch_loss(self, unlabeled_batch):$/;"	m	class:ImplyLossModel
+cardio_dic	write_wmrc_settings.py	/^    cardio_dic = {$/;"	v
+cardio_dics	write_wmrc_settings.py	/^    cardio_dics = [dict(gen_dic, **cardio_dic) for gen_dic in dics_to_use]$/;"	v
+check_bert_model	wrench/basemodel.py	/^def check_bert_model(model):$/;"	f
+check_candidate_lfs_enough_	wrench/synthetic/lf_generator.py	/^    def check_candidate_lfs_enough_(self, n_lfs: Union[int, List[int]]):$/;"	m	class:AbstractLFGenerator
+check_vision_model	wrench/basemodel.py	/^def check_vision_model(model):$/;"	f
+check_weak_labels	wrench/dataset/utils.py	/^def check_weak_labels(dataset: Union[BaseDataset, np.ndarray]) -> np.ndarray:$/;"	f
+check_weak_labels_seq	wrench/seq_labelmodel/seq_wrapper.py	/^def check_weak_labels_seq(dataset: BaseSeqDataset, bio_to_io=True):$/;"	f
+classifiers	setup.py	/^    classifiers=[$/;"	v
+cleanup	wrench/basemodel.py	/^def cleanup():$/;"	f
+clear_data_home	wrench/dataset/__init__.py	/^def clear_data_home(data_home=None):$/;"	f
+closest	wrench/labelmodel/epoxy.py	/^        closest = [$/;"	v
+closest_l	wrench/labelmodel/epoxy.py	/^    closest_l = []$/;"	v
+cls_dataset_list	wrench/dataset/__init__.py	/^cls_dataset_list = numeric_datasets + text_datasets + relation_dataset$/;"	v
+cluster_based_accuracy_variance	wrench/utils.py	/^def cluster_based_accuracy_variance(Y, L, cluster_labels):$/;"	f
+cluster_dependent_generate	wrench/synthetic/lf_generator.py	/^    def cluster_dependent_generate(self, n_lfs: Union[int, List[int]] = 10, n_clusters=5) -> AbstractLFApplier:$/;"	m	class:AbstractLFGenerator
+collate_fn	wrench/endmodel/bert_model.py	/^collate_fn = construct_collate_fn_trunc_pad('mask')$/;"	v
+collate_fn	wrench/seq_endmodel/bert_crf_model.py	/^collate_fn = construct_collate_fn_trunc_pad('mask')$/;"	v
+collate_fn	wrench/seq_endmodel/lstm_crf_model.py	/^collate_fn = construct_collate_fn_trunc_pad('mask')$/;"	v
+collate_fn	wrench/seq_labelmodel/chmm_src/CHMM/Data.py	/^def collate_fn(insts):$/;"	f
+collate_fn	wrench/seqtagging/connet.py	/^collate_fn = construct_collate_fn_trunc_pad('mask')$/;"	v
+collate_fn_trunc_pad	wrench/utils.py	/^    def collate_fn_trunc_pad(batch: Dict):$/;"	f	function:construct_collate_fn_trunc_pad
+collect_batch_grad	wrench/explainer/explainer.py	/^    def collect_batch_grad(self, params=None):$/;"	m	class:AbstractModel
+collect_grad	wrench/explainer/explainer.py	/^    def collect_grad(self):$/;"	m	class:AbstractModel
+collect_pseudodataset_student	wrench/classification/astra.py	/^    def collect_pseudodataset_student(self, dataset):$/;"	m	class:Astra
+collect_pseudodataset_teacher	wrench/classification/astra.py	/^    def collect_pseudodataset_teacher(self, dataset):$/;"	m	class:Astra
+colors	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        colors = [ 'green', 'cornflowerblue', 'tomato', 'gold']$/;"	v
+colors	plot_bf_error_breakdown.py	/^        colors = [ 'green', 'cornflowerblue', 'tomato', 'gold']$/;"	v
+comp_similarity	wrench/labelmodel/epoxy.py	/^            def comp_similarity(embs):$/;"	f	function:Epoxy.preprocess
+compute_IF	wrench/explainer/influence_function.py	/^    def compute_IF(self, if_type, mode='normal', w=None, act_func='identity', batch_mode=False):$/;"	m	class:IF
+compute_IF_score	wrench/explainer/explainer.py	/^    def compute_IF_score(self, L_tr, X_tr, X_te, Y_te, if_type, mode,$/;"	m	class:Explainer
+compute_constraints_with_loss2	wrench/labelmodel/amcl_cc.py	/^    def compute_constraints_with_loss2(self, lf1, lf2,$/;"	m	class:AMCL_CC
+compute_gradient_comb	wrench/labelmodel/amcl_cc.py	/^    def compute_gradient_comb(self, theta, X, Y, h):$/;"	m	class:AMCL_CC
+compute_hv	wrench/explainer/influence_function.py	/^    def compute_hv(self, val_grad_list, mode, w, act_func):$/;"	m	class:IF
+compute_origin_IF	wrench/explainer/influence_function.py	/^    def compute_origin_IF(self, mode, w=None, act_func='identity', batch_mode=False):$/;"	m	class:IF
+compute_plot_save_confidences	run_wmrc.py	/^def compute_plot_save_confidences(file_name, dataset_name, constraint_form,$/;"	f
+compute_relat_IF	wrench/explainer/influence_function.py	/^    def compute_relat_IF(self, mode, w=None, act_func='identity', batch_mode=False, return_all=False):$/;"	m	class:IF
+compute_self_IF	wrench/explainer/influence_function.py	/^    def compute_self_IF(self, mode, w=None, act_func='identity', batch_mode=False, return_all=False):$/;"	m	class:IF
+compute_valid_grad_and_hv	wrench/explainer/influence_function.py	/^    def compute_valid_grad_and_hv(self, mode, w, act_func, batch_mode):$/;"	m	class:IF
+concat	examples/run_ebcc_fable.py	/^def concat(d1: BaseDataset, d2: BaseDataset, name: str) -> BaseDataset:$/;"	f
+config_filename	run_wmrc.py	/^                + '_configs.json')$/;"	v
+cons_result_path	run_bf_synthetic_consistency.py	/^        cons_result_path = os.path.join($/;"	v
+consistency_loss	wrench/semisupervisedlearning/utils.py	/^def consistency_loss(logits_w1, logits_w2):$/;"	f
+constraint_form	run_bf_synthetic_consistency.py	/^                constraint_form=constraint_type,$/;"	v
+constraint_type	run_bf_synthetic_consistency.py	/^    constraint_type = 'accuracy'$/;"	v
+constraint_types	run_wmrc.py	/^    constraint_types = ['accuracy']$/;"	v
+construct_collate_fn_trunc_pad	wrench/utils.py	/^def construct_collate_fn_trunc_pad(mask: str):$/;"	f
+contrastive_loss	wrench/endmodel/cosine.py	/^def contrastive_loss(inputs, feat, margin=2.0, device=None):$/;"	f
+convert_corpus_to_tensor	wrench/dataset/torchdataset.py	/^    def convert_corpus_to_tensor(self, corpus):$/;"	m	class:BERTTorchTextClassDataset
+convert_corpus_to_tensor	wrench/dataset/torchdataset.py	/^    def convert_corpus_to_tensor(self, examples):$/;"	m	class:BERTTorchRelationClassDataset
+convert_corpus_to_tensor	wrench/seq_endmodel/bert_crf_model.py	/^    def convert_corpus_to_tensor(self, corpus):$/;"	m	class:BERTTorchSeqDataset
+correction	wrench/labelmodel/fable.py	/^                correction = q_mat[: k + 1].mul(correction).sum(0)$/;"	v
+correction	wrench/labelmodel/fable.py	/^                correction = r_vec.unsqueeze(0).mul(q_mat[: k + 1]).sum(dim_dimension, keepdim=True)$/;"	v
+correction	wrench/labelmodel/fable.py	/^            correction = q_mat[: k + 1].mul(correction).sum(0)$/;"	v
+correction	wrench/labelmodel/fable.py	/^            correction = r_vec.unsqueeze(0).mul(q_mat[: k + 1]).sum(dim_dimension, keepdim=True)$/;"	v
+correlated_generate	wrench/synthetic/lf_generator.py	/^    def correlated_generate(self,$/;"	m	class:AbstractLFGenerator
+could_reorthogonalize	wrench/labelmodel/fable.py	/^                    could_reorthogonalize = True$/;"	v
+could_reorthogonalize	wrench/labelmodel/fable.py	/^            could_reorthogonalize = False$/;"	v
+count_parameters	wrench/explainer/explainer.py	/^    def count_parameters(self):$/;"	m	class:AbstractModel
+covered_by_	wrench/labelmodel/weapo.py	/^def covered_by_(l1, l2):$/;"	f
+cr_rr	examples/run_ars2.py	/^    cr_rr = [(True, 'class_top'), (False, 'class_top'), (True, None)]  # ARS2, w\/o RR, w\/o CR$/;"	v
+cr_rr_opt	examples/run_ars2.py	/^        cr_rr_opt = '_'.join([str(x) for x in para])$/;"	v
+create_dataset	examples/run_ebcc_fable.py	/^def create_dataset(batch: dict, dataset: BaseDataset, name: str) -> BaseDataset:$/;"	f
+create_split	wrench/dataset/basedataset.py	/^    def create_split(self, idx: List[int]):$/;"	m	class:BaseDataset
+create_subset	wrench/dataset/basedataset.py	/^    def create_subset(self, idx: List[int]):$/;"	m	class:BaseDataset
+create_subset	wrench/dataset/dataset.py	/^    def create_subset(self, idx: List[int]):$/;"	m	class:ImageDataset
+create_tuples	wrench/labelmodel/fable.py	/^def create_tuples(dataset: Union[BaseDataset, np.ndarray]):$/;"	f
+create_tuples	wrench/utils.py	/^def create_tuples(dataset: Union[BaseDataset, np.ndarray]):$/;"	f
+create_unbalanced_set	wrench/dataset/utils.py	/^def create_unbalanced_set(data: BaseDataset, imbalance_ratio: int):$/;"	f
+cross_entropy_with_probs	wrench/utils.py	/^def cross_entropy_with_probs($/;"	f
+d_hidden	wrench/seq_labelmodel/chmm_src/Src/Args.py	/^    def d_hidden(self) -> "int":$/;"	m	class:CHMMConfig
+d_obs	wrench/seq_labelmodel/chmm_src/Src/Args.py	/^    def d_obs(self) -> "int":$/;"	m	class:CHMMConfig
+data	examples/grid_search.py	/^    data = 'youtube'$/;"	v
+data	examples/run_ars2.py	/^    data = args.data$/;"	v
+data	examples/run_astra.py	/^data = 'census'$/;"	v
+data	examples/run_denoise.py	/^data = 'youtube'$/;"	v
+data	examples/run_ebcc_fable.py	/^data = 'commercial'$/;"	v
+data	examples/run_explainer.py	/^data = 'census'$/;"	v
+data	examples/run_hyper_label_model.py	/^data = 'agnews'$/;"	v
+data	examples/run_ibcc_ebcc.py	/^data = 'agnews'$/;"	v
+data	examples/run_implyloss.py	/^data = 'census'$/;"	v
+data	examples/run_learn_to_reweight.py	/^data = 'youtube'$/;"	v
+data	examples/run_meanteacher.py	/^data = 'youtube'$/;"	v
+data	examples/run_meta_weight_net.py	/^data = 'youtube'$/;"	v
+data	examples/run_seq_task_with_cls_label_model.py	/^data = 'laptopreview'$/;"	v
+data	examples/run_torch_ddp.py	/^    data = 'youtube'$/;"	v
+data	examples/run_two_stage_pipeline_cls.py	/^data = 'youtube'$/;"	v
+data	examples/run_two_stage_pipeline_seq.py	/^data = 'laptopreview'$/;"	v
+data	examples/run_weapo.py	/^data = 'mushroom'$/;"	v
+data	examples/run_weasel.py	/^data = 'census'$/;"	v
+data	examples/split_labeled_and_unlabeled_data.py	/^data = 'census'$/;"	v
+datalist	examples/run_ebcc_fable.py	/^datalist = ['cdr']$/;"	v
+dataset	run_amcl_cc.py	/^            dataset = dataset[:-7]$/;"	v
+dataset_folder_path	fill_dataset_abstentions.py	/^    dataset_folder_path = '.\/datasets\/'$/;"	v
+dataset_name	examples/run_ars2.py	/^                dataset_name=data,$/;"	v
+dataset_name	run_amcl_cc.py	/^                dataset_name = dataset_orig,$/;"	v
+dataset_name	run_bf_synthetic_consistency.py	/^                dataset_name=dataset,$/;"	v
+dataset_name	run_ds.py	/^                    dataset_name = dataset,$/;"	v
+dataset_name	run_ebcc.py	/^                dataset_name = dataset,$/;"	v
+dataset_name	run_hyperlm.py	/^                dataset_name = dataset,$/;"	v
+dataset_name	run_mv.py	/^                dataset_name = dataset,$/;"	v
+dataset_name	run_snorkel.py	/^                dataset_name = dataset,$/;"	v
+dataset_orig	run_amcl_cc.py	/^        dataset_orig = dataset$/;"	v
+dataset_path	examples/grid_search.py	/^    dataset_path = '..\/datasets\/'$/;"	v
+dataset_path	examples/run_ars2.py	/^    dataset_path = f'{args.path_to_root}\/{args.dataset_path}'$/;"	v
+dataset_path	examples/run_astra.py	/^dataset_path = f'..\/datasets\/'$/;"	v
+dataset_path	examples/run_denoise.py	/^dataset_path = '..\/datasets\/'$/;"	v
+dataset_path	examples/run_ebcc_fable.py	/^dataset_path = '..\/datasets\/'$/;"	v
+dataset_path	examples/run_explainer.py	/^dataset_path = '..\/datasets\/'$/;"	v
+dataset_path	examples/run_hyper_label_model.py	/^dataset_path = '..\/datasets\/'$/;"	v
+dataset_path	examples/run_ibcc_ebcc.py	/^dataset_path = '..\/datasets\/'$/;"	v
+dataset_path	examples/run_implyloss.py	/^dataset_path = f'..\/datasets\/'$/;"	v
+dataset_path	examples/run_learn_to_reweight.py	/^dataset_path = '..\/datasets\/'$/;"	v
+dataset_path	examples/run_meanteacher.py	/^dataset_path = f'..\/datasets\/'$/;"	v
+dataset_path	examples/run_meta_weight_net.py	/^dataset_path = '..\/datasets\/'$/;"	v
+dataset_path	examples/run_seq_task_with_cls_label_model.py	/^dataset_path = '..\/datasets\/'$/;"	v
+dataset_path	examples/run_torch_ddp.py	/^    dataset_path = '..\/datasets\/'$/;"	v
+dataset_path	examples/run_two_stage_pipeline_cls.py	/^dataset_path = '..\/datasets\/'$/;"	v
+dataset_path	examples/run_two_stage_pipeline_seq.py	/^dataset_path = '..\/datasets\/'$/;"	v
+dataset_path	examples/run_weapo.py	/^dataset_path = '..\/datasets\/'$/;"	v
+dataset_path	examples/run_weasel.py	/^dataset_path = '..\/datasets\/'$/;"	v
+dataset_path	examples/split_labeled_and_unlabeled_data.py	/^dataset_path = f'..\/datasets\/'$/;"	v
+dataset_path	fill_dataset_abstentions.py	/^        dataset_path = os.path.join(dataset_folder_path, dataset + '.mat')$/;"	v
+dataset_prefix	run_amcl_cc.py	/^    dataset_prefix = '.\/datasets\/'$/;"	v
+dataset_prefix	run_bf_synthetic_consistency.py	/^    dataset_prefix = '.\/datasets\/'$/;"	v
+dataset_prefix	run_bf_synthetic_consistency.py	/^    dataset_prefix = os.path.join(dataset_prefix, 'synthetic_dawid_skene')$/;"	v
+dataset_prefix	run_ds.py	/^    dataset_prefix = '.\/datasets\/'$/;"	v
+dataset_prefix	run_ebcc.py	/^    dataset_prefix = '.\/datasets\/'$/;"	v
+dataset_prefix	run_hyperlm.py	/^    dataset_prefix = '.\/datasets\/'$/;"	v
+dataset_prefix	run_mv.py	/^    dataset_prefix = '.\/datasets\/'$/;"	v
+dataset_prefix	run_snorkel.py	/^    dataset_prefix = '.\/datasets\/'$/;"	v
+dataset_prefix	run_wmrc.py	/^        dataset_prefix = os.path.join(dataset_prefix, 'synthetic')$/;"	v
+dataset_prefix	run_wmrc.py	/^    dataset_prefix = '.\/datasets\/'$/;"	v
+dataset_result_path	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        dataset_result_path = os.path.join(results_folder_path, dataset)$/;"	v
+dataset_result_path	loss_t_test.py	/^            dataset_result_path = os.path.join(results_folder_path, dataset)$/;"	v
+dataset_result_path	plot_bf_error_breakdown.py	/^        dataset_result_path = os.path.join(results_folder_path, dataset)$/;"	v
+dataset_result_path	run_amcl_cc.py	/^        dataset_result_path = os.path.join(results_folder_path, dataset)$/;"	v
+dataset_result_path	run_bf_synthetic_consistency.py	/^        dataset_result_path = os.path.join(results_folder_path, dataset)$/;"	v
+dataset_result_path	run_ds.py	/^        dataset_result_path = os.path.join(results_folder_path, dataset)$/;"	v
+dataset_result_path	run_ebcc.py	/^        dataset_result_path = os.path.join(results_folder_path, dataset)$/;"	v
+dataset_result_path	run_hyperlm.py	/^        dataset_result_path = os.path.join(results_folder_path, dataset)$/;"	v
+dataset_result_path	run_mv.py	/^        dataset_result_path = os.path.join(results_folder_path, dataset)$/;"	v
+dataset_result_path	run_snorkel.py	/^        dataset_result_path = os.path.join(results_folder_path, dataset)$/;"	v
+dataset_result_path	run_wmrc.py	/^        dataset_result_path = os.path.join(results_folder_path, dataset)$/;"	v
+dataset_train	examples/grid_search.py	/^        dataset_train=train_data,$/;"	v
+dataset_train	examples/run_ars2.py	/^                dataset_train=train_data,$/;"	v
+dataset_train	examples/run_ars2.py	/^            dataset_train=train_data,$/;"	v
+dataset_train	examples/run_astra.py	/^    dataset_train=train_data,$/;"	v
+dataset_train	examples/run_denoise.py	/^    dataset_train=train_data,$/;"	v
+dataset_train	examples/run_explainer.py	/^    dataset_train=train_data,$/;"	v
+dataset_train	examples/run_ibcc_ebcc.py	/^    dataset_train=train_data_c$/;"	v
+dataset_train	examples/run_implyloss.py	/^    dataset_train=train_data,$/;"	v
+dataset_train	examples/run_learn_to_reweight.py	/^    dataset_train=train_data,$/;"	v
+dataset_train	examples/run_meanteacher.py	/^    dataset_train=train_data,$/;"	v
+dataset_train	examples/run_meta_weight_net.py	/^    dataset_train=train_data,$/;"	v
+dataset_train	examples/run_torch_ddp.py	/^        dataset_train=train_data,$/;"	v
+dataset_train	examples/run_two_stage_pipeline_cls.py	/^    dataset_train=train_data,$/;"	v
+dataset_train	examples/run_two_stage_pipeline_seq.py	/^    dataset_train=train_data,$/;"	v
+dataset_train	examples/run_weapo.py	/^    dataset_train=train_data,$/;"	v
+dataset_train	examples/run_weasel.py	/^    dataset_train=train_data,$/;"	v
+dataset_valid	examples/grid_search.py	/^        dataset_valid=valid_data,$/;"	v
+dataset_valid	examples/run_ars2.py	/^                dataset_valid=valid_data,$/;"	v
+dataset_valid	examples/run_ars2.py	/^            dataset_valid=valid_data$/;"	v
+dataset_valid	examples/run_astra.py	/^    dataset_valid=valid_data,$/;"	v
+dataset_valid	examples/run_denoise.py	/^    dataset_valid=valid_data,$/;"	v
+dataset_valid	examples/run_explainer.py	/^    dataset_valid=valid_data$/;"	v
+dataset_valid	examples/run_explainer.py	/^    dataset_valid=valid_data,$/;"	v
+dataset_valid	examples/run_implyloss.py	/^    dataset_valid=valid_data,$/;"	v
+dataset_valid	examples/run_learn_to_reweight.py	/^    dataset_valid=valid_data$/;"	v
+dataset_valid	examples/run_learn_to_reweight.py	/^    dataset_valid=valid_data,$/;"	v
+dataset_valid	examples/run_meanteacher.py	/^    dataset_valid=valid_data,$/;"	v
+dataset_valid	examples/run_meta_weight_net.py	/^    dataset_valid=valid_data$/;"	v
+dataset_valid	examples/run_meta_weight_net.py	/^    dataset_valid=valid_data,$/;"	v
+dataset_valid	examples/run_torch_ddp.py	/^        dataset_valid=valid_data$/;"	v
+dataset_valid	examples/run_torch_ddp.py	/^        dataset_valid=valid_data,$/;"	v
+dataset_valid	examples/run_two_stage_pipeline_cls.py	/^    dataset_valid=valid_data$/;"	v
+dataset_valid	examples/run_two_stage_pipeline_cls.py	/^    dataset_valid=valid_data,$/;"	v
+dataset_valid	examples/run_two_stage_pipeline_seq.py	/^    dataset_valid=valid_data$/;"	v
+dataset_valid	examples/run_two_stage_pipeline_seq.py	/^    dataset_valid=valid_data,$/;"	v
+dataset_valid	examples/run_weapo.py	/^    dataset_valid=valid_data$/;"	v
+dataset_valid	examples/run_weasel.py	/^    dataset_valid=valid_data,$/;"	v
+datasets	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^            'imdb', 'obs', 'sms', 'yelp', 'youtube']$/;"	v
+datasets	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^    datasets = ['sms']$/;"	v
+datasets	fill_dataset_abstentions.py	/^    datasets = ['basketball', 'imdb', 'sms', 'yelp', 'youtube']$/;"	v
+datasets	loss_t_test.py	/^                'imdb', 'obs', 'sms', 'yelp', 'youtube']$/;"	v
+datasets	loss_t_test.py	/^        datasets = ['bird', 'rte', 'dog', 'web']$/;"	v
+datasets	plot_bf_error_breakdown.py	/^            'imdb', 'obs', 'sms', 'yelp', 'youtube']$/;"	v
+datasets	plot_bf_error_breakdown.py	/^    datasets = ['aa2']$/;"	v
+datasets	run_amcl_cc.py	/^            'imdb_filled', 'obs', 'sms_filled', 'yelp_filled', 'youtube_filled']$/;"	v
+datasets	run_bf_synthetic_consistency.py	/^    datasets = []$/;"	v
+datasets	run_ds.py	/^            'imdb', 'obs', 'sms', 'yelp', 'youtube']$/;"	v
+datasets	run_ebcc.py	/^            'imdb', 'obs', 'sms', 'yelp', 'youtube']$/;"	v
+datasets	run_hyperlm.py	/^            'imdb', 'obs', 'sms', 'yelp', 'youtube']$/;"	v
+datasets	run_mv.py	/^            'imdb', 'obs', 'sms', 'yelp', 'youtube']$/;"	v
+datasets	run_snorkel.py	/^    datasets = []$/;"	v
+datasets	run_wmrc.py	/^    datasets = []$/;"	v
+datefmt	examples/grid_search.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	examples/run_ars2.py	/^                        datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	examples/run_astra.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	examples/run_denoise.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	examples/run_ebcc_fable.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	examples/run_explainer.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	examples/run_hyper_label_model.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	examples/run_ibcc_ebcc.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	examples/run_implyloss.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	examples/run_learn_to_reweight.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	examples/run_meanteacher.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	examples/run_meta_weight_net.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	examples/run_seq_task_with_cls_label_model.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	examples/run_torch_ddp.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	examples/run_two_stage_pipeline_cls.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	examples/run_two_stage_pipeline_seq.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	examples/run_weapo.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	examples/run_weasel.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	examples/split_labeled_and_unlabeled_data.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	run_amcl_cc.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	run_bf_synthetic_consistency.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	run_ds.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	run_ebcc.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	run_hyperlm.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	run_mv.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	run_snorkel.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+datefmt	run_wmrc.py	/^                    datefmt='%Y-%m-%d %H:%M:%S',$/;"	v
+default	wrench/seq_labelmodel/chmm_src/Src/Args.py	/^        default='',$/;"	v	class:CHMMArguments
+default	wrench/seq_labelmodel/chmm_src/Src/Args.py	/^        default='.',$/;"	v	class:CHMMArguments
+default_parameter	examples/run_ars2.py	/^default_parameter = {$/;"	v
+dep_names	wrench/labelmodel/generative_model_src.py	/^    dep_names = ($/;"	v	class:SrcGenerativeModel
+description	setup.py	/^    description="a benchmark for weak supervision",$/;"	v
+desired_rank	examples/run_ebcc_fable.py	/^    desired_rank=50,$/;"	v
+det_methods	loss_t_test.py	/^    det_methods = ['MV', 'DawidSkene', 'HyperLM']$/;"	v
+device	examples/grid_search.py	/^        device=device$/;"	v
+device	examples/grid_search.py	/^        device=device,$/;"	v
+device	examples/grid_search.py	/^device = torch.device('cuda')$/;"	v
+device	examples/run_ars2.py	/^                device=device$/;"	v
+device	examples/run_ars2.py	/^    device = torch.device(f'cuda:{args.gpu}')$/;"	v
+device	examples/run_astra.py	/^    device=device$/;"	v
+device	examples/run_astra.py	/^device = torch.device('cuda')$/;"	v
+device	examples/run_denoise.py	/^    device=device$/;"	v
+device	examples/run_denoise.py	/^device = torch.device('cuda')$/;"	v
+device	examples/run_ebcc_fable.py	/^    device=device$/;"	v
+device	examples/run_ebcc_fable.py	/^device = torch.device('cuda:0')$/;"	v
+device	examples/run_explainer.py	/^    device=device$/;"	v
+device	examples/run_explainer.py	/^device = torch.device('cuda')$/;"	v
+device	examples/run_hyper_label_model.py	/^device = torch.device('cpu')$/;"	v
+device	examples/run_ibcc_ebcc.py	/^device = torch.device('cuda')$/;"	v
+device	examples/run_implyloss.py	/^    device=device$/;"	v
+device	examples/run_implyloss.py	/^device = torch.device('cuda')$/;"	v
+device	examples/run_learn_to_reweight.py	/^    device=device$/;"	v
+device	examples/run_learn_to_reweight.py	/^device = torch.device('cuda')$/;"	v
+device	examples/run_meanteacher.py	/^    device=device$/;"	v
+device	examples/run_meanteacher.py	/^device = torch.device('cuda')$/;"	v
+device	examples/run_meta_weight_net.py	/^    device=device$/;"	v
+device	examples/run_meta_weight_net.py	/^device = torch.device('cuda')$/;"	v
+device	examples/run_torch_ddp.py	/^        device=device$/;"	v
+device	examples/run_torch_ddp.py	/^    device = torch.device('cuda')$/;"	v
+device	examples/run_two_stage_pipeline_cls.py	/^    device=device$/;"	v
+device	examples/run_two_stage_pipeline_cls.py	/^device = torch.device('cuda')$/;"	v
+device	examples/run_two_stage_pipeline_seq.py	/^    device=device$/;"	v
+device	examples/run_two_stage_pipeline_seq.py	/^device = torch.device('cuda')$/;"	v
+device	examples/run_weasel.py	/^    device=device$/;"	v
+device	examples/run_weasel.py	/^device = torch.device('cuda')$/;"	v
+device	wrench/backbone.py	/^    def device(self):$/;"	m	class:BackBone
+dics_to_use	write_wmrc_settings.py	/^    dics_to_use = [oracle_kwargs, semisup_kwargs]$/;"	v
+dim_dimension	wrench/labelmodel/fable.py	/^    dim_dimension = -2$/;"	v
+direction	examples/grid_search.py	/^        direction='auto',$/;"	v
+dist_results	loss_t_test.py	/^        dist_results = np.zeros((n_methods, len(datasets)))$/;"	v
+distillation	examples/run_ars2.py	/^                distillation=ars2,$/;"	v
+dists	wrench/labelmodel/epoxy.py	/^        dists = [$/;"	v
+domain_dic	write_wmrc_settings.py	/^    domain_dic = {$/;"	v
+domain_dics	write_wmrc_settings.py	/^    domain_dics = [dict(gen_dic, **domain_dic) for gen_dic in dics_to_use]$/;"	v
+dropout	examples/run_astra.py	/^    dropout=0.3,$/;"	v
+dropout	examples/run_weasel.py	/^    dropout=0.3,$/;"	v
+ds_full	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^                    'DawidSkene_' + dataset + '.mat')$/;"	v
+ds_full	plot_bf_error_breakdown.py	/^                    'DawidSkene_' + dataset + '.mat')$/;"	v
+ds_log_loss	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        ds_log_loss = np.ones(num_pts) * ds_mdic['log_loss_train']$/;"	v
+ds_log_loss	plot_bf_error_breakdown.py	/^        ds_log_loss = np.ones(num_pts) * ds_mdic['log_loss_train']$/;"	v
+ds_log_loss_oracle	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        ds_log_loss_oracle = np.ones(num_pts) * ds_mdic['log_loss_train_oracle']$/;"	v
+ds_log_loss_oracle	plot_bf_error_breakdown.py	/^        ds_log_loss_oracle = np.ones(num_pts) * ds_mdic['log_loss_train_oracle']$/;"	v
+ds_mdic	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        ds_mdic = sio.loadmat(ds_full)$/;"	v
+ds_mdic	plot_bf_error_breakdown.py	/^        ds_mdic = sio.loadmat(ds_full)$/;"	v
+ds_models	run_ds.py	/^    ds_models = ['one_coin']$/;"	v
+ds_orac_offset	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^            ds_orac_offset = matplotlib.transforms.ScaledTranslation(0, dy_ds, fig.dpi_scale_trans)$/;"	v
+ds_orac_offset	plot_bf_error_breakdown.py	/^            ds_orac_offset = matplotlib.transforms.ScaledTranslation(0, dy_ds, fig.dpi_scale_trans)$/;"	v
+dy_ds	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^                dy_ds = 5\/72. * scale$/;"	v
+dy_ds	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^            dy_ds = 2\/72. * scale$/;"	v
+dy_ds	plot_bf_error_breakdown.py	/^                dy_ds = 5\/72. * scale$/;"	v
+dy_ds	plot_bf_error_breakdown.py	/^            dy_ds = 2\/72. * scale$/;"	v
+dy_mu	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^                dy_mu = -5\/72. * scale$/;"	v
+dy_mu	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^            dy_mu = -2\/72. * scale$/;"	v
+dy_mu	plot_bf_error_breakdown.py	/^                dy_mu = -5\/72. * scale$/;"	v
+dy_mu	plot_bf_error_breakdown.py	/^            dy_mu = -2\/72. * scale$/;"	v
+ebcc	examples/run_ebcc_fable.py	/^ebcc = EBCC()$/;"	v
+ebcc	examples/run_ibcc_ebcc.py	/^ebcc = EBCC($/;"	v
+ebcc_res	examples/run_ebcc_fable.py	/^ebcc_res = ebcc.test(all_dataset, metric)$/;"	v
+ebcc_vb	wrench/labelmodel/ebcc.py	/^def ebcc_vb(L,$/;"	f
+efficient_training	wrench/__init__.py	/^class efficient_training(ContextDecorator):$/;"	c
+embedding_file_path	examples/run_two_stage_pipeline_seq.py	/^    embedding_file_path='..\/datasets\/glove.6B.100d.txt',$/;"	v
+emit	wrench/_logging.py	/^    def emit(self, record):$/;"	m	class:LoggingHandler
+empirical_prior	examples/run_ebcc_fable.py	/^    empirical_prior=True,$/;"	v
+empirical_prior	examples/run_ibcc_ebcc.py	/^    empirical_prior=True,$/;"	v
+encode	wrench/seq_endmodel/lstm_crf_model.py	/^def encode(examples, word_dict: Dict, char_dict: Dict):$/;"	f
+encode	wrench/seqtagging/connet.py	/^    def encode(self, batch):$/;"	m	class:BERTConNet
+encode	wrench/seqtagging/connet.py	/^    def encode(self, batch):$/;"	m	class:BaseConNet
+encode	wrench/seqtagging/connet.py	/^    def encode(self, batch):$/;"	m	class:LSTMConNet
+enlarge	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^    enlarge = False$/;"	v
+enlarge	plot_bf_error_breakdown.py	/^    enlarge = True$/;"	v
+enlarge	plot_bf_synthetic_consistency.py	/^    enlarge = False$/;"	v
+entity_average	wrench/backbone.py	/^    def entity_average(hidden_output, e_mask):$/;"	m	class:BertRelationClassifier
+entity_to_bio_labels	wrench/dataset/seqdataset.py	/^def entity_to_bio_labels(entities: List[str]):$/;"	f
+eps_l_inf	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        eps_l_inf = np.zeros(num_pts)$/;"	v
+eps_l_inf	plot_bf_error_breakdown.py	/^        eps_l_inf = np.zeros(num_pts)$/;"	v
+estimate_label_model	wrench/labelmodel/label_model_src.py	/^    def estimate_label_model(self, *args, config=None):$/;"	m	class:LabelModel
+estimate_label_model	wrench/labelmodel/label_model_src.py	/^    def estimate_label_model(self, votes, config=None):$/;"	m	class:NaiveBayes
+eval_theta	wrench/labelmodel/amcl_cc.py	/^        def eval_theta(th):$/;"	f	function:AMCL_CC.sub_gradient_method2
+evaluate	wrench/seq_labelmodel/chmm_src/CHMM/Train.py	/^    def evaluate(self, data_loader):$/;"	m	class:CHMMTrainer
+evaluation_step	examples/grid_search.py	/^        evaluation_step=10,$/;"	v
+evaluation_step	examples/run_ars2.py	/^                evaluation_step=5,$/;"	v
+evaluation_step	examples/run_astra.py	/^    evaluation_step=10,$/;"	v
+evaluation_step	examples/run_denoise.py	/^    evaluation_step=10,$/;"	v
+evaluation_step	examples/run_explainer.py	/^    evaluation_step=10,$/;"	v
+evaluation_step	examples/run_implyloss.py	/^    evaluation_step=10,$/;"	v
+evaluation_step	examples/run_learn_to_reweight.py	/^    evaluation_step=10,$/;"	v
+evaluation_step	examples/run_meanteacher.py	/^    evaluation_step=5,$/;"	v
+evaluation_step	examples/run_meta_weight_net.py	/^    evaluation_step=10,$/;"	v
+evaluation_step	examples/run_torch_ddp.py	/^        evaluation_step=10,$/;"	v
+evaluation_step	examples/run_two_stage_pipeline_cls.py	/^    evaluation_step=10,$/;"	v
+evaluation_step	examples/run_two_stage_pipeline_seq.py	/^    evaluation_step=10,$/;"	v
+evaluation_step	examples/run_weasel.py	/^    evaluation_step=5,$/;"	v
+exclude	wrench/synthetic/lf_generator.py	/^    def exclude(self, other):$/;"	m	class:Expression
+exclude	wrench/synthetic/lf_generator.py	/^    def exclude(self, other):$/;"	m	class:NGramExpression
+exclude	wrench/synthetic/lf_generator.py	/^    def exclude(self, other: Expression):$/;"	m	class:BinaryExpression
+exclude	wrench/synthetic/lf_generator.py	/^    def exclude(self, other: Expression):$/;"	m	class:UnaryExpression
+exclude_	wrench/synthetic/lf_generator.py	/^    def exclude_(self, other: Expression):$/;"	m	class:EqualExpression
+exclude_	wrench/synthetic/lf_generator.py	/^    def exclude_(self, other: Expression):$/;"	m	class:GreaterExpression
+exclude_	wrench/synthetic/lf_generator.py	/^    def exclude_(self, other: Expression):$/;"	m	class:InIntervalExpression
+exclude_	wrench/synthetic/lf_generator.py	/^    def exclude_(self, other: Expression):$/;"	m	class:LessExpression
+exclude_	wrench/synthetic/lf_generator.py	/^    def exclude_(self, other: Expression):$/;"	m	class:OutIntervalExpression
+exclude_	wrench/synthetic/lf_generator.py	/^    def exclude_(self, other: Expression):$/;"	m	class:UnaryExpression
+exemplar_idx	examples/run_implyloss.py	/^    exemplar_idx=exemplars,$/;"	v
+exhaustive_generate	wrench/synthetic/lf_generator.py	/^    def exhaustive_generate(self) -> AbstractLFApplier:$/;"	m	class:AbstractLFGenerator
+exit_after	wrench/search.py	/^def exit_after(s):$/;"	f
+exp_rampup	wrench/semisupervisedlearning/utils.py	/^def exp_rampup(current, rampup_epochs):$/;"	f
+expanded_L_mat	wrench/labelmodel/epoxy.py	/^    expanded_L_mat = np.copy(L_mat)$/;"	v
+explainer	examples/run_explainer.py	/^explainer = Explainer(train_data.n_lf, train_data.n_class)$/;"	v
+extend	wrench/labelmodel/epoxy.py	/^    def extend(self, thresholds):$/;"	m	class:Epoxy
+extend_lfs	wrench/labelmodel/epoxy.py	/^def extend_lfs($/;"	f
+extract_feature	examples/grid_search.py	/^        extract_feature=True,$/;"	v
+extract_feature	examples/run_denoise.py	/^    extract_feature=True,$/;"	v
+extract_feature	examples/run_ebcc_fable.py	/^    extract_feature=True,$/;"	v
+extract_feature	examples/run_explainer.py	/^    extract_feature=True$/;"	v
+extract_feature	examples/run_hyper_label_model.py	/^    extract_feature=False,$/;"	v
+extract_feature	examples/run_ibcc_ebcc.py	/^    extract_feature=True,$/;"	v
+extract_feature	examples/run_learn_to_reweight.py	/^    extract_feature=True,$/;"	v
+extract_feature	examples/run_meta_weight_net.py	/^    extract_feature=True,$/;"	v
+extract_feature	examples/run_torch_ddp.py	/^        extract_feature=True,$/;"	v
+extract_feature	examples/run_two_stage_pipeline_cls.py	/^    extract_feature=True,$/;"	v
+extract_feature	examples/run_weapo.py	/^    extract_feature=False,$/;"	v
+extract_feature	examples/run_weasel.py	/^    extract_feature=True,$/;"	v
+extract_feature	wrench/dataset/basedataset.py	/^    def extract_feature(self,$/;"	m	class:BaseDataset
+extract_feature_	wrench/dataset/basedataset.py	/^    def extract_feature_(self, extract_fn: str, return_extractor: bool, **kwargs: Any):$/;"	m	class:BaseDataset
+extract_feature_	wrench/dataset/dataset.py	/^    def extract_feature_(self,$/;"	m	class:ImageDataset
+extract_feature_	wrench/dataset/dataset.py	/^    def extract_feature_(self,$/;"	m	class:NumericDataset
+extract_feature_	wrench/dataset/dataset.py	/^    def extract_feature_(self,$/;"	m	class:RelationDataset
+extract_feature_	wrench/dataset/dataset.py	/^    def extract_feature_(self,$/;"	m	class:TextDataset
+extract_feature_	wrench/synthetic/syntheticdataset.py	/^    def extract_feature_(self, **kwargs: Any):$/;"	m	class:SyntheticDataset
+extract_fn	examples/grid_search.py	/^        extract_fn='bert', # extract bert embedding$/;"	v
+extract_fn	examples/run_denoise.py	/^    extract_fn='bert', # extract bert embedding$/;"	v
+extract_fn	examples/run_ebcc_fable.py	/^    extract_fn='bert',$/;"	v
+extract_fn	examples/run_ibcc_ebcc.py	/^    extract_fn='bert',  # extract bert embedding$/;"	v
+extract_fn	examples/run_learn_to_reweight.py	/^    extract_fn='bert',  # extract bert embedding$/;"	v
+extract_fn	examples/run_meta_weight_net.py	/^    extract_fn='bert',  # extract bert embedding$/;"	v
+extract_fn	examples/run_torch_ddp.py	/^        extract_fn='bert', # extract bert embedding$/;"	v
+extract_fn	examples/run_two_stage_pipeline_cls.py	/^    extract_fn='bert', # extract bert embedding$/;"	v
+extract_fn	examples/run_weasel.py	/^    extract_fn='bert', # extract bert embedding$/;"	v
+extractor	wrench/dataset/utils.py	/^    def extractor(data: List[Dict]):$/;"	f	function:bag_of_words_extractor
+extractor	wrench/dataset/utils.py	/^    def extractor(data: List[Dict]):$/;"	f	function:bert_relation_extractor
+extractor	wrench/dataset/utils.py	/^    def extractor(data: List[Dict]):$/;"	f	function:bert_text_extractor
+extractor	wrench/dataset/utils.py	/^    def extractor(data: List[Dict]):$/;"	f	function:image_feature_extractor
+extractor	wrench/dataset/utils.py	/^    def extractor(data: List[Dict]):$/;"	f	function:tf_idf_extractor
+f1	examples/run_seq_task_with_cls_label_model.py	/^f1 = label_model.test(test_data, 'f1_seq')$/;"	v
+f1	examples/run_two_stage_pipeline_seq.py	/^f1 = label_model.test(test_data, 'f1_seq')$/;"	v
+f1	examples/run_two_stage_pipeline_seq.py	/^f1 = model.test(test_data, 'f1_seq')$/;"	v
+f1	examples/run_weasel.py	/^f1 = model.test(test_data, 'f1_binary')$/;"	v
+f1_macro	examples/run_astra.py	/^f1_macro = model.test(test_data, 'f1_macro')$/;"	v
+f1_macro	examples/run_implyloss.py	/^f1_macro = model.test(test_data, 'f1_macro')$/;"	v
+f1_macro	examples/run_meanteacher.py	/^f1_macro = model.test(test_data, 'f1_macro')$/;"	v
+f1_score_	wrench/evaluation.py	/^def f1_score_(y_true: np.ndarray, y_proba: np.ndarray, average: str, **kwargs):$/;"	f
+f1_score_seq	wrench/evaluation.py	/^def f1_score_seq(y_true: List[List], y_pred: List[List], id2label: dict, strict=True):$/;"	f
+fable	examples/run_ebcc_fable.py	/^fable = Fable($/;"	v
+fable_res	examples/run_ebcc_fable.py	/^    fable_res = fable.test(all_dataset, metric)$/;"	v
+fable_res	examples/run_ebcc_fable.py	/^    fable_res = np.mean(res)$/;"	v
+fable_vb	wrench/labelmodel/fable.py	/^def fable_vb(tuples,$/;"	f
+fetch_hyperparas_suggestions	wrench/search.py	/^def fetch_hyperparas_suggestions(search_space: Dict, trial: Trial):$/;"	f
+file_handler	run_amcl_cc.py	/^        file_handler = logging.FileHandler(log_filename_full, 'w')$/;"	v
+file_handler	run_bf_synthetic_consistency.py	/^        file_handler=logging.FileHandler(log_filename_full, 'w')$/;"	v
+file_handler	run_ds.py	/^            file_handler = logging.FileHandler(log_filename_full, 'w')$/;"	v
+file_handler	run_ebcc.py	/^            file_handler = logging.FileHandler(log_filename_full, 'w')$/;"	v
+file_handler	run_hyperlm.py	/^        file_handler = logging.FileHandler(log_filename_full, 'w')$/;"	v
+file_handler	run_mv.py	/^        file_handler = logging.FileHandler(log_filename_full, 'w')$/;"	v
+file_handler	run_snorkel.py	/^        file_handler = logging.FileHandler(log_filename_full, 'w')$/;"	v
+filter_fn_for_denoise	wrench/search_space.py	/^def filter_fn_for_denoise(grids, para_names):$/;"	f
+fit	wrench/basemodel.py	/^    def fit(self, dataset_train, y_train=None, dataset_valid=None, y_valid=None,$/;"	m	class:BaseModel
+fit	wrench/basemodel.py	/^    def fit(self, dataset_train: BaseSeqDataset, y_train: Optional[List[List]] = None,$/;"	m	class:BaseSeqModel
+fit	wrench/basemodel.py	/^    def fit(self, dataset_train: Union[BaseDataset, np.ndarray], y_train: Optional[np.ndarray] = None,$/;"	m	class:BaseClassModel
+fit	wrench/basemodel.py	/^    def fit(self,$/;"	m	class:BaseLabelModel
+fit	wrench/classification/astra.py	/^    def fit(self,$/;"	m	class:Astra
+fit	wrench/classification/denoise.py	/^    def fit(self,$/;"	m	class:Denoise
+fit	wrench/classification/implyloss.py	/^    def fit(self,$/;"	m	class:ImplyLoss
+fit	wrench/classification/weasel.py	/^    def fit(self,$/;"	m	class:WeaSEL
+fit	wrench/endmodel/ars2.py	/^    def fit(self,$/;"	m	class:ARS2
+fit	wrench/endmodel/bert_model.py	/^    def fit(self,$/;"	m	class:BertClassifierModel
+fit	wrench/endmodel/cosine.py	/^    def fit(self,$/;"	m	class:Cosine
+fit	wrench/endmodel/end_model.py	/^    def fit(self,$/;"	m	class:EndClassifierModel
+fit	wrench/endmodel/linear_model.py	/^    def fit(self,$/;"	m	class:LogRegModel
+fit	wrench/endmodel/neural_model.py	/^    def fit(self,$/;"	m	class:MLPModel
+fit	wrench/labelmodel/amcl_cc.py	/^    def fit(self,$/;"	m	class:AMCL_CC
+fit	wrench/labelmodel/dawid_skene.py	/^    def fit(self,$/;"	m	class:DawidSkene
+fit	wrench/labelmodel/ebcc.py	/^    def fit(self,$/;"	m	class:EBCC
+fit	wrench/labelmodel/fable.py	/^    def fit(self,$/;"	m	class:Fable
+fit	wrench/labelmodel/flyingsquid.py	/^    def fit(self,$/;"	m	class:FlyingSquid
+fit	wrench/labelmodel/generative_model.py	/^    def fit(self,$/;"	m	class:GenerativeModel
+fit	wrench/labelmodel/gold.py	/^    def fit(self,$/;"	m	class:GoldCondProb
+fit	wrench/labelmodel/hyper_label_model.py	/^    def fit(self,$/;"	m	class:HyperLM
+fit	wrench/labelmodel/ibcc.py	/^    def fit(self,$/;"	m	class:IBCC
+fit	wrench/labelmodel/majority_voting.py	/^    def fit(self,$/;"	m	class:MajorityVoting
+fit	wrench/labelmodel/majority_voting.py	/^    def fit(self,$/;"	m	class:MajorityWeightedVoting
+fit	wrench/labelmodel/metal.py	/^    def fit(self,$/;"	m	class:MeTaL
+fit	wrench/labelmodel/naive_bayes.py	/^    def fit(self,$/;"	m	class:NaiveBayesModel
+fit	wrench/labelmodel/snorkel.py	/^    def fit(self,$/;"	m	class:Snorkel
+fit	wrench/labelmodel/weapo.py	/^    def fit(self,$/;"	m	class:Weapo
+fit	wrench/labelmodel/wmrc.py	/^    def fit(self,$/;"	m	class:WMRC
+fit	wrench/metalearning/learn_to_reweight.py	/^    def fit(self,$/;"	m	class:LearningToReweight
+fit	wrench/metalearning/meta_weight_net.py	/^    def fit(self,$/;"	m	class:MetaWeightNet
+fit	wrench/semisupervisedlearning/meanteacher.py	/^    def fit(self,$/;"	m	class:MeanTeacher
+fit	wrench/seq_endmodel/bert_crf_model.py	/^    def fit(self,$/;"	m	class:BERTTaggerModel
+fit	wrench/seq_endmodel/lstm_crf_model.py	/^    def fit(self,$/;"	m	class:LSTMTaggerModel
+fit	wrench/seq_labelmodel/chmm.py	/^    def fit(self,$/;"	m	class:CHMM
+fit	wrench/seq_labelmodel/hmm.py	/^    def fit(self,$/;"	m	class:HMM
+fit	wrench/seq_labelmodel/seq_wrapper.py	/^    def fit(self,$/;"	m	class:SeqLabelModelWrapper
+fit	wrench/seqtagging/connet.py	/^    def fit(self,$/;"	m	class:BERTConNetModel
+fit	wrench/seqtagging/connet.py	/^    def fit(self,$/;"	m	class:LSTMConNetModel
+flatten	wrench/dataset/seqdataset.py	/^    def flatten(self):$/;"	m	class:BaseSeqDataset
+fn	fill_dataset_abstentions.py	/^        fn = dataset + "_filled.mat"$/;"	v
+fn	loss_t_test.py	/^        fn = 'loss_labeled_ttest.mat'$/;"	v
+fn	loss_t_test.py	/^        fn = 'loss_unlabeled_ttest.mat'$/;"	v
+fn_end	plot_bf_synthetic_consistency.py	/^    fn_end = '_accuracy_semisup_trainlabels_eqconst.mat'$/;"	v
+fn_part	plot_bf_synthetic_consistency.py	/^    fn_part = lambda x: 'synth_3p_' + str(x) + 'n_100nval__'$/;"	v
+focal_loss	wrench/endmodel/loss/effective_number.py	/^def focal_loss(logits, labels, alpha, gamma):$/;"	f
+formatter	run_amcl_cc.py	/^        formatter = logging.Formatter('%(asctime)s - %(message)s',$/;"	v
+formatter	run_bf_synthetic_consistency.py	/^        formatter=logging.Formatter('%(asctime)s - %(message)s',$/;"	v
+formatter	run_ds.py	/^            formatter = logging.Formatter('%(asctime)s - %(message)s',$/;"	v
+formatter	run_ebcc.py	/^            formatter = logging.Formatter('%(asctime)s - %(message)s',$/;"	v
+formatter	run_hyperlm.py	/^        formatter = logging.Formatter('%(asctime)s - %(message)s',$/;"	v
+formatter	run_mv.py	/^        formatter = logging.Formatter('%(asctime)s - %(message)s',$/;"	v
+formatter	run_snorkel.py	/^        formatter = logging.Formatter('%(asctime)s - %(message)s',$/;"	v
+forward	wrench/backbone.py	/^    def forward(self, batch):$/;"	m	class:CRFTagger
+forward	wrench/backbone.py	/^    def forward(self, batch, return_features=False):  # inputs: [batch, t]$/;"	m	class:BertTextClassifier
+forward	wrench/backbone.py	/^    def forward(self, batch, return_features=False):$/;"	m	class:BertRelationClassifier
+forward	wrench/backbone.py	/^    def forward(self, batch, return_features=False):$/;"	m	class:ImageClassifier
+forward	wrench/backbone.py	/^    def forward(self, batch, return_features=False):$/;"	m	class:LogReg
+forward	wrench/backbone.py	/^    def forward(self, batch, return_features=False):$/;"	m	class:MLP
+forward	wrench/backbone.py	/^    def forward(self, batch: Dict, return_features: Optional[bool] = False):$/;"	m	class:BERTBackBone
+forward	wrench/backbone.py	/^    def forward(self, batch: Dict, return_features: Optional[bool] = False):$/;"	m	class:BackBone
+forward	wrench/backbone.py	/^    def forward(self, feats, mask):$/;"	m	class:CRF
+forward	wrench/backbone.py	/^    def forward(self, feats, mask, attn_weight):$/;"	m	class:MultiCRF
+forward	wrench/backbone.py	/^    def forward(self, x):$/;"	m	class:FClayer
+forward	wrench/classification/astra.py	/^    def forward(self, batch, features, proba):$/;"	m	class:RuleAttentionTeacherNetwork
+forward	wrench/classification/astra.py	/^    def forward(self, batch, return_features=False):$/;"	m	class:AstraModel
+forward	wrench/classification/denoise.py	/^    def forward(self, batch_l, batch_u, x_lf_l, x_lf_u):$/;"	m	class:AssembleModel
+forward	wrench/classification/denoise.py	/^    def forward(self, x_lf, batch):$/;"	m	class:AttentionModel
+forward	wrench/classification/implyloss.py	/^    def forward(self, batch):$/;"	m	class:ImplyLossModel
+forward	wrench/classification/implyloss.py	/^    def forward(self, x):$/;"	m	class:RuleNetwork
+forward	wrench/classification/weasel.py	/^    def forward(self, batch):$/;"	m	class:Encoder
+forward	wrench/endmodel/loss/LDAM_loss.py	/^    def forward(self, x, target, **kwargs):$/;"	m	class:LDAMLoss
+forward	wrench/endmodel/loss/dice_loss.py	/^    def forward(self, input: Tensor, target: Tensor, mask: Optional[Tensor] = None) -> Tensor:$/;"	m	class:DiceLoss
+forward	wrench/explainer/explainer.py	/^    def forward(self, x):$/;"	m	class:LinearModel
+forward	wrench/labelmodel/label_model_src.py	/^    def forward(self, *args):$/;"	m	class:LabelModel
+forward	wrench/labelmodel/label_model_src.py	/^    def forward(self, votes):$/;"	m	class:NaiveBayes
+forward	wrench/layers.py	/^    def forward(self, input, seq_lengths):$/;"	m	class:CharBiLSTM
+forward	wrench/layers.py	/^    def forward(self, input, seq_lengths):$/;"	m	class:CharCNN
+forward	wrench/layers.py	/^    def forward(self, word_inputs, char_inputs=None, char_seq_lengths=None):$/;"	m	class:WordRep
+forward	wrench/layers.py	/^    def forward(self, word_inputs, word_seq_lengths, char_inputs=None, char_seq_lengths=None):$/;"	m	class:WordSequence
+forward	wrench/metalearning/meta_weight_net.py	/^    def forward(self, x):$/;"	m	class:VNet
+forward	wrench/seq_labelmodel/chmm_src/CHMM/Model.py	/^    def forward(self, emb, obs, seq_lengths, normalize_observation=True):$/;"	m	class:CHMM
+forward	wrench/seq_labelmodel/chmm_src/CHMM/Model.py	/^    def forward(self,$/;"	m	class:NeuralModule
+forward	wrench/seqtagging/connet.py	/^    def forward(self, batch):$/;"	m	class:BaseConNet
+forward_teacher	wrench/classification/astra.py	/^    def forward_teacher(self, batch, features=None, proba=None):$/;"	m	class:AstraModel
+freeze_bn	wrench/semisupervisedlearning/utils.py	/^    def freeze_bn(self, model):$/;"	m	class:BatchNormController
+freeze_encoder	wrench/seqtagging/connet.py	/^    def freeze_encoder(self):$/;"	m	class:BERTConNet
+freeze_encoder	wrench/seqtagging/connet.py	/^    def freeze_encoder(self):$/;"	m	class:BaseConNet
+freeze_encoder	wrench/seqtagging/connet.py	/^    def freeze_encoder(self):$/;"	m	class:LSTMConNet
+from_args	wrench/seq_labelmodel/chmm_src/Src/Args.py	/^    def from_args(self, args: CHMMArguments) -> "CHMMConfig":$/;"	m	class:CHMMConfig
+func	wrench/explainer/explainer.py	/^        def func(x):$/;"	f	function:Explainer.approximate_label_model
+gamma	examples/run_implyloss.py	/^    gamma=0.1,$/;"	v
+generate	wrench/synthetic/dataset_generator.py	/^    def generate(self, n_data: int = 1000):$/;"	m	class:ConditionalIndependentGenerator
+generate	wrench/synthetic/dataset_generator.py	/^    def generate(self, n_data: int = 1000):$/;"	m	class:CorrelatedGenerator
+generate	wrench/synthetic/dataset_generator.py	/^    def generate(self, n_data: int = 1000):$/;"	m	class:DataDependentGenerator
+generate	wrench/synthetic/lf_generator.py	/^    def generate(self, mode: str, **kwargs):$/;"	m	class:AbstractLFGenerator
+generate	wrench/synthetic/syntheticdataset.py	/^    def generate(self, n_data: int = 1000):$/;"	m	class:BaseSyntheticGenerator
+generate_dataset	generate_DS_synthetic.py	/^def generate_dataset(p, n, n_val):$/;"	f
+generate_half_bounded_lf	wrench/synthetic/lf_generator.py	/^    def generate_half_bounded_lf(self, x, y, idx, label, bin_list, min_acc):$/;"	m	class:FeatureLFGenerator
+generate_interval_lf	wrench/synthetic/lf_generator.py	/^    def generate_interval_lf(self, x, y, idx, label, bin_list, min_acc):$/;"	m	class:FeatureLFGenerator
+generate_label_to_lfs	wrench/synthetic/lf_generator.py	/^    def generate_label_to_lfs(self):$/;"	m	class:FeatureLFGenerator
+generate_label_to_lfs	wrench/synthetic/lf_generator.py	/^    def generate_label_to_lfs(self):$/;"	m	class:NGramLFGenerator
+generate_renormalize_x_y	wrench/explainer/influence_function.py	/^    def generate_renormalize_x_y(self, w, x, l, y, act_func='identity'):$/;"	m	class:IF
+generate_split	wrench/synthetic/syntheticdataset.py	/^    def generate_split(self, split: str = 'train', n_data: int = 1000):$/;"	m	class:BaseSyntheticGenerator
+generate_x_y	wrench/explainer/influence_function.py	/^    def generate_x_y(self, w, x, l, y, act_func='identity', return_raw_score=False):$/;"	m	class:IF
+generic_logger	wrench/labelmodel/wmrc.py	/^generic_logger = logging.getLogger(__name__)$/;"	v
+get_accuracies	wrench/labelmodel/label_model_src.py	/^    def get_accuracies(self):$/;"	m	class:ClassConditionalLabelModel
+get_agreed_labeled_subset	wrench/dataset/basedataset.py	/^    def get_agreed_labeled_subset(self):$/;"	m	class:BaseDataset
+get_amp_flag	wrench/__init__.py	/^def get_amp_flag():$/;"	f
+get_bert_model_class	wrench/utils.py	/^def get_bert_model_class(dataset: BaseDataset):$/;"	f
+get_bert_torch_dataset_class	wrench/utils.py	/^def get_bert_torch_dataset_class(dataset: BaseDataset):$/;"	f
+get_bin_egdes	wrench/synthetic/lf_generator.py	/^    def get_bin_egdes(X: np.ndarray, bin_size: int):$/;"	m	class:FeatureLFGenerator
+get_binary_constraints	wrench/labelmodel/weapo.py	/^def get_binary_constraints(L, min_cnt=0.0, exclude_all_abstain=True):$/;"	f
+get_class_balance	wrench/labelmodel/label_model_src.py	/^    def get_class_balance(self):$/;"	m	class:NaiveBayes
+get_components	wrench/labelmodel/weapo.py	/^def get_components(L, single=False):$/;"	f
+get_confidences	wrench/labelmodel/wmrc.py	/^    def get_confidences(self, data, grouping="pattern_neigh",$/;"	m	class:WMRC
+get_conflict_labeled_subset	wrench/dataset/basedataset.py	/^    def get_conflict_labeled_subset(self):$/;"	m	class:BaseDataset
+get_constraints	wrench/labelmodel/weapo.py	/^def get_constraints(L, full=False):$/;"	f
+get_covered_subset	wrench/dataset/basedataset.py	/^    def get_covered_subset(self):$/;"	m	class:BaseDataset
+get_data_home	wrench/dataset/__init__.py	/^def get_data_home(data_home=None) -> str:$/;"	f
+get_dataset_type	wrench/dataset/__init__.py	/^def get_dataset_type(dataset_name):$/;"	f
+get_deps_from_inverse_sig	wrench/labelmodel/dependency_structure.py	/^def get_deps_from_inverse_sig(J, thresh=0.2):$/;"	f
+get_device	wrench/backbone.py	/^    def get_device(self):$/;"	m	class:BackBone
+get_distance_matrix	wrench/labelmodel/epoxy.py	/^    def get_distance_matrix(self):$/;"	m	class:Epoxy
+get_feature	wrench/seqtagging/connet.py	/^    def get_feature(self, feats, mask):$/;"	m	class:BaseConNet
+get_features	wrench/backbone.py	/^    def get_features(self, batch):$/;"	m	class:BertSeqTagger
+get_features	wrench/backbone.py	/^    def get_features(self, batch):$/;"	m	class:CRFTagger
+get_features	wrench/backbone.py	/^    def get_features(self, batch):$/;"	m	class:LSTMSeqTagger
+get_glove_embedding	wrench/dataset/utils.py	/^def get_glove_embedding(embedding_file_path=None, PAD='PAD', UNK='UNK'):$/;"	f
+get_label_distribution	wrench/labelmodel/label_model_src.py	/^    def get_label_distribution(self, *args):$/;"	m	class:LabelModel
+get_label_distribution	wrench/labelmodel/label_model_src.py	/^    def get_label_distribution(self, votes):$/;"	m	class:NaiveBayes
+get_most_probable_labels	wrench/labelmodel/label_model_src.py	/^    def get_most_probable_labels(self, *args):$/;"	m	class:LabelModel
+get_most_probable_labels	wrench/labelmodel/label_model_src.py	/^    def get_most_probable_labels(self, votes):$/;"	m	class:NaiveBayes
+get_num_workers	wrench/__init__.py	/^def get_num_workers():$/;"	f
+get_optimizer	wrench/seq_labelmodel/chmm_src/CHMM/Train.py	/^    def get_optimizer(self):$/;"	m	class:CHMMTrainer
+get_partial_order_tree	wrench/labelmodel/weapo.py	/^def get_partial_order_tree(unique_L, exclude_all_abstain=True):$/;"	f
+get_pin_memory	wrench/__init__.py	/^def get_pin_memory():$/;"	f
+get_pretrain_optimizer	wrench/seq_labelmodel/chmm_src/CHMM/Train.py	/^    def get_pretrain_optimizer(self):$/;"	m	class:CHMMTrainer
+get_propensities	wrench/labelmodel/label_model_src.py	/^    def get_propensities(self):$/;"	m	class:ClassConditionalLabelModel
+get_pu_dataset	examples/run_weapo.py	/^def get_pu_dataset(datasets: List[BaseDataset], positive_label=1, drop_lf_idx=[]):$/;"	f
+get_r_score	wrench/classification/implyloss.py	/^    def get_r_score(self, x):$/;"	m	class:ImplyLossModel
+get_result_filename	run_amcl_cc.py	/^def get_result_filename(dataset_name):$/;"	f
+get_result_filename	run_bf_synthetic_consistency.py	/^def get_result_filename(dataset_name, constraint_name,$/;"	f
+get_result_filename	run_ds.py	/^def get_result_filename(dataset_name):$/;"	f
+get_result_filename	run_ebcc.py	/^def get_result_filename(dataset_name):$/;"	f
+get_result_filename	run_hyperlm.py	/^def get_result_filename(dataset_name):$/;"	f
+get_result_filename	run_mv.py	/^def get_result_filename(dataset_name):$/;"	f
+get_result_filename	run_snorkel.py	/^def get_result_filename(dataset_name):$/;"	f
+get_result_filename	run_wmrc.py	/^def get_result_filename(dataset_name, constraint_name,$/;"	f
+get_results	wrench/evaluation.py	/^    def get_results(self):$/;"	m	class:AverageMeter
+get_search_space	wrench/search_space.py	/^def get_search_space(model: Union[str, abc.ABCMeta]):$/;"	f
+get_test_dataloader	wrench/seq_labelmodel/chmm_src/CHMM/Train.py	/^    def get_test_dataloader(self):$/;"	m	class:CHMMTrainer
+get_training_dataloader	wrench/seq_labelmodel/chmm_src/CHMM/Train.py	/^    def get_training_dataloader(self, shuffle=True):$/;"	m	class:CHMMTrainer
+get_valid_dataloader	wrench/seq_labelmodel/chmm_src/CHMM/Train.py	/^    def get_valid_dataloader(self):$/;"	m	class:CHMMTrainer
+getitem_	wrench/dataset/torchdataset.py	/^    def getitem_(self, idx):$/;"	m	class:BERTTorchDataset
+getitem_	wrench/dataset/torchdataset.py	/^    def getitem_(self, idx):$/;"	m	class:BERTTorchRelationClassDataset
+getitem_	wrench/dataset/torchdataset.py	/^    def getitem_(self, idx):$/;"	m	class:BERTTorchTextClassDataset
+go	run_wmrc.py	/^            def go(arr):$/;"	f	function:plot_confidence_intervals.select_when_not_none
+grad_norm	examples/run_denoise.py	/^    grad_norm=1.0,$/;"	v
+grad_norm	examples/run_weasel.py	/^    grad_norm=-1,$/;"	v
+grid_search	wrench/search.py	/^def grid_search(model: BaseModel,$/;"	f
+handlers	examples/grid_search.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	examples/run_ars2.py	/^                        handlers=[LoggingHandler()])$/;"	v
+handlers	examples/run_astra.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	examples/run_denoise.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	examples/run_ebcc_fable.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	examples/run_explainer.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	examples/run_hyper_label_model.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	examples/run_ibcc_ebcc.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	examples/run_implyloss.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	examples/run_learn_to_reweight.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	examples/run_meanteacher.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	examples/run_meta_weight_net.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	examples/run_seq_task_with_cls_label_model.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	examples/run_torch_ddp.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	examples/run_two_stage_pipeline_cls.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	examples/run_two_stage_pipeline_seq.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	examples/run_weapo.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	examples/run_weasel.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	examples/split_labeled_and_unlabeled_data.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	run_amcl_cc.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	run_bf_synthetic_consistency.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	run_ds.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	run_ebcc.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	run_hyperlm.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	run_mv.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	run_snorkel.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handlers	run_wmrc.py	/^                    handlers=[LoggingHandler()])$/;"	v
+handles	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        handles = [Patch(facecolor=color, edgecolor='black', label=label) for color, label in zip(colors, labels)]$/;"	v
+handles	plot_bf_error_breakdown.py	/^        handles = [Patch(facecolor=color, edgecolor='black', label=label) for color, label in zip(colors, labels)]$/;"	v
+help_e_step	wrench/labelmodel/dawid_skene.py	/^def help_e_step(Y_p, error_rates, L_aug):$/;"	f
+hidden_size	examples/run_denoise.py	/^    hidden_size=100,$/;"	v
+hidden_size	examples/run_implyloss.py	/^    hidden_size=100,$/;"	v
+hidden_size	examples/run_weasel.py	/^    hidden_size=512,$/;"	v
+history	examples/run_ars2.py	/^            history = model.fit($/;"	v
+hlm	examples/run_hyper_label_model.py	/^hlm = HyperLM()$/;"	v
+ibcc	examples/run_ibcc_ebcc.py	/^ibcc = IBCC()$/;"	v
+ibcc	wrench/labelmodel/ibcc.py	/^def ibcc(tuples,$/;"	f
+if_type	examples/run_explainer.py	/^if_type = 'if'  # or 'sif' or 'relatif'$/;"	v
+image_feature_extractor	wrench/dataset/utils.py	/^def image_feature_extractor(data: List[Dict], device: torch.device = None, model_name: Optional[str] = 'resnet18', **kwargs: Any):$/;"	f
+imbalance_ids_train	examples/run_ars2.py	/^        imbalance_ids_train = create_unbalanced_set(train_data, imbalance_ratio)$/;"	v
+imbalance_ids_valid	examples/run_ars2.py	/^        imbalance_ids_valid = create_unbalanced_set(valid_data, imbalance_ratio)$/;"	v
+imbalance_ratio	examples/run_ars2.py	/^    imbalance_ratio = args.ir$/;"	v
+imdb_dic	write_wmrc_settings.py	/^    imdb_dic = {$/;"	v
+imdb_dics	write_wmrc_settings.py	/^    imdb_dics = [dict(gen_dic, **imdb_dic) for gen_dic in dics_to_use]$/;"	v
+include	wrench/synthetic/lf_generator.py	/^    def include(self, other):$/;"	m	class:Expression
+include	wrench/synthetic/lf_generator.py	/^    def include(self, other):$/;"	m	class:NGramExpression
+include	wrench/synthetic/lf_generator.py	/^    def include(self, other: Expression):$/;"	m	class:BinaryExpression
+include	wrench/synthetic/lf_generator.py	/^    def include(self, other: Expression):$/;"	m	class:UnaryExpression
+include_	wrench/synthetic/lf_generator.py	/^    def include_(self, other: Expression):$/;"	m	class:EqualExpression
+include_	wrench/synthetic/lf_generator.py	/^    def include_(self, other: Expression):$/;"	m	class:GreaterExpression
+include_	wrench/synthetic/lf_generator.py	/^    def include_(self, other: Expression):$/;"	m	class:InIntervalExpression
+include_	wrench/synthetic/lf_generator.py	/^    def include_(self, other: Expression):$/;"	m	class:LessExpression
+include_	wrench/synthetic/lf_generator.py	/^    def include_(self, other: Expression):$/;"	m	class:OutIntervalExpression
+include_	wrench/synthetic/lf_generator.py	/^    def include_(self, other: Expression):$/;"	m	class:UnaryExpression
+include_ds	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^    include_ds = True$/;"	v
+include_ds	plot_bf_error_breakdown.py	/^    include_ds = True$/;"	v
+include_package_data	setup.py	/^    include_package_data=True,$/;"	v
+indist	loss_t_test.py	/^            indist = []$/;"	v
+indist_inds	loss_t_test.py	/^            indist_inds = [best_mthd_ind]$/;"	v
+inference_iter	examples/run_ebcc_fable.py	/^    inference_iter=10,$/;"	v
+inference_iter	examples/run_ibcc_ebcc.py	/^    inference_iter=100,$/;"	v
+init_balance	wrench/classification/weasel.py	/^def init_balance(n_class: int,$/;"	f
+init_random	wrench/labelmodel/label_model_src.py	/^def init_random(seed):$/;"	f
+init_vecs	wrench/labelmodel/fable.py	/^        init_vecs = init_vecs.expand(*batch_shape, matrix_shape[-1], num_init_vecs)$/;"	v
+init_vecs	wrench/labelmodel/fable.py	/^        init_vecs = torch.randn(matrix_shape[-1], num_init_vecs, dtype=dtype, device=device)$/;"	v
+initialise_emissions	wrench/seq_labelmodel/chmm_src/Src/DataAssist.py	/^def initialise_emissions(observations,$/;"	f
+initialise_transmat	wrench/seq_labelmodel/chmm_src/Src/DataAssist.py	/^def initialise_transmat(observations,$/;"	f
+initialize_Y_p	wrench/labelmodel/dawid_skene.py	/^def initialize_Y_p(Y_p, L, n_class):$/;"	f
+initialize_matrices	wrench/seq_labelmodel/chmm_src/CHMM/Train.py	/^    def initialize_matrices(self):$/;"	m	class:CHMMTrainer
+initialize_model	wrench/seq_labelmodel/chmm_src/CHMM/Train.py	/^    def initialize_model(self):$/;"	m	class:CHMMTrainer
+initialize_optimizers	wrench/seq_labelmodel/chmm_src/CHMM/Train.py	/^    def initialize_optimizers(self, optimizer=None, pretrain_optimizer=None):$/;"	m	class:CHMMTrainer
+initialize_trainer	wrench/seq_labelmodel/chmm_src/CHMM/Train.py	/^    def initialize_trainer(self):$/;"	m	class:CHMMTrainer
+inner	wrench/search.py	/^        def inner(*args, **kwargs):$/;"	f	function:exit_after.outer
+inner_products	wrench/labelmodel/fable.py	/^                inner_products = q_mat[: k + 1].mul(r_vec.unsqueeze(0)).sum(dim_dimension)$/;"	v
+inner_products	wrench/labelmodel/fable.py	/^            inner_products = q_mat[: k + 1].mul(r_vec.unsqueeze(0)).sum(dim_dimension)$/;"	v
+install_requires	setup.py	/^    install_requires=[$/;"	v
+io_id_to_bio_id	wrench/seq_labelmodel/seq_wrapper.py	/^def io_id_to_bio_id(a):$/;"	f
+is_sign_sparsistent	wrench/labelmodel/generative_model_src.py	/^    def is_sign_sparsistent(self, other, threshold=0.1):$/;"	m	class:SrcGenerativeModelWeights
+joint_simp	run_ebcc.py	/^            def joint_simp(tau, G, pi, V, L):$/;"	f	function:run_ebcc
+kernel_function	examples/run_ebcc_fable.py	/^    kernel_function=PairwiseKernel('cosine'),$/;"	v
+keywords	setup.py	/^    keywords="machine-learning ai weak-supervision",$/;"	v
+kl_max	plot_bf_synthetic_consistency.py	/^    kl_max = res.max(axis=0)$/;"	v
+kl_mean	plot_bf_synthetic_consistency.py	/^    kl_mean = res.mean(axis=0)$/;"	v
+kl_min	plot_bf_synthetic_consistency.py	/^    kl_min = res.min(axis=0)$/;"	v
+l2	examples/run_ars2.py	/^            l2=0.0,$/;"	v
+l2	examples/run_explainer.py	/^    l2=0.0,$/;"	v
+l2	examples/run_learn_to_reweight.py	/^    l2=0.0,$/;"	v
+l2	examples/run_meta_weight_net.py	/^    l2=0.0,$/;"	v
+l2	examples/run_seq_task_with_cls_label_model.py	/^    l2=0.0,$/;"	v
+l2	examples/run_torch_ddp.py	/^        l2=0.0,$/;"	v
+l2	examples/run_two_stage_pipeline_cls.py	/^    l2=0.0,$/;"	v
+l2	examples/run_two_stage_pipeline_seq.py	/^    l2=1e-6,$/;"	v
+l2	examples/run_two_stage_pipeline_seq.py	/^    l2=1e-8,$/;"	v
+label	plot_bf_synthetic_consistency.py	/^        label='Max\/Min KL Div.')$/;"	v
+label_model	examples/run_ars2.py	/^        label_model = Snorkel($/;"	v
+label_model	examples/run_denoise.py	/^    label_model='Snorkel',$/;"	v
+label_model	examples/run_explainer.py	/^label_model = Snorkel($/;"	v
+label_model	examples/run_learn_to_reweight.py	/^label_model = Snorkel($/;"	v
+label_model	examples/run_meta_weight_net.py	/^label_model = Snorkel($/;"	v
+label_model	examples/run_seq_task_with_cls_label_model.py	/^label_model = SeqLabelModelWrapper($/;"	v
+label_model	examples/run_torch_ddp.py	/^    label_model = Snorkel($/;"	v
+label_model	examples/run_two_stage_pipeline_cls.py	/^label_model = Snorkel($/;"	v
+label_model	examples/run_two_stage_pipeline_seq.py	/^label_model = HMM($/;"	v
+label_model	examples/run_weapo.py	/^label_model = Weapo($/;"	v
+label_model_class	examples/run_seq_task_with_cls_label_model.py	/^    label_model_class=Snorkel,$/;"	v
+label_model_n_epochs	examples/run_denoise.py	/^    label_model_n_epochs=10,$/;"	v
+label_to_span	wrench/seq_labelmodel/chmm_src/Src/DataAssist.py	/^def label_to_span(labels: List[str],$/;"	f
+label_to_span	wrench/seq_labelmodel/hmm.py	/^def label_to_span(labels: List[str],$/;"	f
+labeled_data_idx	examples/run_astra.py	/^    labeled_data_idx=idx,$/;"	v
+labeled_data_idx	examples/run_implyloss.py	/^    labeled_data_idx=idx,$/;"	v
+labeled_data_idx	examples/run_meanteacher.py	/^    labeled_data_idx=idx,$/;"	v
+labeled_datasets	fill_dataset_abstentions.py	/^    labeled_datasets = True$/;"	v
+labeled_datasets	loss_t_test.py	/^    labeled_datasets = True$/;"	v
+labeled_ids	examples/split_labeled_and_unlabeled_data.py	/^labeled_ids = list(set(idx + sampled_idx))$/;"	v
+labels	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        labels = [r'$d(\\eta, g^{*})$', r'Min $d(g^{*}, g^{bf})$', r'Mean $d(g^{*}, g^{bf})$', r'Max $d(g^{*}, g^{bf})$']$/;"	v
+labels	plot_bf_error_breakdown.py	/^        labels = [r'$d(\\eta, g^{*})$', r'Min $d(g^{*}, g^{bf})$', r'Mean $d(g^{*}, g^{bf})$', r'Max $d(g^{*}, g^{bf})$']$/;"	v
+lanczos_tridiag	wrench/labelmodel/fable.py	/^def lanczos_tridiag($/;"	f
+learn_structure	wrench/labelmodel/dependency_structure.py	/^def learn_structure(L, thresh=1.5):$/;"	f
+learned_lf_stats	wrench/labelmodel/generative_model_src.py	/^    def learned_lf_stats(self):$/;"	m	class:SrcGenerativeModel
+legend_loc	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^            legend_loc = 'lower right'$/;"	v
+legend_loc	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^            legend_loc = 'upper right'$/;"	v
+legend_loc	plot_bf_error_breakdown.py	/^            legend_loc = 'lower right'$/;"	v
+legend_loc	plot_bf_error_breakdown.py	/^            legend_loc = 'upper right'$/;"	v
+level	examples/grid_search.py	/^                    level=logging.INFO,$/;"	v
+level	examples/run_ars2.py	/^                        level=logging.INFO,$/;"	v
+level	examples/run_astra.py	/^                    level=logging.INFO,$/;"	v
+level	examples/run_denoise.py	/^                    level=logging.INFO,$/;"	v
+level	examples/run_ebcc_fable.py	/^                    level=logging.INFO,$/;"	v
+level	examples/run_explainer.py	/^                    level=logging.INFO,$/;"	v
+level	examples/run_hyper_label_model.py	/^                    level=logging.INFO,$/;"	v
+level	examples/run_ibcc_ebcc.py	/^                    level=logging.INFO,$/;"	v
+level	examples/run_implyloss.py	/^                    level=logging.INFO,$/;"	v
+level	examples/run_learn_to_reweight.py	/^                    level=logging.INFO,$/;"	v
+level	examples/run_meanteacher.py	/^                    level=logging.INFO,$/;"	v
+level	examples/run_meta_weight_net.py	/^                    level=logging.INFO,$/;"	v
+level	examples/run_seq_task_with_cls_label_model.py	/^                    level=logging.INFO,$/;"	v
+level	examples/run_torch_ddp.py	/^                    level=logging.INFO,$/;"	v
+level	examples/run_two_stage_pipeline_cls.py	/^                    level=logging.INFO,$/;"	v
+level	examples/run_two_stage_pipeline_seq.py	/^                    level=logging.INFO,$/;"	v
+level	examples/run_weapo.py	/^                    level=logging.INFO,$/;"	v
+level	examples/run_weasel.py	/^                    level=logging.INFO,$/;"	v
+level	examples/split_labeled_and_unlabeled_data.py	/^                    level=logging.INFO,$/;"	v
+level	run_amcl_cc.py	/^                    level=logging.INFO,$/;"	v
+level	run_bf_synthetic_consistency.py	/^                    level=logging.INFO,$/;"	v
+level	run_ds.py	/^                    level=logging.INFO,$/;"	v
+level	run_ebcc.py	/^                    level=logging.INFO,$/;"	v
+level	run_hyperlm.py	/^                    level=logging.INFO,$/;"	v
+level	run_mv.py	/^                    level=logging.INFO,$/;"	v
+level	run_snorkel.py	/^                    level=logging.INFO,$/;"	v
+level	run_wmrc.py	/^                    level=logging.INFO,$/;"	v
+lf_summary	wrench/dataset/basedataset.py	/^    def lf_summary(self):$/;"	m	class:BaseDataset
+license	setup.py	/^    license="Apache License 2.0",$/;"	v
+linear_combination_labeler	wrench/labelmodel/amcl_cc.py	/^    def linear_combination_labeler(self, theta, X):$/;"	m	class:AMCL_CC
+linear_combination_labeler_vectorized	wrench/labelmodel/amcl_cc.py	/^    def linear_combination_labeler_vectorized(self, theta, X):$/;"	m	class:AMCL_CC
+lm_path	examples/run_ars2.py	/^    lm_path = f'{args.path_to_root}\/{args.lm_pred_path}'$/;"	v
+load	wrench/basemodel.py	/^    def load(self, source: str) -> None:$/;"	m	class:BaseModel
+load	wrench/dataset/basedataset.py	/^    def load(self, path: str, split: str):$/;"	m	class:BaseDataset
+load	wrench/dataset/dataset.py	/^    def load(self, path: Union[str, Path], split: str):$/;"	m	class:ImageDataset
+load	wrench/dataset/graphdataset.py	/^    def load(self, path: str, split: str):$/;"	m	class:GraphDataset
+load	wrench/dataset/seqdataset.py	/^    def load(self, path: Union[str, Path], split: str):$/;"	m	class:BaseSeqDataset
+load	wrench/labelmodel/generative_model_src.py	/^    def load(self, model_name=None, save_dir='checkpoints', verbose=True):$/;"	m	class:SrcGenerativeModel
+load	wrench/semisupervisedlearning/meanteacher.py	/^    def load(self, ema_model):$/;"	m	class:EMA
+load_bert_embed	wrench/dataset/seqdataset.py	/^    def load_bert_embed(self, model_name="bert-base-uncased", device: Optional[torch.device] = None, load_path=None):$/;"	m	class:BaseSeqDataset
+load_dataset	wrench/dataset/__init__.py	/^def load_dataset(data_home, dataset, dataset_type=None, extract_feature=False, extract_fn=None, **kwargs):$/;"	f
+load_embed_dict	wrench/dataset/seqdataset.py	/^    def load_embed_dict(self,$/;"	m	class:BaseSeqDataset
+load_features	wrench/dataset/basedataset.py	/^    def load_features(self, cache_name: Optional[str] = None):$/;"	m	class:BaseDataset
+load_from_checkpoint	wrench/seq_labelmodel/chmm_src/CHMM/Train.py	/^    def load_from_checkpoint(self, checkpoint):$/;"	m	class:CHMMTrainer
+load_image_dataset	wrench/dataset/__init__.py	/^def load_image_dataset(data_home, dataset, image_root_path, preload_image=True, extract_feature=False, extract_fn='pretrain', **kwargs):$/;"	f
+load_labeled_ids_and_lf_exemplars	wrench/dataset/basedataset.py	/^    def load_labeled_ids_and_lf_exemplars(self, path: str):$/;"	m	class:BaseDataset
+load_model	wrench/seq_labelmodel/chmm_src/CHMM/Train.py	/^    def load_model(self, model_dir: Optional[str] = None, load_trainer_params: Optional[bool] = False):$/;"	m	class:CHMMTrainer
+log	examples/run_ars2.py	/^        log = {}$/;"	v
+log_emiss	wrench/seq_labelmodel/chmm_src/CHMM/Model.py	/^    def log_emiss(self):$/;"	m	class:CHMM
+log_filename	run_amcl_cc.py	/^        log_filename = get_result_filename(dataset)[:-4] + '.log'$/;"	v
+log_filename	run_bf_synthetic_consistency.py	/^        log_filename = get_result_filename($/;"	v
+log_filename	run_ds.py	/^            log_filename = get_result_filename(dataset)[:-4] + '.log'$/;"	v
+log_filename	run_ebcc.py	/^            log_filename = get_result_filename(dataset)[:-4] + '.log'$/;"	v
+log_filename	run_hyperlm.py	/^        log_filename = get_result_filename(dataset)[:-4] + '.log'$/;"	v
+log_filename	run_mv.py	/^        log_filename = get_result_filename(dataset)[:-4] + '.log'$/;"	v
+log_filename	run_snorkel.py	/^        log_filename = get_result_filename(dataset)[:-4] + '.log'$/;"	v
+log_filename_full	run_amcl_cc.py	/^        log_filename_full = os.path.join(method_result_path,$/;"	v
+log_filename_full	run_bf_synthetic_consistency.py	/^        log_filename_full = os.path.join(cons_result_path,$/;"	v
+log_filename_full	run_ds.py	/^            log_filename_full = os.path.join(mod_result_path,$/;"	v
+log_filename_full	run_ebcc.py	/^            log_filename_full = os.path.join(method_result_path,$/;"	v
+log_filename_full	run_hyperlm.py	/^        log_filename_full = os.path.join(method_result_path,$/;"	v
+log_filename_full	run_mv.py	/^        log_filename_full = os.path.join(method_result_path,$/;"	v
+log_filename_full	run_snorkel.py	/^        log_filename_full = os.path.join(method_result_path,$/;"	v
+log_matmul	wrench/seq_labelmodel/chmm_src/Src/Utils.py	/^def log_matmul(a: torch.Tensor, b: torch.Tensor):$/;"	f
+log_maxmul	wrench/seq_labelmodel/chmm_src/Src/Utils.py	/^def log_maxmul(a, b):$/;"	f
+log_trans	wrench/seq_labelmodel/chmm_src/CHMM/Model.py	/^    def log_trans(self):$/;"	m	class:CHMM
+logger	examples/grid_search.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	examples/run_ars2.py	/^    logger = logging.getLogger(__name__)$/;"	v
+logger	examples/run_astra.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	examples/run_denoise.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	examples/run_ebcc_fable.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	examples/run_explainer.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	examples/run_hyper_label_model.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	examples/run_ibcc_ebcc.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	examples/run_implyloss.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	examples/run_learn_to_reweight.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	examples/run_meanteacher.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	examples/run_meta_weight_net.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	examples/run_seq_task_with_cls_label_model.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	examples/run_torch_ddp.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	examples/run_two_stage_pipeline_cls.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	examples/run_two_stage_pipeline_seq.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	examples/run_weapo.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	examples/run_weasel.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	examples/split_labeled_and_unlabeled_data.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	run_amcl_cc.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	run_bf_synthetic_consistency.py	/^                logger=logger,$/;"	v
+logger	run_bf_synthetic_consistency.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	run_ds.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	run_ebcc.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	run_hyperlm.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	run_mv.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	run_snorkel.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	run_wmrc.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/classification/astra.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/classification/denoise.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/classification/implyloss.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/classification/weasel.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/dataset/basedataset.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/dataset/graphdataset.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/dataset/seqdataset.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/endmodel/ars2.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/endmodel/bert_model.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/endmodel/cosine.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/endmodel/end_model.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/endmodel/linear_model.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/endmodel/neural_model.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/labelmodel/dawid_skene.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/labelmodel/flyingsquid.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/labelmodel/generative_model.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/labelmodel/gold.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/labelmodel/hyper_label_model.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/labelmodel/majority_voting.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/labelmodel/metal.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/labelmodel/naive_bayes.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/labelmodel/snorkel.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/labelmodel/weapo.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/metalearning/learn_to_reweight.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/metalearning/meta_weight_net.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/search.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/semisupervisedlearning/meanteacher.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/seq_endmodel/bert_crf_model.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/seq_endmodel/lstm_crf_model.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/seq_labelmodel/chmm_src/CHMM/Data.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/seq_labelmodel/chmm_src/CHMM/Model.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/seq_labelmodel/chmm_src/Src/Args.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/seq_labelmodel/chmm_src/Src/DataAssist.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/seq_labelmodel/hmm.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/seq_labelmodel/seq_wrapper.py	/^logger = logging.getLogger(__name__)$/;"	v
+logger	wrench/seqtagging/connet.py	/^logger = logging.getLogger(__name__)$/;"	v
+logic_op	wrench/synthetic/lf_generator.py	/^    logic_op = staticmethod(np.logical_and)$/;"	v	class:AndExpression
+logic_op	wrench/synthetic/lf_generator.py	/^    logic_op = staticmethod(np.logical_or)$/;"	v	class:OrExpression
+logit_adjustment	wrench/endmodel/loss/logit_adjustment.py	/^def logit_adjustment($/;"	f
+logloss_max	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        logloss_max = np.zeros(num_pts)$/;"	v
+logloss_max	plot_bf_error_breakdown.py	/^        logloss_max = np.zeros(num_pts)$/;"	v
+logloss_mean	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        logloss_mean = np.zeros(num_pts)$/;"	v
+logloss_mean	plot_bf_error_breakdown.py	/^        logloss_mean = np.zeros(num_pts)$/;"	v
+logloss_min	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        logloss_min = np.zeros(num_pts)$/;"	v
+logloss_min	plot_bf_error_breakdown.py	/^        logloss_min = np.zeros(num_pts)$/;"	v
+logsumexp	wrench/seq_labelmodel/chmm_src/Src/Utils.py	/^def logsumexp(x, dim=None, keepdim=False):$/;"	f
+long_description	setup.py	/^    long_description = readme_file.read()$/;"	v
+long_description	setup.py	/^    long_description=long_description,$/;"	v
+long_description_content_type	setup.py	/^    long_description_content_type="text\/markdown",$/;"	v
+loss_type	examples/run_ars2.py	/^    loss_type = args.loss_type$/;"	v
+losses	loss_t_test.py	/^    losses = ['brier_score_train', 'log_loss_train', 'err_train']$/;"	v
+lr	examples/run_ars2.py	/^            lr=0.01,$/;"	v
+lr	examples/run_explainer.py	/^    lr=0.01,$/;"	v
+lr	examples/run_learn_to_reweight.py	/^    lr=0.01,$/;"	v
+lr	examples/run_meta_weight_net.py	/^    lr=0.01,$/;"	v
+lr	examples/run_seq_task_with_cls_label_model.py	/^    lr=0.01,$/;"	v
+lr	examples/run_torch_ddp.py	/^        lr=0.01,$/;"	v
+lr	examples/run_two_stage_pipeline_cls.py	/^    lr=0.01,$/;"	v
+lr	examples/run_two_stage_pipeline_seq.py	/^    lr=1e-2,$/;"	v
+lr	examples/run_two_stage_pipeline_seq.py	/^    lr=2e-5,$/;"	v
+lr_scheduler	examples/run_astra.py	/^    lr_scheduler='default'$/;"	v
+lr_scheduler	examples/run_meanteacher.py	/^    lr_scheduler='default'$/;"	v
+lw	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        lw = 3 if enlarge else 1$/;"	v
+lw	plot_bf_error_breakdown.py	/^        lw = 3 if enlarge else 1$/;"	v
+m	wrench/labelmodel/epoxy.py	/^    m = L_mat.shape[1]$/;"	v
+m_name	examples/run_ars2.py	/^        m_name = '_roberta'$/;"	v
+marginals	wrench/labelmodel/generative_model_src.py	/^    def marginals(self, L, candidate_ranges=None, batch_size=None):$/;"	m	class:SrcGenerativeModel
+mat_abstains	wrench/labelmodel/epoxy.py	/^    mat_abstains = [$/;"	v
+max_dist	wrench/labelmodel/epoxy.py	/^            max_dist = [$/;"	v
+max_dist_l	wrench/labelmodel/epoxy.py	/^        max_dist_l = []$/;"	v
+mdic	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^            mdic = sio.loadmat(wmrc_fn_full)$/;"	v
+mdic	fill_dataset_abstentions.py	/^        mdic = sio.loadmat(dataset_path)$/;"	v
+mdic	loss_t_test.py	/^                mdic = sio.loadmat(method_fn_full)$/;"	v
+mdic	loss_t_test.py	/^            mdic = sio.loadmat(wmrc_oracle_fn_full)$/;"	v
+mdic	plot_bf_error_breakdown.py	/^            mdic = sio.loadmat(wmrc_fn_full)$/;"	v
+mdic	plot_bf_synthetic_consistency.py	/^            mdic = sio.loadmat(res_path)$/;"	v
+mdl_loss	loss_t_test.py	/^                mdl_loss = np.repeat(mdic[loss], 10)$/;"	v
+mdl_losses	loss_t_test.py	/^                mdl_losses = swap_eles(mdl_losses, [2, 3, 4], [4, 2, 3])$/;"	v
+mdl_losses	loss_t_test.py	/^                mdl_losses = swap_eles(mdl_losses, [], [])$/;"	v
+mdl_losses	loss_t_test.py	/^            mdl_losses = []$/;"	v
+mean_mdl_losses	loss_t_test.py	/^            mean_mdl_losses = []$/;"	v
+metadata	wrench/seq_labelmodel/chmm_src/Src/Args.py	/^        metadata={"help": "The output folder where the model predictions and checkpoints will be written."},$/;"	v	class:CHMMArguments
+metadata	wrench/seq_labelmodel/chmm_src/Src/Args.py	/^        metadata={"help": "the directory of the log file. Set to '' to disable logging"}$/;"	v	class:CHMMArguments
+meter	examples/run_ars2.py	/^        meter = AverageMeter(names=METRIC.keys())$/;"	v
+method_fn	loss_t_test.py	/^                    method_fn = 'WMRC_' + dataset + wmrc_fn_ends[wmrc_ind]$/;"	v
+method_fn	loss_t_test.py	/^                    method_fn = method + '_' + dataset + '.mat'$/;"	v
+method_fn	loss_t_test.py	/^                method_fn = method + '_' + dataset + '.mat'$/;"	v
+method_fn	loss_t_test.py	/^            method_fn = 'WMRC_' + dataset + '_accuracy_semisup_trainlabels_eqconst.mat'$/;"	v
+method_fn_full	loss_t_test.py	/^                method_fn_full = os.path.join(method_result_path, method_fn)$/;"	v
+method_result_path	loss_t_test.py	/^                    method_result_path = os.path.join(dataset_result_path, method + '\/one_coin\/')$/;"	v
+method_result_path	loss_t_test.py	/^                    method_result_path = os.path.join(dataset_result_path, method)$/;"	v
+method_result_path	loss_t_test.py	/^                    method_result_path = os.path.join(dataset_result_path, wmrc_folder[wmrc_ind])$/;"	v
+method_result_path	loss_t_test.py	/^            method_result_path = os.path.join(dataset_result_path, wmrc_folder[0])$/;"	v
+method_result_path	run_amcl_cc.py	/^        method_result_path = os.path.join(dataset_result_path, 'AMCL_CC')$/;"	v
+method_result_path	run_bf_synthetic_consistency.py	/^        method_result_path = os.path.join(dataset_result_path, 'WMRC')$/;"	v
+method_result_path	run_ds.py	/^        method_result_path = os.path.join(dataset_result_path, 'DawidSkene')$/;"	v
+method_result_path	run_ebcc.py	/^        method_result_path = os.path.join(dataset_result_path, 'EBCC')$/;"	v
+method_result_path	run_hyperlm.py	/^        method_result_path = os.path.join(dataset_result_path, 'HyperLM')$/;"	v
+method_result_path	run_mv.py	/^        method_result_path = os.path.join(dataset_result_path, 'MV')$/;"	v
+method_result_path	run_snorkel.py	/^        method_result_path = os.path.join(dataset_result_path, 'Snorkel')$/;"	v
+method_result_path	run_wmrc.py	/^        method_result_path = os.path.join(dataset_result_path, 'WMRC')$/;"	v
+metric	examples/grid_search.py	/^        metric='acc',$/;"	v
+metric	examples/run_ars2.py	/^                metric='f1_macro',$/;"	v
+metric	examples/run_astra.py	/^    metric='f1_macro',$/;"	v
+metric	examples/run_denoise.py	/^    metric='acc',$/;"	v
+metric	examples/run_ebcc_fable.py	/^metric = 'f1_binary'$/;"	v
+metric	examples/run_explainer.py	/^    metric='acc',$/;"	v
+metric	examples/run_implyloss.py	/^    metric='f1_macro',$/;"	v
+metric	examples/run_learn_to_reweight.py	/^    metric='acc',$/;"	v
+metric	examples/run_meanteacher.py	/^    metric='f1_macro',$/;"	v
+metric	examples/run_meta_weight_net.py	/^    metric='acc',$/;"	v
+metric	examples/run_torch_ddp.py	/^        metric='acc',$/;"	v
+metric	examples/run_two_stage_pipeline_cls.py	/^    metric='acc',$/;"	v
+metric	examples/run_two_stage_pipeline_seq.py	/^    metric='f1_seq',$/;"	v
+metric	examples/run_weasel.py	/^    metric='f1_binary',$/;"	v
+metric_to_direction	wrench/evaluation.py	/^def metric_to_direction(metric: str) -> str:$/;"	f
+metrics	examples/run_ars2.py	/^            metrics = {metric: metric_fn(test_data.labels, proba_y) for metric, metric_fn in METRIC.items()}$/;"	v
+metrics	examples/run_ars2.py	/^        metrics = meter.get_results()$/;"	v
+min_dist	wrench/labelmodel/epoxy.py	/^            min_dist = [$/;"	v
+min_dist_l	wrench/labelmodel/epoxy.py	/^        min_dist_l = []$/;"	v
+mirror_ytick_positions	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        mirror_ytick_positions = [oracle_logloss[0,0], ds_log_loss_oracle[0,0]]$/;"	v
+mirror_ytick_positions	plot_bf_error_breakdown.py	/^        mirror_ytick_positions = [oracle_logloss[0,0], ds_log_loss_oracle[0,0]]$/;"	v
+mod_result_path	run_ds.py	/^            mod_result_path = os.path.join(method_result_path, ds_model)$/;"	v
+mode	examples/run_explainer.py	/^mode = 'RW'  # or 'WM' or 'normal'$/;"	v
+model	examples/grid_search.py	/^    model = EndClassifierModel($/;"	v
+model	examples/run_ars2.py	/^            model = ARS2($/;"	v
+model	examples/run_astra.py	/^model = Astra($/;"	v
+model	examples/run_denoise.py	/^model = Denoise($/;"	v
+model	examples/run_explainer.py	/^model = EndClassifierModel($/;"	v
+model	examples/run_implyloss.py	/^model = ImplyLoss($/;"	v
+model	examples/run_learn_to_reweight.py	/^model = LearningToReweight($/;"	v
+model	examples/run_meanteacher.py	/^model = MeanTeacher($/;"	v
+model	examples/run_meta_weight_net.py	/^model = MetaWeightNet($/;"	v
+model	examples/run_torch_ddp.py	/^    model = EndClassifierModel($/;"	v
+model	examples/run_two_stage_pipeline_cls.py	/^model = EndClassifierModel($/;"	v
+model	examples/run_two_stage_pipeline_seq.py	/^model = BERTTaggerModel($/;"	v
+model	examples/run_two_stage_pipeline_seq.py	/^model = LSTMTaggerModel($/;"	v
+model	examples/run_weasel.py	/^model = WeaSEL($/;"	v
+model_name	examples/grid_search.py	/^        model_name='bert-base-cased',$/;"	v
+model_name	examples/run_denoise.py	/^    model_name=bert_model_name,$/;"	v
+model_name	examples/run_ebcc_fable.py	/^    model_name='roberta-base',  # roberta-base, roberta; bert-base-uncased, bert$/;"	v
+model_name	examples/run_ibcc_ebcc.py	/^    model_name='bert-base-cased',$/;"	v
+model_name	examples/run_learn_to_reweight.py	/^    model_name='bert-base-cased',$/;"	v
+model_name	examples/run_meta_weight_net.py	/^    model_name='bert-base-cased',$/;"	v
+model_name	examples/run_torch_ddp.py	/^        model_name='bert-base-cased',$/;"	v
+model_name	examples/run_two_stage_pipeline_cls.py	/^    model_name='bert-base-cased',$/;"	v
+model_name	examples/run_weasel.py	/^    model_name=bert_model_name,$/;"	v
+model_type	run_ds.py	/^                    model_type=ds_model$/;"	v
+model_un_offset	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^            model_un_offset = matplotlib.transforms.ScaledTranslation(0, dy_mu, fig.dpi_scale_trans)$/;"	v
+model_un_offset	plot_bf_error_breakdown.py	/^            model_un_offset = matplotlib.transforms.ScaledTranslation(0, dy_mu, fig.dpi_scale_trans)$/;"	v
+modified_soft_labels	examples/run_explainer.py	/^modified_soft_labels = modify_training_labels(aggregated_soft_labels, L, approx_w, IF_score, alpha, sample_method='weight', normal_if=False, act_func='identity')$/;"	v
+modify_training_labels	wrench/explainer/influence_function.py	/^def modify_training_labels(Y_hat, L, w, if_score, sample_ratio, sample_method='weight', normal_if=False, act_func='identity', normalize=False):$/;"	f
+multi_brier	run_amcl_cc.py	/^def multi_brier(labels, pred_probs):$/;"	f
+multi_brier	run_bf_synthetic_consistency.py	/^def multi_brier(labels, pred_probs):$/;"	f
+multi_brier	run_ds.py	/^def multi_brier(labels, pred_probs):$/;"	f
+multi_brier	run_ebcc.py	/^def multi_brier(labels, pred_probs):$/;"	f
+multi_brier	run_hyperlm.py	/^def multi_brier(labels, pred_probs):$/;"	f
+multi_brier	run_mv.py	/^def multi_brier(labels, pred_probs):$/;"	f
+multi_brier	run_snorkel.py	/^def multi_brier(labels, pred_probs):$/;"	f
+multi_brier	run_wmrc.py	/^def multi_brier(labels, pred_probs):$/;"	f
+multinomial_argmax	generate_DS_synthetic.py	/^def multinomial_argmax(dist):$/;"	f
+multiple_init_vecs	wrench/labelmodel/fable.py	/^    multiple_init_vecs = False$/;"	v
+n_class	run_bf_synthetic_consistency.py	/^        n_class = 2$/;"	v
+n_epochs	examples/run_ars2.py	/^            n_epochs=10$/;"	v
+n_epochs	examples/run_explainer.py	/^    n_epochs=10$/;"	v
+n_epochs	examples/run_learn_to_reweight.py	/^    n_epochs=10$/;"	v
+n_epochs	examples/run_meta_weight_net.py	/^    n_epochs=10$/;"	v
+n_epochs	examples/run_seq_task_with_cls_label_model.py	/^    n_epochs=10$/;"	v
+n_epochs	examples/run_torch_ddp.py	/^        n_epochs=10$/;"	v
+n_epochs	examples/run_two_stage_pipeline_cls.py	/^    n_epochs=10$/;"	v
+n_epochs	examples/run_two_stage_pipeline_seq.py	/^    n_epochs=10$/;"	v
+n_iter	examples/run_astra.py	/^    n_iter=25,$/;"	v
+n_labeled_cts	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^            n_labeled_cts = [100, 103, 107, 110, 113, 117, 120]$/;"	v
+n_labeled_cts	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^            n_labeled_cts = [100, 113, 125, 137, 150, 161, 172]$/;"	v
+n_labeled_cts	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^            n_labeled_cts = [100, 121, 142, 163, 184, 206, 227]$/;"	v
+n_labeled_cts	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^            n_labeled_cts = [100, 150, 200, 250, 300]$/;"	v
+n_labeled_cts	plot_bf_error_breakdown.py	/^            n_labeled_cts = [100, 103, 107, 110, 113, 117, 120]$/;"	v
+n_labeled_cts	plot_bf_error_breakdown.py	/^            n_labeled_cts = [100, 113, 125, 137, 150, 161, 172]$/;"	v
+n_labeled_cts	plot_bf_error_breakdown.py	/^            n_labeled_cts = [100, 121, 142, 163, 184, 206, 227]$/;"	v
+n_labeled_cts	plot_bf_error_breakdown.py	/^            n_labeled_cts = [100, 150, 200, 250, 300]$/;"	v
+n_methods	loss_t_test.py	/^    n_methods = len(rand_methods) + len(det_methods)$/;"	v
+n_pts	plot_bf_synthetic_consistency.py	/^    n_pts = [100, 1000, 10000, 100000]$/;"	v
+n_pts	run_bf_synthetic_consistency.py	/^    n_pts = [100, 1000, 10000, 100000]$/;"	v
+n_repeats	examples/grid_search.py	/^        n_repeats=n_repeats,$/;"	v
+n_repeats	examples/grid_search.py	/^    n_repeats = 3$/;"	v
+n_src	wrench/seq_labelmodel/chmm_src/Src/Args.py	/^    def n_src(self) -> "int":$/;"	m	class:CHMMConfig
+n_steps	examples/grid_search.py	/^        n_steps=10000,$/;"	v
+n_steps	examples/run_astra.py	/^    n_steps=10000,$/;"	v
+n_steps	examples/run_denoise.py	/^    n_steps=10000,$/;"	v
+n_steps	examples/run_explainer.py	/^    n_steps=10000,$/;"	v
+n_steps	examples/run_implyloss.py	/^    n_steps=10000,$/;"	v
+n_steps	examples/run_learn_to_reweight.py	/^    n_steps=100000,$/;"	v
+n_steps	examples/run_meanteacher.py	/^    n_steps=10000,$/;"	v
+n_steps	examples/run_meta_weight_net.py	/^    n_steps=10000,$/;"	v
+n_steps	examples/run_torch_ddp.py	/^        n_steps=1000,$/;"	v
+n_steps	examples/run_two_stage_pipeline_cls.py	/^    n_steps=1000,$/;"	v
+n_steps	examples/run_two_stage_pipeline_cls.py	/^    n_steps=10000,$/;"	v
+n_steps	examples/run_two_stage_pipeline_seq.py	/^    n_steps=10000,$/;"	v
+n_steps	examples/run_weasel.py	/^    n_steps=100000,$/;"	v
+n_synth	plot_bf_synthetic_consistency.py	/^    n_synth = 10$/;"	v
+n_synth	run_bf_synthetic_consistency.py	/^    n_synth = 10$/;"	v
+n_synth	run_wmrc.py	/^        n_synth = 10$/;"	v
+n_trials	examples/grid_search.py	/^        n_trials=n_trials,$/;"	v
+n_trials	examples/grid_search.py	/^    n_trials = 100$/;"	v
+name	loss_t_test.py	/^                name = swap_eles(name, [2, 3, 4], [4, 2, 3])$/;"	v
+name	loss_t_test.py	/^                name = swap_eles(name, [4, 1, 3, 2], [1, 3, 2, 4])$/;"	v
+name	loss_t_test.py	/^            name = []$/;"	v
+name	setup.py	/^    name="ws-benchmark",$/;"	v
+neg_log_likelihood_loss	wrench/backbone.py	/^    def neg_log_likelihood_loss(self, feats, mask, tags, idx=None, attn_weight=None):$/;"	m	class:MultiCRF
+neg_log_likelihood_loss	wrench/backbone.py	/^    def neg_log_likelihood_loss(self, feats, mask, tags, transitions=None):$/;"	m	class:CRF
+new	wrench/labelmodel/epoxy.py	/^            new = [$/;"	v
+new_l	wrench/labelmodel/epoxy.py	/^    new_l = []$/;"	v
+normalize	examples/run_ebcc_fable.py	/^    normalize=True,$/;"	v
+normalize	wrench/seq_labelmodel/chmm_src/Src/Utils.py	/^def normalize(x, dim=-1, epsilon=1e-6):$/;"	f
+num_classifier_per_dataset	loss_t_test.py	/^        num_classifier_per_dataset = np.zeros(len(datasets))$/;"	v
+num_correct	examples/run_ebcc_fable.py	/^num_correct = 1000$/;"	v
+num_group	examples/run_ebcc_fable.py	/^num_group = 3$/;"	v
+num_groups	examples/run_ebcc_fable.py	/^    num_groups=num_group,$/;"	v
+num_groups	examples/run_ibcc_ebcc.py	/^    num_groups=5,$/;"	v
+num_init_vecs	wrench/labelmodel/fable.py	/^        num_init_vecs = init_vecs.size(-1)$/;"	v
+num_iter	wrench/labelmodel/fable.py	/^    num_iter = k + 1$/;"	v
+num_iter	wrench/labelmodel/fable.py	/^    num_iter = min(max_iter, matrix_shape[-1])$/;"	v
+num_lf	fill_dataset_abstentions.py	/^        num_lf = tp.shape[1]$/;"	v
+num_of_layers	wrench/explainer/explainer.py	/^    def num_of_layers(self):$/;"	m	class:AbstractModel
+num_pts	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        num_pts = len(n_labeled_cts)$/;"	v
+num_pts	plot_bf_error_breakdown.py	/^        num_pts = len(n_labeled_cts)$/;"	v
+num_tpts	fill_dataset_abstentions.py	/^        num_tpts = tp.shape[0]$/;"	v
+num_vpts	fill_dataset_abstentions.py	/^        num_vpts = vp.shape[0]$/;"	v
+numeric_datasets	wrench/dataset/__init__.py	/^numeric_datasets = ['census', 'mushroom', 'spambase', 'PhishingWebsites', 'Bioresponse', 'bank-marketing', 'basketball', 'tennis', 'commercial']$/;"	v
+objective	wrench/search.py	/^        def objective(trial: Trial):$/;"	f	function:grid_search
+obs	wrench/seq_labelmodel/chmm.py	/^    def obs(self):$/;"	m	class:CHMMTorchSeqDataset
+obs_dic	write_wmrc_settings.py	/^    obs_dic = {$/;"	v
+obs_dics	write_wmrc_settings.py	/^    obs_dics = [dict(gen_dic, **obs_dic) for gen_dic in dics_to_use]$/;"	v
+one_feature_one_lf_generate	wrench/synthetic/lf_generator.py	/^    def one_feature_one_lf_generate(self, n_lfs: Union[int, List[int]] = 10) -> FeatureLFApplier:$/;"	m	class:FeatureLFGenerator
+one_hot	wrench/seq_labelmodel/chmm.py	/^def one_hot(x, n_class=None):$/;"	f
+optimal_param_path	examples/run_ars2.py	/^    optimal_param_path = f'{args.path_to_root}\/{args.optimal_params_path}'$/;"	v
+optimized_param	examples/run_ars2.py	/^            optimized_param = json.load(load_f)$/;"	v
+optimizer	examples/grid_search.py	/^        optimizer='Adam',$/;"	v
+optimizer	examples/run_astra.py	/^    optimizer='default',$/;"	v
+optimizer	examples/run_denoise.py	/^    optimizer='AdamW',$/;"	v
+optimizer	examples/run_explainer.py	/^    optimizer='Adam',$/;"	v
+optimizer	examples/run_implyloss.py	/^    optimizer='SGD',$/;"	v
+optimizer	examples/run_learn_to_reweight.py	/^    optimizer='SGD',$/;"	v
+optimizer	examples/run_meanteacher.py	/^    optimizer='default',$/;"	v
+optimizer	examples/run_meta_weight_net.py	/^    optimizer='SGD',$/;"	v
+optimizer	examples/run_torch_ddp.py	/^        optimizer='AdamW',$/;"	v
+optimizer	examples/run_two_stage_pipeline_cls.py	/^    optimizer='Adam',$/;"	v
+optimizer	examples/run_two_stage_pipeline_cls.py	/^    optimizer='AdamW',$/;"	v
+optimizer	examples/run_weasel.py	/^    optimizer='default',$/;"	v
+optimizer_lr	examples/run_astra.py	/^    optimizer_lr=1e-3,$/;"	v
+optimizer_lr	examples/run_denoise.py	/^    optimizer_lr=5e-5,$/;"	v
+optimizer_lr	examples/run_explainer.py	/^    optimizer_lr=1e-2,$/;"	v
+optimizer_lr	examples/run_implyloss.py	/^    optimizer_lr=1e-1,$/;"	v
+optimizer_lr	examples/run_learn_to_reweight.py	/^    optimizer_lr=1e-1,$/;"	v
+optimizer_lr	examples/run_meanteacher.py	/^    optimizer_lr=1e-3,$/;"	v
+optimizer_lr	examples/run_meta_weight_net.py	/^    optimizer_lr=1e-1,$/;"	v
+optimizer_lr	examples/run_torch_ddp.py	/^        optimizer_lr=5e-5,$/;"	v
+optimizer_lr	examples/run_two_stage_pipeline_cls.py	/^    optimizer_lr=1e-2,$/;"	v
+optimizer_lr	examples/run_two_stage_pipeline_cls.py	/^    optimizer_lr=5e-5,$/;"	v
+optimizer_lr	examples/run_weasel.py	/^    optimizer_lr=0.001,$/;"	v
+optimizer_momentum	examples/run_learn_to_reweight.py	/^    optimizer_momentum=0.9,$/;"	v
+optimizer_weight_decay	examples/run_astra.py	/^    optimizer_weight_decay=5e-4,$/;"	v
+optimizer_weight_decay	examples/run_denoise.py	/^    optimizer_weight_decay=0.0,$/;"	v
+optimizer_weight_decay	examples/run_explainer.py	/^    optimizer_weight_decay=0.0,$/;"	v
+optimizer_weight_decay	examples/run_implyloss.py	/^    optimizer_weight_decay=5e-4,$/;"	v
+optimizer_weight_decay	examples/run_meanteacher.py	/^    optimizer_weight_decay=5e-4,$/;"	v
+optimizer_weight_decay	examples/run_meta_weight_net.py	/^    optimizer_weight_decay=5e-4,$/;"	v
+optimizer_weight_decay	examples/run_torch_ddp.py	/^        optimizer_weight_decay=0.0,$/;"	v
+optimizer_weight_decay	examples/run_two_stage_pipeline_cls.py	/^    optimizer_weight_decay=0.0,$/;"	v
+optimizer_weight_decay	examples/run_weasel.py	/^    optimizer_weight_decay=0.0,$/;"	v
+optional_names	wrench/labelmodel/generative_model_src.py	/^    optional_names = ('lf_prior', 'lf_propensity', 'lf_class_propensity')$/;"	v	class:SrcGenerativeModel
+oracle_kwargs	write_wmrc_settings.py	/^    oracle_kwargs = {$/;"	v
+oracle_logloss	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        oracle_logloss = oracle_mdic['log_loss_train']$/;"	v
+oracle_logloss	plot_bf_error_breakdown.py	/^        oracle_logloss = oracle_mdic['log_loss_train']$/;"	v
+oracle_logloss_vec	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        oracle_logloss_vec = np.ones(num_pts) * oracle_logloss$/;"	v
+oracle_logloss_vec	plot_bf_error_breakdown.py	/^        oracle_logloss_vec = np.ones(num_pts) * oracle_logloss$/;"	v
+oracle_mdic	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        oracle_mdic = sio.loadmat(oracle_wmrc_full)$/;"	v
+oracle_mdic	plot_bf_error_breakdown.py	/^        oracle_mdic = sio.loadmat(oracle_wmrc_full)$/;"	v
+oracle_result_fn	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^                '_eqconst.mat'$/;"	v
+oracle_result_fn	plot_bf_error_breakdown.py	/^                '_eqconst.mat'$/;"	v
+oracle_wmrc_full	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^                    oracle_result_fn)$/;"	v
+oracle_wmrc_full	plot_bf_error_breakdown.py	/^                    oracle_result_fn)$/;"	v
+outer	wrench/search.py	/^    def outer(fn):$/;"	f	function:exit_after
+outer_patience	examples/run_astra.py	/^    outer_patience=3,$/;"	v
+outter_prod_inverse	wrench/explainer/influence_function.py	/^    def outter_prod_inverse(self, input_vec):$/;"	m	class:IF
+overlap	wrench/synthetic/lf_generator.py	/^    def overlap(self, other):$/;"	m	class:Expression
+p_val	loss_t_test.py	/^                    p_val = 100$/;"	v
+packages	setup.py	/^    packages=find_packages(exclude=("test*",)),$/;"	v
+parallel	examples/grid_search.py	/^        parallel=True,$/;"	v
+parallel_fit	wrench/basemodel.py	/^    def parallel_fit(self, world_size, *args, **kwargs):$/;"	m	class:BaseTorchModel
+parallel_fit_	wrench/basemodel.py	/^def parallel_fit_(world_size, model, rank, *args, **kwargs):$/;"	f
+parallel_objective	wrench/search.py	/^        def parallel_objective(trial: Trial):$/;"	f	function:grid_search
+parser	examples/run_ars2.py	/^    parser = argparse.ArgumentParser()$/;"	v
+patience	examples/grid_search.py	/^        patience=100,$/;"	v
+patience	examples/run_ars2.py	/^                patience=40,$/;"	v
+patience	examples/run_astra.py	/^    patience=20,$/;"	v
+patience	examples/run_denoise.py	/^    patience=100,$/;"	v
+patience	examples/run_explainer.py	/^    patience=100,$/;"	v
+patience	examples/run_implyloss.py	/^    patience=100,$/;"	v
+patience	examples/run_learn_to_reweight.py	/^    patience=1000,$/;"	v
+patience	examples/run_meanteacher.py	/^    patience=100,$/;"	v
+patience	examples/run_meta_weight_net.py	/^    patience=100,$/;"	v
+patience	examples/run_torch_ddp.py	/^        patience=50,$/;"	v
+patience	examples/run_two_stage_pipeline_cls.py	/^    patience=100,$/;"	v
+patience	examples/run_two_stage_pipeline_cls.py	/^    patience=50,$/;"	v
+patience	examples/run_two_stage_pipeline_seq.py	/^    patience=100,$/;"	v
+patience	examples/run_weasel.py	/^    patience=200,$/;"	v
+pct_dist	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        pct_dist = (mirror_ytick_positions[1] - mirror_ytick_positions[0]) \/ (ylims[1] - ylims[0])$/;"	v
+pct_dist	plot_bf_error_breakdown.py	/^        pct_dist = (mirror_ytick_positions[1] - mirror_ytick_positions[0]) \/ (ylims[1] - ylims[0])$/;"	v
+plot_confidence_intervals	run_ebcc.py	/^def plot_confidence_intervals(file_name, dataset_name, ci_diffs, num_samples,$/;"	f
+plot_confidence_intervals	run_wmrc.py	/^def plot_confidence_intervals(file_name, set_name, n_classes,$/;"	f
+plot_fn	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^                    'WMRC_' + dataset + '_approx_uncert_acc_no_ds' + suffix + '.pdf')$/;"	v
+plot_fn	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^                    'WMRC_' + dataset + '_approx_uncert_acc_one_coin' + suffix + '.pdf')$/;"	v
+plot_fn	plot_bf_error_breakdown.py	/^                    'WMRC_' + dataset + '_approx_uncert_acc_no_ds' + suffix + '.pdf')$/;"	v
+plot_fn	plot_bf_error_breakdown.py	/^                    'WMRC_' + dataset + '_approx_uncert_acc_one_coin' + suffix + '.pdf')$/;"	v
+plot_fn	plot_bf_synthetic_consistency.py	/^    plot_fn = os.path.join(results_folder_path, 'WMRC_kl_from_ds' + suffix + '.pdf')$/;"	v
+precision_score_	wrench/evaluation.py	/^def precision_score_(y_true: np.ndarray, y_proba: np.ndarray, average: str, **kwargs):$/;"	f
+precision_seq	wrench/evaluation.py	/^def precision_seq(y_true: List[List], y_pred: List[List], id2label: dict, strict=True):$/;"	f
+predict	wrench/basemodel.py	/^    def predict(self, dataset, **kwargs: Any):$/;"	m	class:BaseModel
+predict	wrench/basemodel.py	/^    def predict(self, dataset: BaseSeqDataset, **kwargs: Any) -> List[List]:$/;"	m	class:BaseSeqModel
+predict	wrench/basemodel.py	/^    def predict(self, dataset: Union[BaseDataset, np.ndarray], **kwargs: Any) -> np.ndarray:$/;"	m	class:BaseClassModel
+predict	wrench/basemodel.py	/^    def predict(self, dataset: Union[BaseSeqDataset, DataLoader], device: Optional[torch.device] = None, **kwargs: Any):$/;"	m	class:BaseTorchSeqModel
+predict	wrench/seq_labelmodel/chmm.py	/^    def predict(self, dataset: BaseSeqDataset, batch_size=128, **kwargs: Any):$/;"	m	class:CHMM
+predict	wrench/seq_labelmodel/hmm.py	/^    def predict(self, dataset: BaseSeqDataset, **kwargs: Any):$/;"	m	class:HMM
+predict	wrench/seq_labelmodel/seq_wrapper.py	/^    def predict(self, dataset: BaseSeqDataset, weight: Optional[np.ndarray] = None,$/;"	m	class:SeqLabelModelWrapper
+predict_proba	wrench/basemodel.py	/^    def predict_proba(self, dataset: Union[BaseDataset, DataLoader], device: Optional[torch.device] = None, **kwargs: Any):$/;"	m	class:BaseTorchClassModel
+predict_proba	wrench/basemodel.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], **kwargs: Any) -> np.ndarray:$/;"	m	class:BaseClassModel
+predict_proba	wrench/classification/astra.py	/^    def predict_proba(self, dataset: Union[BaseDataset, DataLoader], mode: Optional[str] = 'student',$/;"	m	class:Astra
+predict_proba	wrench/classification/denoise.py	/^    def predict_proba(self, dataset: Union[BaseDataset, DataLoader], mode: Optional[str] = 'feature',$/;"	m	class:Denoise
+predict_proba	wrench/classification/implyloss.py	/^    def predict_proba(self, dataset: Union[BaseDataset, DataLoader], mode: Optional[str] = 'implyloss',$/;"	m	class:ImplyLoss
+predict_proba	wrench/labelmodel/amcl_cc.py	/^    def predict_proba(self,$/;"	m	class:AMCL_CC
+predict_proba	wrench/labelmodel/dawid_skene.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], oracle=False, **kwargs: Any) -> np.ndarray:$/;"	m	class:DawidSkene
+predict_proba	wrench/labelmodel/ebcc.py	/^    def predict_proba(self,$/;"	m	class:EBCC
+predict_proba	wrench/labelmodel/fable.py	/^    def predict_proba(self,$/;"	m	class:Fable
+predict_proba	wrench/labelmodel/flyingsquid.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], **kwargs: Any) -> np.ndarray:$/;"	m	class:FlyingSquid
+predict_proba	wrench/labelmodel/generative_model.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], **kwargs: Any) -> np.ndarray:$/;"	m	class:GenerativeModel
+predict_proba	wrench/labelmodel/generative_model_src.py	/^    def predict_proba(self, X, batch_size=None):$/;"	m	class:SrcGenerativeModel
+predict_proba	wrench/labelmodel/gold.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], weight: Optional[np.ndarray] = None,$/;"	m	class:GoldCondProb
+predict_proba	wrench/labelmodel/hyper_label_model.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], weak: Optional[int] = None, n_weaks: Optional[int] = None, random_guess: Optional[int] = None, seed: Optional[int] = None,$/;"	m	class:HyperLM
+predict_proba	wrench/labelmodel/ibcc.py	/^    def predict_proba(self,$/;"	m	class:IBCC
+predict_proba	wrench/labelmodel/majority_voting.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], **kwargs: Any) -> np.ndarray:$/;"	m	class:MajorityWeightedVoting
+predict_proba	wrench/labelmodel/majority_voting.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], weight: Optional[np.ndarray] = None, weak: Optional[int] = None, n_weaks: Optional[int] = None, random_guess: Optional[int] = None, seed: Optional[int] = None,$/;"	m	class:MajorityVoting
+predict_proba	wrench/labelmodel/metal.py	/^    def predict_proba(self, L):$/;"	m	class:LabelModel
+predict_proba	wrench/labelmodel/metal.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], **kwargs: Any) -> np.ndarray:$/;"	m	class:MeTaL
+predict_proba	wrench/labelmodel/naive_bayes.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], **kwargs: Any) -> np.ndarray:$/;"	m	class:NaiveBayesModel
+predict_proba	wrench/labelmodel/snorkel.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], weak: Optional[int] = None, n_weaks: Optional[int] = None, random_guess: Optional[int] = None, seed: Optional[int] = None, **kwargs: Any) -> np.ndarray:$/;"	m	class:Snorkel
+predict_proba	wrench/labelmodel/weapo.py	/^    def predict_proba(self, dataset: Union[BaseDataset, np.ndarray], **kwargs: Any) -> np.ndarray:$/;"	m	class:Weapo
+predict_proba	wrench/labelmodel/wmrc.py	/^    def predict_proba(self,$/;"	m	class:WMRC
+predict_proba	wrench/semisupervisedlearning/meanteacher.py	/^    def predict_proba(self, *args: Any, **kwargs: Any):$/;"	m	class:MeanTeacher
+predictions	wrench/labelmodel/generative_model_src.py	/^    def predictions(self, X, b=0.5, batch_size=None):$/;"	m	class:SrcGenerativeModel
+prefix	write_wmrc_settings.py	/^    prefix= '.\/datasets'$/;"	v
+prepare_doc	wrench/seq_labelmodel/hmm.py	/^    def prepare_doc(self, corpus, weak_labels):$/;"	m	class:HMM
+prepare_labels	wrench/seq_endmodel/bert_crf_model.py	/^    def prepare_labels(self, labels):$/;"	m	class:BERTTorchSeqDataset
+preprocess	wrench/labelmodel/epoxy.py	/^    def preprocess($/;"	m	class:Epoxy
+preprocess_lfs	wrench/labelmodel/epoxy.py	/^def preprocess_lfs($/;"	f
+pretrain_step	wrench/seq_labelmodel/chmm_src/CHMM/Train.py	/^    def pretrain_step(self, data_loader, optimizer, trans_, emiss_):$/;"	m	class:CHMMTrainer
+prior_cons	examples/run_weapo.py	/^    prior_cons=True,$/;"	v
+proba_y	examples/run_ars2.py	/^            proba_y = model.predict_proba(test_data)$/;"	v
+process_fn	wrench/labelmodel/weapo.py	/^def process_fn(i, L_i, exclude_all_abstain=True):$/;"	f
+process_label_matrix	wrench/labelmodel/generative_model.py	/^    def process_label_matrix(self, L_):$/;"	m	class:GenerativeModel
+project_to_simplex	wrench/labelmodel/amcl_cc.py	/^    def project_to_simplex(self, v):$/;"	m	class:AMCL_CC
+prop	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^                    prop = {'size': 15}$/;"	v
+prop	plot_bf_error_breakdown.py	/^                    prop = {'size': 15}$/;"	v
+ptr	examples/run_ars2.py	/^        ptr = '.\/'$/;"	v
+ptr	examples/run_ars2.py	/^        ptr = args.path_to_root$/;"	v
+pytorch_cosine_similarity	wrench/labelmodel/epoxy.py	/^def pytorch_cosine_similarity(a, b):$/;"	f
+pytorch_l2_distance	wrench/labelmodel/epoxy.py	/^def pytorch_l2_distance(a, b):$/;"	f
+q	examples/run_implyloss.py	/^    q=0.2,$/;"	v
+q_0_vec	wrench/labelmodel/fable.py	/^    q_0_vec = init_vecs \/ torch.norm(init_vecs, 2, dim=dim_dimension).unsqueeze(dim_dimension)$/;"	v
+q_curr_vec	wrench/labelmodel/fable.py	/^        q_curr_vec = q_mat[k]$/;"	v
+q_mat	wrench/labelmodel/fable.py	/^    q_mat = q_mat[:num_iter].permute(-1, *range(1, 1 + len(batch_shape)), -2, 0).contiguous()$/;"	v
+q_mat	wrench/labelmodel/fable.py	/^    q_mat = torch.zeros(num_iter, *batch_shape, matrix_shape[-1], num_init_vecs, dtype=dtype, device=device)$/;"	v
+q_prev_vec	wrench/labelmodel/fable.py	/^        q_prev_vec = q_mat[k - 1]$/;"	v
+quit_function	wrench/search.py	/^def quit_function(fn_name):$/;"	f
+r_vec	wrench/labelmodel/fable.py	/^        r_vec = matmul_closure(q_curr_vec) - q_prev_vec.mul(beta_prev)$/;"	v
+r_vec	wrench/labelmodel/fable.py	/^    r_vec = matmul_closure(q_0_vec)$/;"	v
+r_vec_norm	wrench/labelmodel/fable.py	/^                r_vec_norm = torch.norm(r_vec, 2, dim=dim_dimension, keepdim=True)$/;"	v
+r_vec_norm	wrench/labelmodel/fable.py	/^            r_vec_norm = torch.norm(r_vec, 2, dim=dim_dimension, keepdim=True)$/;"	v
+rand_methods	loss_t_test.py	/^        rand_methods = ['Snorkel', 'EBCC', 'AMCL_CC', 'BF']$/;"	v
+rand_methods	loss_t_test.py	/^        rand_methods = ['Snorkel']$/;"	v
+random_embedding	wrench/layers.py	/^def random_embedding(vocab_size, embedding_dim):$/;"	f
+random_generate	wrench/synthetic/lf_generator.py	/^    def random_generate(self, n_lfs: Union[int, List[int]] = 10, duplicated_lf=False) -> AbstractLFApplier:$/;"	m	class:AbstractLFGenerator
+ranking_parameter	examples/run_ars2.py	/^        ranking_parameter = {$/;"	v
+real_batch_size	examples/run_denoise.py	/^    real_batch_size=8,$/;"	v
+real_batch_size	examples/run_torch_ddp.py	/^        real_batch_size=32,  # for accumulative gradient update$/;"	v
+real_batch_size	examples/run_two_stage_pipeline_cls.py	/^    real_batch_size=16,  # for accumulative gradient update$/;"	v
+real_batch_size	examples/run_weasel.py	/^    real_batch_size=-1,$/;"	v
+recall_score_	wrench/evaluation.py	/^def recall_score_(y_true: np.ndarray, y_proba: np.ndarray, average: str, **kwargs):$/;"	f
+recall_seq	wrench/evaluation.py	/^def recall_seq(y_true: List[List], y_pred: List[List], id2label: dict, strict=True):$/;"	f
+register	wrench/semisupervisedlearning/meanteacher.py	/^    def register(self):$/;"	m	class:EMA
+register_label_model	wrench/explainer/explainer.py	/^    def register_label_model(self, w, activation_func='identity'):$/;"	m	class:Explainer
+relation_dataset	wrench/dataset/__init__.py	/^relation_dataset = ['cdr', 'spouse', 'chemprot', 'semeval']$/;"	v
+repeat	examples/run_ibcc_ebcc.py	/^    repeat=100,$/;"	v
+replot	run_ebcc.py	/^                replot=replot_figs,$/;"	v
+replot_figs	run_ebcc.py	/^    replot_figs = False$/;"	v
+replot_figs	run_wmrc.py	/^    replot_figs = False$/;"	v
+res	examples/run_ebcc_fable.py	/^    res = []$/;"	v
+res	plot_bf_synthetic_consistency.py	/^    res = np.zeros((n_synth, len(n_pts)))$/;"	v
+res_mdic	loss_t_test.py	/^    res_mdic = {}$/;"	v
+res_name	plot_bf_synthetic_consistency.py	/^            res_name = 'WMRC_' + fn_part(n_pt) + str(i) + fn_end$/;"	v
+res_norm	loss_t_test.py	/^                res_norm = np.linalg.norm(mdl_losses[best_mthd_ind] - mdl_losses[i])$/;"	v
+res_path	plot_bf_synthetic_consistency.py	/^            res_path = os.path.join(res_path, res_name)$/;"	v
+res_path	plot_bf_synthetic_consistency.py	/^            res_path = os.path.join(results_folder_path, $/;"	v
+reshape_when_not_none	run_wmrc.py	/^        def reshape_when_not_none(arr):$/;"	f	function:plot_confidence_intervals
+restore	wrench/semisupervisedlearning/meanteacher.py	/^    def restore(self):$/;"	m	class:EMA
+result_fn	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^                    str(n_labeled) + 'validlabels_ineqconst_binomial' + wmrc_fn_end$/;"	v
+result_fn	plot_bf_error_breakdown.py	/^                    str(n_labeled) + 'validlabels_ineqconst_binomial' + wmrc_fn_end$/;"	v
+results_folder_path	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^    results_folder_path = '.\/results'$/;"	v
+results_folder_path	loss_t_test.py	/^    results_folder_path = '.\/results'$/;"	v
+results_folder_path	plot_bf_error_breakdown.py	/^    results_folder_path = '.\/results'$/;"	v
+results_folder_path	plot_bf_synthetic_consistency.py	/^    results_folder_path = '.\/results\/synthetic_dawid_skene'$/;"	v
+results_folder_path	run_amcl_cc.py	/^    results_folder_path = '.\/results'$/;"	v
+results_folder_path	run_bf_synthetic_consistency.py	/^    results_folder_path = '.\/results\/synthetic_dawid_skene'$/;"	v
+results_folder_path	run_ds.py	/^    results_folder_path = '.\/results'$/;"	v
+results_folder_path	run_ebcc.py	/^    results_folder_path = '.\/results'$/;"	v
+results_folder_path	run_hyperlm.py	/^    results_folder_path = '.\/results'$/;"	v
+results_folder_path	run_mv.py	/^    results_folder_path = '.\/results'$/;"	v
+results_folder_path	run_snorkel.py	/^    results_folder_path = '.\/results'$/;"	v
+results_folder_path	run_wmrc.py	/^    results_folder_path = '.\/results'$/;"	v
+return_candidate_lfs	wrench/synthetic/lf_generator.py	/^    def return_candidate_lfs(self):$/;"	m	class:AbstractLFGenerator
+return_model_checkpoint	wrench/seq_labelmodel/chmm_src/CHMM/Train.py	/^    def return_model_checkpoint(self):$/;"	m	class:CHMMTrainer
+rule_embed_size	examples/run_astra.py	/^    rule_embed_size=100,$/;"	v
+run_amcl_cc	run_amcl_cc.py	/^def run_amcl_cc($/;"	f
+run_ds	run_ds.py	/^def run_ds($/;"	f
+run_ebcc	run_ebcc.py	/^def run_ebcc($/;"	f
+run_hyperlm	run_hyperlm.py	/^def run_hyperlm($/;"	f
+run_mv	run_mv.py	/^def run_mv($/;"	f
+run_snorkel	run_snorkel.py	/^def run_snorkel($/;"	f
+run_wmrc	run_wmrc.py	/^def run_wmrc($/;"	f
+run_wmrc_ds_comp	run_bf_synthetic_consistency.py	/^def run_wmrc_ds_comp($/;"	f
+sample	wrench/dataset/basedataset.py	/^    def sample(self, alpha: Union[int, float], return_dataset=True):$/;"	m	class:BaseDataset
+sample	wrench/synthetic/syntheticdataset.py	/^    def sample(self, alpha: Union[int, float]):$/;"	m	class:SyntheticDataset
+sample_batch	wrench/dataset/torchdataset.py	/^def sample_batch(loader):$/;"	f
+sample_other_label	wrench/synthetic/syntheticdataset.py	/^    def sample_other_label(self, label):$/;"	m	class:BaseSyntheticGenerator
+sample_q_no_z	run_ebcc.py	/^            def sample_q_no_z(nu, q_g, eta, mu, n_samples = 5000):$/;"	f	function:run_ebcc
+sampled_idx	examples/split_labeled_and_unlabeled_data.py	/^sampled_idx = train_data.sample(100, return_dataset=False)$/;"	v
+save	wrench/basemodel.py	/^    def save(self, destination: str) -> None:$/;"	m	class:BaseModel
+save	wrench/labelmodel/generative_model_src.py	/^    def save(self, model_name=None, save_dir='checkpoints', verbose=True):$/;"	m	class:SrcGenerativeModel
+save_bert_embed	wrench/dataset/seqdataset.py	/^    def save_bert_embed(self, save_path):$/;"	m	class:BaseSeqDataset
+save_embed_dict	wrench/dataset/seqdataset.py	/^    def save_embed_dict(self, save_word_dict_path: Optional[str] = None, save_char_dict_path: Optional[str] = None):$/;"	m	class:BaseSeqDataset
+save_features	wrench/dataset/basedataset.py	/^    def save_features(self, cache_name: Optional[str] = None):$/;"	m	class:BaseDataset
+save_model	wrench/seq_labelmodel/chmm_src/CHMM/Train.py	/^    def save_model(self, model_dir: Optional[str] = None):$/;"	m	class:CHMMTrainer
+save_path	run_amcl_cc.py	/^                save_path=method_result_path,$/;"	v
+save_path	run_bf_synthetic_consistency.py	/^                save_path=cons_result_path,$/;"	v
+save_path	run_ds.py	/^                    save_path=mod_result_path,$/;"	v
+save_path	run_ebcc.py	/^                save_path=method_result_path,$/;"	v
+save_path	run_hyperlm.py	/^                save_path=method_result_path,$/;"	v
+save_path	run_mv.py	/^                save_path=method_result_path,$/;"	v
+save_path	run_snorkel.py	/^                save_path=method_result_path,$/;"	v
+scale	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        scale = 2.5 if enlarge else 1$/;"	v
+scale	plot_bf_error_breakdown.py	/^        scale = 2.5 if enlarge else 1$/;"	v
+scale	wrench/labelmodel/fable.py	/^def scale(data):$/;"	f
+score_step	examples/run_ars2.py	/^                score_step=5,$/;"	v
+search_space	examples/grid_search.py	/^        search_space=search_space,$/;"	v
+search_space	examples/grid_search.py	/^    search_space = {$/;"	v
+searched_paras	examples/grid_search.py	/^    searched_paras = grid_search($/;"	v
+select_when_not_none	run_wmrc.py	/^        def select_when_not_none(label_sels):$/;"	f	function:plot_confidence_intervals
+semisup_kwargs	write_wmrc_settings.py	/^    semisup_kwargs = {$/;"	v
+sentence_transformer_extractor	wrench/dataset/utils.py	/^def sentence_transformer_extractor(data: List[Dict], model_name: Optional[str] = 'paraphrase-distilroberta-base-v1', **kwargs: Any):$/;"	f
+separate_batch_grad	wrench/explainer/explainer.py	/^    def separate_batch_grad(self, batch_grad_cache, params=None):$/;"	m	class:AbstractModel
+seq_dataset_list	wrench/dataset/__init__.py	/^seq_dataset_list = ['laptopreview', 'ontonotes', 'ncbi-disease', 'bc5cdr', 'mit-restaurants', 'mit-movies', 'wikigold', 'conll']$/;"	v
+set_amp_flag	wrench/__init__.py	/^def set_amp_flag(value: bool):$/;"	f
+set_class_prior	wrench/classification/weasel.py	/^    def set_class_prior(self, p):$/;"	m	class:Encoder
+set_num_workers	wrench/__init__.py	/^def set_num_workers(value: int):$/;"	f
+set_numba_seeds	wrench/labelmodel/generative_model_src.py	/^def set_numba_seeds(seed):$/;"	f
+set_pin_memory	wrench/__init__.py	/^def set_pin_memory(value: bool):$/;"	f
+set_seed	wrench/utils.py	/^def set_seed(seed):$/;"	f
+setup	wrench/basemodel.py	/^def setup(rank, world_size):$/;"	f
+single_process	wrench/search.py	/^def single_process(item, model, dataset_train, y_train, dataset_valid, y_valid, metric, direction, kwargs):$/;"	f
+single_process_with_seed	wrench/search.py	/^def single_process_with_seed(item, model, dataset_train, y_train, dataset_valid, y_valid, metric, direction, kwargs):$/;"	f
+single_process_with_y_train	wrench/search.py	/^def single_process_with_y_train(item, model, dataset_train, y_train, dataset_valid, y_valid, metric, direction, kwargs):$/;"	f
+sms_dic	write_wmrc_settings.py	/^    sms_dic = {$/;"	v
+sms_dics	write_wmrc_settings.py	/^    sms_dics = [dict(gen_dic, **sms_dic) for gen_dic in dics_to_use]$/;"	v
+soft_frequency	wrench/endmodel/cosine.py	/^def soft_frequency(logits, probs=False):$/;"	f
+solve_lp_given_cost2	wrench/labelmodel/amcl_cc.py	/^    def solve_lp_given_cost2(self, Y, constraints, cost, prob=None):$/;"	m	class:AMCL_CC
+sorted_inds	loss_t_test.py	/^            sorted_inds = np.argsort(mean_mdl_losses)$/;"	v
+sorted_loss	loss_t_test.py	/^            sorted_loss = np.sort(mean_mdl_losses)$/;"	v
+span_to_label	wrench/seq_labelmodel/chmm_src/Src/DataAssist.py	/^def span_to_label(tokens: List[str],$/;"	f
+split_conf_unconf	wrench/dataset/utils.py	/^def split_conf_unconf(dataset: BaseDataset, y: Optional[np.ndarray] = None, mode: Optional[str] = 'thres',$/;"	f
+split_conf_unconf_by_percentile	wrench/dataset/utils.py	/^def split_conf_unconf_by_percentile(dataset: BaseDataset, y: Optional[np.ndarray] = None, percentile: float = 0.2,$/;"	f
+split_labeled_unlabeled	wrench/dataset/utils.py	/^def split_labeled_unlabeled(dataset: BaseDataset, cut_tied: Optional[bool] = False) -> Tuple[BaseDataset, BaseDataset]:$/;"	f
+sub_gradient_method2	wrench/labelmodel/amcl_cc.py	/^    def sub_gradient_method2(self, X_unlabeled, Y, constraints, lf, h,$/;"	m	class:AMCL_CC
+suffix	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        suffix = '_enlarged' if enlarge else ''$/;"	v
+suffix	plot_bf_error_breakdown.py	/^        suffix = '_enlarged' if enlarge else ''$/;"	v
+suffix	plot_bf_synthetic_consistency.py	/^    suffix = '_enlarged' if enlarge else ''$/;"	v
+summary	wrench/dataset/basedataset.py	/^    def summary(self, n_clusters=10, features=None, return_lf_summary=False):$/;"	m	class:BaseDataset
+swap_eles	loss_t_test.py	/^def swap_eles(lst, start, end):$/;"	f
+synth_filename_part	run_bf_synthetic_consistency.py	/^    synth_filename_part = lambda x: 'synth_3p_' + str(x) + 'n_100nval__'$/;"	v
+syth_filename_part	run_wmrc.py	/^        syth_filename_part = 'synth_10p_1000n_100nval__'$/;"	v
+t_mat	wrench/labelmodel/fable.py	/^    t_mat = t_mat[:num_iter, :num_iter].permute(-1, *range(2, 2 + len(batch_shape)), 0, 1).contiguous()$/;"	v
+t_mat	wrench/labelmodel/fable.py	/^    t_mat = torch.zeros(num_iter, num_iter, *batch_shape, num_init_vecs, dtype=dtype, device=device)$/;"	v
+temp	wrench/labelmodel/epoxy.py	/^            temp = np.stack(min_dist).T$/;"	v
+temperature	examples/run_weasel.py	/^    temperature=0.33,$/;"	v
+test	wrench/basemodel.py	/^    def test(self, dataset, metric_fn: Union[Callable, str], y_true=None, **kwargs):$/;"	m	class:BaseModel
+test	wrench/basemodel.py	/^    def test(self, dataset: BaseSeqDataset, metric_fn: Union[Callable, str], y_true: Optional[List[List]] = None,$/;"	m	class:BaseSeqModel
+test	wrench/basemodel.py	/^    def test(self, dataset: Union[BaseDataset, np.ndarray], metric_fn: Union[Callable, str], y_true: Optional[np.ndarray] = None, **kwargs):$/;"	m	class:BaseClassModel
+test	wrench/seq_labelmodel/chmm_src/CHMM/Train.py	/^    def test(self):$/;"	m	class:CHMMTrainer
+test_batch_size	examples/grid_search.py	/^        test_batch_size=512,$/;"	v
+test_batch_size	examples/run_astra.py	/^    test_batch_size=512,$/;"	v
+test_batch_size	examples/run_denoise.py	/^    test_batch_size=128,$/;"	v
+test_batch_size	examples/run_explainer.py	/^    test_batch_size=512,$/;"	v
+test_batch_size	examples/run_implyloss.py	/^    test_batch_size=512,$/;"	v
+test_batch_size	examples/run_learn_to_reweight.py	/^    test_batch_size=512,$/;"	v
+test_batch_size	examples/run_meanteacher.py	/^    test_batch_size=512,$/;"	v
+test_batch_size	examples/run_meta_weight_net.py	/^    test_batch_size=512,$/;"	v
+test_batch_size	examples/run_torch_ddp.py	/^        test_batch_size=512,$/;"	v
+test_batch_size	examples/run_two_stage_pipeline_cls.py	/^    test_batch_size=512,$/;"	v
+test_batch_size	examples/run_two_stage_pipeline_seq.py	/^    test_batch_size=512,$/;"	v
+test_batch_size	examples/run_weasel.py	/^    test_batch_size=128,$/;"	v
+text_datasets	wrench/dataset/__init__.py	/^text_datasets = ['agnews', 'imdb', 'sms', 'trec', 'yelp', 'youtube']$/;"	v
+tf_idf_extractor	wrench/dataset/utils.py	/^def tf_idf_extractor(data: List[Dict], **kwargs: Any):$/;"	f
+tp	fill_dataset_abstentions.py	/^        tp = mdic['train_pred']$/;"	v
+train	examples/run_ebcc_fable.py	/^train = all_dataset.get_covered_subset()$/;"	v
+train	wrench/labelmodel/generative_model_src.py	/^    def train(self, L, deps=(), LF_acc_prior_weights=None,$/;"	m	class:SrcGenerativeModel
+train	wrench/seq_labelmodel/chmm_src/CHMM/Train.py	/^    def train(self):$/;"	m	class:CHMMTrainer
+train_data	examples/run_ars2.py	/^        train_data = train_data.create_subset(imbalance_ids_train).get_covered_subset()$/;"	v
+train_data	examples/run_explainer.py	/^train_data = train_data.get_covered_subset()$/;"	v
+train_data	examples/run_learn_to_reweight.py	/^train_data = train_data.get_covered_subset()$/;"	v
+train_data	examples/run_meta_weight_net.py	/^train_data = train_data.get_covered_subset()$/;"	v
+train_data	examples/run_torch_ddp.py	/^    train_data = train_data.get_covered_subset()$/;"	v
+train_data	examples/run_two_stage_pipeline_cls.py	/^train_data = train_data.get_covered_subset()$/;"	v
+train_data_c	examples/run_hyper_label_model.py	/^train_data_c = train_data.get_covered_subset()$/;"	v
+train_data_c	examples/run_ibcc_ebcc.py	/^train_data_c = train_data.get_covered_subset()$/;"	v
+train_model	wrench/explainer/explainer.py	/^def train_model(lr, weight_decay, epochs, input_size, n_class, train_dataloader, device, verbose=True):$/;"	f
+train_support	wrench/labelmodel/epoxy.py	/^        train_support = [$/;"	v
+training_step	wrench/seq_labelmodel/chmm_src/CHMM/Train.py	/^    def training_step(self, data_loader, optimizer):$/;"	m	class:CHMMTrainer
+transform_labeling_function	wrench/seq_labelmodel/seq_wrapper.py	/^    def transform_labeling_function(dataset: BaseSeqDataset):$/;"	m	class:SeqLabelModelWrapper
+unfreeze_bn	wrench/semisupervisedlearning/utils.py	/^    def unfreeze_bn(self, model):$/;"	m	class:BatchNormController
+update	wrench/config.py	/^    def update(self, **kwargs):$/;"	m	class:Config
+update	wrench/evaluation.py	/^    def update(self, **kwargs):$/;"	m	class:AverageMeter
+update	wrench/semisupervisedlearning/meanteacher.py	/^    def update(self):$/;"	m	class:EMA
+update_state_dict	wrench/classification/astra.py	/^def update_state_dict(model, state_dict: dict, mode: str):$/;"	f
+url	setup.py	/^    url="https:\/\/github.com\/JieyuZ2\/wrench",$/;"	v
+use_crf	examples/run_two_stage_pipeline_seq.py	/^    use_crf=True$/;"	v
+use_lr_scheduler	examples/run_astra.py	/^    use_lr_scheduler=True,$/;"	v
+use_lr_scheduler	examples/run_meanteacher.py	/^    use_lr_scheduler=True,$/;"	v
+use_lr_scheduler	examples/run_weasel.py	/^    use_lr_scheduler=True,$/;"	v
+use_synthetic	run_wmrc.py	/^    use_synthetic = False$/;"	v
+v_net_optimizer	examples/run_meta_weight_net.py	/^    v_net_optimizer='Adam',$/;"	v
+v_net_optimizer_lr	examples/run_meta_weight_net.py	/^    v_net_optimizer_lr=1e-3,$/;"	v
+v_net_optimizer_weight_decay	examples/run_meta_weight_net.py	/^    v_net_optimizer_weight_decay=1e-4,$/;"	v
+valid_data	examples/run_ars2.py	/^        valid_data = valid_data.create_subset(imbalance_ids_valid)$/;"	v
+validate_prob	wrench/seq_labelmodel/chmm_src/Src/Utils.py	/^def validate_prob(x, dim=-1):$/;"	f
+version	setup.py	/^    version=VERSION["VERSION"],$/;"	v
+viterbi	wrench/seq_labelmodel/chmm_src/CHMM/Model.py	/^    def viterbi(self, emb, obs, seq_lengths, normalize_observation=True):$/;"	m	class:CHMM
+viterbi_decode	wrench/backbone.py	/^    def viterbi_decode(self, feats, transitions=None):$/;"	m	class:CRF
+viterbi_decode_batch	wrench/backbone.py	/^    def viterbi_decode_batch(self, feats, mask, transitions=None):$/;"	m	class:CRF
+viterbi_decode_w_transitions	wrench/backbone.py	/^    def viterbi_decode_w_transitions(self, feats, mask, transitions):$/;"	m	class:MultiCRF
+vp	fill_dataset_abstentions.py	/^        vp = mdic['val_pred']$/;"	v
+wmrc_avg_fit_time	loss_t_test.py	/^        wmrc_avg_fit_time = np.zeros(len(datasets))$/;"	v
+wmrc_avg_labeled_pts_per_classifier	loss_t_test.py	/^        wmrc_avg_labeled_pts_per_classifier = np.zeros(len(datasets))$/;"	v
+wmrc_avg_num_classifier_available	loss_t_test.py	/^        wmrc_avg_num_classifier_available = np.zeros(len(datasets))$/;"	v
+wmrc_first_ind	loss_t_test.py	/^                wmrc_first_ind = 3$/;"	v
+wmrc_fn_end	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        wmrc_fn_end = '.mat'$/;"	v
+wmrc_fn_end	plot_bf_error_breakdown.py	/^        wmrc_fn_end = '.mat'$/;"	v
+wmrc_fn_ends	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^    wmrc_fn_ends = ['_accuracy_semisup_validlabels_ineqconst_binomial.mat']$/;"	v
+wmrc_fn_ends	loss_t_test.py	/^    wmrc_fn_ends = ['_accuracy_semisup_100validlabels_ineqconst_binomial.mat']$/;"	v
+wmrc_fn_ends	plot_bf_error_breakdown.py	/^    wmrc_fn_ends = ['_accuracy_semisup_validlabels_ineqconst_binomial.mat']$/;"	v
+wmrc_fn_full	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^                    result_fn)$/;"	v
+wmrc_fn_full	plot_bf_error_breakdown.py	/^                    result_fn)$/;"	v
+wmrc_folder	loss_t_test.py	/^    wmrc_folder = ['WMRC\/accuracy\/']$/;"	v
+wmrc_ind	loss_t_test.py	/^                    wmrc_ind = None$/;"	v
+wmrc_ind	loss_t_test.py	/^                    wmrc_ind = i - wmrc_first_ind$/;"	v
+wmrc_name	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        wmrc_name = 'WMRC\/accuracy\/'$/;"	v
+wmrc_name	plot_bf_error_breakdown.py	/^        wmrc_name = 'WMRC\/accuracy\/'$/;"	v
+wmrc_names	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^    wmrc_names = ['WMRC']$/;"	v
+wmrc_names	plot_bf_error_breakdown.py	/^    wmrc_names = ['WMRC']$/;"	v
+wmrc_oracle_fn_full	loss_t_test.py	/^            wmrc_oracle_fn_full = os.path.join(method_result_path, method_fn)$/;"	v
+wmrc_oracle_loss	loss_t_test.py	/^        wmrc_oracle_loss = np.zeros(len(datasets))$/;"	v
+word_emb_dim	examples/run_two_stage_pipeline_seq.py	/^    word_emb_dim=100,$/;"	v
+world_size	examples/run_torch_ddp.py	/^        world_size=2,$/;"	v
+write_path	write_wmrc_settings.py	/^    write_path = os.path.join(prefix, 'aa2_configs.json')$/;"	v
+write_path	write_wmrc_settings.py	/^    write_path = os.path.join(prefix, 'basketball_configs.json')$/;"	v
+write_path	write_wmrc_settings.py	/^    write_path = os.path.join(prefix, 'breast_cancer_configs.json')$/;"	v
+write_path	write_wmrc_settings.py	/^    write_path = os.path.join(prefix, 'cardio_configs.json')$/;"	v
+write_path	write_wmrc_settings.py	/^    write_path = os.path.join(prefix, 'domain_configs.json')$/;"	v
+write_path	write_wmrc_settings.py	/^    write_path = os.path.join(prefix, 'imdb_configs.json')$/;"	v
+write_path	write_wmrc_settings.py	/^    write_path = os.path.join(prefix, 'obs_configs.json')$/;"	v
+write_path	write_wmrc_settings.py	/^    write_path = os.path.join(prefix, 'sms_configs.json')$/;"	v
+write_path	write_wmrc_settings.py	/^    write_path = os.path.join(prefix, 'yelp_configs.json')$/;"	v
+write_path	write_wmrc_settings.py	/^    write_path = os.path.join(prefix, 'youtube_configs.json')$/;"	v
+y2	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        y2 = ax.twinx()$/;"	v
+y2	plot_bf_error_breakdown.py	/^        y2 = ax.twinx()$/;"	v
+y2_tick_labels	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        y2_tick_labels = [r'$d(\\eta, g^{*})$', r'$d(\\eta, g^{ds*})$']$/;"	v
+y2_tick_labels	plot_bf_error_breakdown.py	/^        y2_tick_labels = [r'$d(\\eta, g^{*})$', r'$d(\\eta, g^{ds*})$']$/;"	v
+y_train	examples/run_ars2.py	/^                y_train=aggregated_hard_labels,$/;"	v
+y_train	examples/run_explainer.py	/^    y_train=aggregated_soft_labels,$/;"	v
+y_train	examples/run_explainer.py	/^    y_train=modified_soft_labels,$/;"	v
+y_train	examples/run_learn_to_reweight.py	/^    y_train=aggregated_labels,$/;"	v
+y_train	examples/run_meta_weight_net.py	/^    y_train=aggregated_labels,$/;"	v
+y_train	examples/run_torch_ddp.py	/^        y_train=aggregated_soft_labels,$/;"	v
+y_train	examples/run_two_stage_pipeline_cls.py	/^    y_train=aggregated_soft_labels,$/;"	v
+y_train	examples/run_two_stage_pipeline_seq.py	/^    y_train=aggregated_labels,$/;"	v
+yelp_dic	write_wmrc_settings.py	/^    yelp_dic = {$/;"	v
+yelp_dics	write_wmrc_settings.py	/^    yelp_dics = [dict(gen_dic, **yelp_dic) for gen_dic in dics_to_use]$/;"	v
+ylims	.plot_bf_error_breakdown.py@neomake_3732194_51.py	/^        ylims = ax.get_ylim()$/;"	v
+ylims	plot_bf_error_breakdown.py	/^        ylims = ax.get_ylim()$/;"	v
+youtube_dic	write_wmrc_settings.py	/^    youtube_dic = {$/;"	v
+youtube_dics	write_wmrc_settings.py	/^    youtube_dics = [dict(gen_dic, **youtube_dic) for gen_dic in dics_to_use]$/;"	v

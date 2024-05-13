@@ -1,0 +1,6 @@
+2024-01-22 14:22:26 - ------------Running DawidSkene------------
+2024-01-22 14:22:26 - dataset: sms, ds_model: class_conditional
+2024-01-22 14:22:26 - ================Results================
+2024-01-22 14:22:26 - train acc (train err): 0.8650 (0.1350)
+2024-01-22 14:22:26 - train log loss: 0.5131
+2024-01-22 14:22:26 - train brier score: 0.3249

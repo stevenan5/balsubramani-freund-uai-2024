@@ -1,0 +1,6 @@
+2024-01-22 14:22:21 - ------------Running DawidSkene------------
+2024-01-22 14:22:21 - dataset: obs, ds_model: class_conditional
+2024-01-22 14:22:21 - ================Results================
+2024-01-22 14:22:21 - train acc (train err): 0.7238 (0.2762)
+2024-01-22 14:22:21 - train log loss: 8.2750
+2024-01-22 14:22:21 - train brier score: 0.5523

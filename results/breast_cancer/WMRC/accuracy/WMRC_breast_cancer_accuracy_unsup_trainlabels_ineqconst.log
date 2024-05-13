@@ -1,0 +1,18 @@
+2023-09-27 13:50:46 - ----------Running New Instance----------
+2023-09-27 13:50:46 - dataset: breast_cancer, n_class: 2
+2023-09-27 13:50:46 - constraint type: accuracy, add MV const: False
+2023-09-27 13:50:46 - labeled set: train, use inequalities: True
+2023-09-27 13:50:46 - bound method: unsupervised
+2023-09-27 13:50:46 - ----Estimating Probabilities----
+2023-09-27 13:50:46 - 171 out of 171 labeled datapoints on average per rule 
+2023-09-27 13:50:46 - 3 rules with labeled data out of 3 total
+2023-09-27 13:50:46 - Number of labeled predictions per rule: [171 171 171]
+2023-09-27 13:50:46 - ================Results================
+2023-09-27 13:50:46 - time to fit: 0.0 seconds
+2023-09-27 13:50:46 - train acc (train err): 0.6257 (0.3743)
+2023-09-27 13:50:46 - wmrc train log loss upper bound 0.6654
+2023-09-27 13:50:46 - train log loss: 0.6613
+2023-09-27 13:50:46 - train brier score: 0.4685
+2023-09-27 13:50:46 - test acc (test err): 0.6257 (0.3743)
+2023-09-27 13:50:46 - test log loss: 0.6613
+2023-09-27 13:50:46 - test brier score: 0.4685

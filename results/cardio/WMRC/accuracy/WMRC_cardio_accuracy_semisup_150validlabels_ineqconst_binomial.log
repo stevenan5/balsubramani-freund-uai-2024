@@ -1,0 +1,168 @@
+2024-01-22 00:43:30 - ----------Running New Instance----------
+2024-01-22 00:43:30 - dataset: cardio, n_class: 2
+2024-01-22 00:43:30 - constraint type: accuracy, add MV const: False
+2024-01-22 00:43:30 - labeled set: valid, use inequalities: True
+2024-01-22 00:43:30 - bound method: binomial
+2024-01-22 00:43:30 - bound method: binomial
+2024-01-22 00:43:30 - ------------Run Number 1------------
+2024-01-22 00:43:30 - ----Estimating Probabilities----
+2024-01-22 00:43:30 - 150 out of 385 labeled datapoints on average per rule 
+2024-01-22 00:43:30 - 3 rules with labeled data out of 3 total
+2024-01-22 00:43:30 - Number of labeled predictions per rule: [150 150 150]
+2024-01-22 00:43:30 - Using at maximum 150 many labeled points
+2024-01-22 00:43:31 - ================Results================
+2024-01-22 00:43:31 - time to fit: 0.0 seconds
+2024-01-22 00:43:31 - train acc (train err): 0.9689 (0.0311)
+2024-01-22 00:43:31 - wmrc train log loss upper bound 0.3467
+2024-01-22 00:43:31 - train log loss: 0.1817
+2024-01-22 00:43:31 - train brier score: 0.0728
+2024-01-22 00:43:31 - test acc (test err): 0.9204 (0.0796)
+2024-01-22 00:43:31 - test log loss: 0.2830
+2024-01-22 00:43:31 - test brier score: 0.1484
+2024-01-22 00:43:31 - ------------Run Number 2------------
+2024-01-22 00:43:31 - ----Estimating Probabilities----
+2024-01-22 00:43:31 - 150 out of 385 labeled datapoints on average per rule 
+2024-01-22 00:43:31 - 3 rules with labeled data out of 3 total
+2024-01-22 00:43:31 - Number of labeled predictions per rule: [150 150 150]
+2024-01-22 00:43:31 - Using at maximum 150 many labeled points
+2024-01-22 00:43:31 - ================Results================
+2024-01-22 00:43:31 - time to fit: 0.0 seconds
+2024-01-22 00:43:31 - train acc (train err): 0.9689 (0.0311)
+2024-01-22 00:43:31 - wmrc train log loss upper bound 0.4371
+2024-01-22 00:43:31 - train log loss: 0.2245
+2024-01-22 00:43:31 - train brier score: 0.0927
+2024-01-22 00:43:31 - test acc (test err): 0.9204 (0.0796)
+2024-01-22 00:43:31 - test log loss: 0.3054
+2024-01-22 00:43:31 - test brier score: 0.1589
+2024-01-22 00:43:31 - ------------Run Number 3------------
+2024-01-22 00:43:31 - ----Estimating Probabilities----
+2024-01-22 00:43:31 - 150 out of 385 labeled datapoints on average per rule 
+2024-01-22 00:43:31 - 3 rules with labeled data out of 3 total
+2024-01-22 00:43:31 - Number of labeled predictions per rule: [150 150 150]
+2024-01-22 00:43:31 - Using at maximum 150 many labeled points
+2024-01-22 00:43:31 - ================Results================
+2024-01-22 00:43:31 - time to fit: 0.0 seconds
+2024-01-22 00:43:31 - train acc (train err): 0.9689 (0.0311)
+2024-01-22 00:43:31 - wmrc train log loss upper bound 0.3098
+2024-01-22 00:43:31 - train log loss: 0.1687
+2024-01-22 00:43:31 - train brier score: 0.0680
+2024-01-22 00:43:31 - test acc (test err): 0.9204 (0.0796)
+2024-01-22 00:43:31 - test log loss: 0.2789
+2024-01-22 00:43:31 - test brier score: 0.1469
+2024-01-22 00:43:31 - ------------Run Number 4------------
+2024-01-22 00:43:31 - ----Estimating Probabilities----
+2024-01-22 00:43:31 - 150 out of 385 labeled datapoints on average per rule 
+2024-01-22 00:43:31 - 3 rules with labeled data out of 3 total
+2024-01-22 00:43:31 - Number of labeled predictions per rule: [150 150 150]
+2024-01-22 00:43:31 - Using at maximum 150 many labeled points
+2024-01-22 00:43:31 - ================Results================
+2024-01-22 00:43:31 - time to fit: 0.0 seconds
+2024-01-22 00:43:31 - train acc (train err): 0.9689 (0.0311)
+2024-01-22 00:43:31 - wmrc train log loss upper bound 0.3951
+2024-01-22 00:43:31 - train log loss: 0.2025
+2024-01-22 00:43:31 - train brier score: 0.0818
+2024-01-22 00:43:31 - test acc (test err): 0.9204 (0.0796)
+2024-01-22 00:43:31 - test log loss: 0.2927
+2024-01-22 00:43:31 - test brier score: 0.1526
+2024-01-22 00:43:31 - ------------Run Number 5------------
+2024-01-22 00:43:31 - ----Estimating Probabilities----
+2024-01-22 00:43:31 - 150 out of 385 labeled datapoints on average per rule 
+2024-01-22 00:43:31 - 3 rules with labeled data out of 3 total
+2024-01-22 00:43:31 - Number of labeled predictions per rule: [150 150 150]
+2024-01-22 00:43:31 - Using at maximum 150 many labeled points
+2024-01-22 00:43:31 - ================Results================
+2024-01-22 00:43:31 - time to fit: 0.0 seconds
+2024-01-22 00:43:31 - train acc (train err): 0.9689 (0.0311)
+2024-01-22 00:43:31 - wmrc train log loss upper bound 0.2680
+2024-01-22 00:43:31 - train log loss: 0.1566
+2024-01-22 00:43:31 - train brier score: 0.0643
+2024-01-22 00:43:31 - test acc (test err): 0.9204 (0.0796)
+2024-01-22 00:43:31 - test log loss: 0.2779
+2024-01-22 00:43:31 - test brier score: 0.1465
+2024-01-22 00:43:31 - ------------Run Number 6------------
+2024-01-22 00:43:31 - ----Estimating Probabilities----
+2024-01-22 00:43:31 - 150 out of 385 labeled datapoints on average per rule 
+2024-01-22 00:43:31 - 3 rules with labeled data out of 3 total
+2024-01-22 00:43:31 - Number of labeled predictions per rule: [150 150 150]
+2024-01-22 00:43:31 - Using at maximum 150 many labeled points
+2024-01-22 00:43:31 - ================Results================
+2024-01-22 00:43:31 - time to fit: 0.0 seconds
+2024-01-22 00:43:31 - train acc (train err): 0.9689 (0.0311)
+2024-01-22 00:43:31 - wmrc train log loss upper bound 0.3948
+2024-01-22 00:43:31 - train log loss: 0.2016
+2024-01-22 00:43:31 - train brier score: 0.0814
+2024-01-22 00:43:31 - test acc (test err): 0.9204 (0.0796)
+2024-01-22 00:43:31 - test log loss: 0.2914
+2024-01-22 00:43:31 - test brier score: 0.1520
+2024-01-22 00:43:31 - ------------Run Number 7------------
+2024-01-22 00:43:31 - ----Estimating Probabilities----
+2024-01-22 00:43:31 - 150 out of 385 labeled datapoints on average per rule 
+2024-01-22 00:43:31 - 3 rules with labeled data out of 3 total
+2024-01-22 00:43:31 - Number of labeled predictions per rule: [150 150 150]
+2024-01-22 00:43:31 - Using at maximum 150 many labeled points
+2024-01-22 00:43:31 - ================Results================
+2024-01-22 00:43:31 - time to fit: 0.0 seconds
+2024-01-22 00:43:31 - train acc (train err): 0.9689 (0.0311)
+2024-01-22 00:43:31 - wmrc train log loss upper bound 0.3636
+2024-01-22 00:43:31 - train log loss: 0.1885
+2024-01-22 00:43:31 - train brier score: 0.0756
+2024-01-22 00:43:31 - test acc (test err): 0.9204 (0.0796)
+2024-01-22 00:43:31 - test log loss: 0.2858
+2024-01-22 00:43:31 - test brier score: 0.1495
+2024-01-22 00:43:31 - ------------Run Number 8------------
+2024-01-22 00:43:31 - ----Estimating Probabilities----
+2024-01-22 00:43:31 - 150 out of 385 labeled datapoints on average per rule 
+2024-01-22 00:43:31 - 3 rules with labeled data out of 3 total
+2024-01-22 00:43:31 - Number of labeled predictions per rule: [150 150 150]
+2024-01-22 00:43:31 - Using at maximum 150 many labeled points
+2024-01-22 00:43:31 - ================Results================
+2024-01-22 00:43:31 - time to fit: 0.0 seconds
+2024-01-22 00:43:31 - train acc (train err): 0.9689 (0.0311)
+2024-01-22 00:43:31 - wmrc train log loss upper bound 0.4237
+2024-01-22 00:43:31 - train log loss: 0.2171
+2024-01-22 00:43:31 - train brier score: 0.0889
+2024-01-22 00:43:31 - test acc (test err): 0.9204 (0.0796)
+2024-01-22 00:43:31 - test log loss: 0.3009
+2024-01-22 00:43:31 - test brier score: 0.1566
+2024-01-22 00:43:31 - ------------Run Number 9------------
+2024-01-22 00:43:31 - ----Estimating Probabilities----
+2024-01-22 00:43:31 - 150 out of 385 labeled datapoints on average per rule 
+2024-01-22 00:43:31 - 3 rules with labeled data out of 3 total
+2024-01-22 00:43:31 - Number of labeled predictions per rule: [150 150 150]
+2024-01-22 00:43:31 - Using at maximum 150 many labeled points
+2024-01-22 00:43:31 - ================Results================
+2024-01-22 00:43:31 - time to fit: 0.0 seconds
+2024-01-22 00:43:31 - train acc (train err): 0.9689 (0.0311)
+2024-01-22 00:43:31 - wmrc train log loss upper bound 0.3898
+2024-01-22 00:43:31 - train log loss: 0.1995
+2024-01-22 00:43:31 - train brier score: 0.0819
+2024-01-22 00:43:31 - test acc (test err): 0.9204 (0.0796)
+2024-01-22 00:43:31 - test log loss: 0.2893
+2024-01-22 00:43:31 - test brier score: 0.1518
+2024-01-22 00:43:31 - ------------Run Number 10------------
+2024-01-22 00:43:31 - ----Estimating Probabilities----
+2024-01-22 00:43:31 - 150 out of 385 labeled datapoints on average per rule 
+2024-01-22 00:43:31 - 3 rules with labeled data out of 3 total
+2024-01-22 00:43:31 - Number of labeled predictions per rule: [150 150 150]
+2024-01-22 00:43:31 - Using at maximum 150 many labeled points
+2024-01-22 00:43:31 - ================Results================
+2024-01-22 00:43:31 - time to fit: 0.0 seconds
+2024-01-22 00:43:31 - train acc (train err): 0.9689 (0.0311)
+2024-01-22 00:43:31 - wmrc train log loss upper bound 0.2897
+2024-01-22 00:43:31 - train log loss: 0.1625
+2024-01-22 00:43:31 - train brier score: 0.0660
+2024-01-22 00:43:31 - test acc (test err): 0.9204 (0.0796)
+2024-01-22 00:43:31 - test log loss: 0.2779
+2024-01-22 00:43:31 - test brier score: 0.1466
+2024-01-22 00:43:31 - ================Aggregated Results================
+2024-01-22 00:43:31 - Total number of runs: 10
+2024-01-22 00:43:31 - Average time to fit: 0.0 seconds (std: 0.0)
+2024-01-22 00:43:31 - Average of 3.00 rules out of 3 had labeled data
+2024-01-22 00:43:31 - Average of 150 labeled datapoints out of 150 per rule (std: 0.0000)
+2024-01-22 00:43:31 - train mean acc +- std (mean train err): 0.9689 +- 0.0000 (0.0311)
+2024-01-22 00:43:31 - wmrc train log loss upper bound mean +- std: 0.3618 +- 0.0542
+2024-01-22 00:43:31 - train mean log loss +- std: 0.1903 +- 0.0217
+2024-01-22 00:43:31 - train mean brier score +- std: 0.0773 +- 0.0091
+2024-01-22 00:43:31 - test mean acc +- std (mean test err): 0.9204 +- 0.0000 (0.0796)
+2024-01-22 00:43:31 - test mean log loss +- std: 0.2883 +- 0.0091
+2024-01-22 00:43:31 - test mean brier score +- std: 0.1510 +- 0.0040

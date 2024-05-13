@@ -1,0 +1,38 @@
+2023-09-27 13:49:46 - ----------Running New Instance----------
+2023-09-27 13:49:46 - dataset: cardio, n_class: 2
+2023-09-27 13:49:46 - constraint type: accuracy, add MV const: False
+2023-09-27 13:49:46 - labeled set: train, use inequalities: True
+2023-09-27 13:49:46 - bound method: unsupervised
+2023-09-27 13:49:46 - ----Estimating Probabilities----
+2023-09-27 13:49:46 - 289 out of 289 labeled datapoints on average per rule 
+2023-09-27 13:49:46 - 3 rules with labeled data out of 3 total
+2023-09-27 13:49:46 - Number of labeled predictions per rule: [289 289 289]
+2023-09-27 13:49:46 - ----Estimating Probabilities----
+2023-09-27 13:49:46 - 289 out of 289 labeled datapoints on average per rule 
+2023-09-27 13:49:46 - 3 rules with labeled data out of 3 total
+2023-09-27 13:49:46 - Number of labeled predictions per rule: [289 289 289]
+2023-09-27 13:49:46 - Bound probabilities scaled by: 1.100000
+2023-09-27 13:49:46 - ----Estimating Probabilities----
+2023-09-27 13:49:46 - 289 out of 289 labeled datapoints on average per rule 
+2023-09-27 13:49:46 - 3 rules with labeled data out of 3 total
+2023-09-27 13:49:46 - Number of labeled predictions per rule: [289 289 289]
+2023-09-27 13:49:46 - Bound probabilities scaled by: 1.200000
+2023-09-27 13:49:46 - ----Estimating Probabilities----
+2023-09-27 13:49:46 - 289 out of 289 labeled datapoints on average per rule 
+2023-09-27 13:49:46 - 3 rules with labeled data out of 3 total
+2023-09-27 13:49:46 - Number of labeled predictions per rule: [289 289 289]
+2023-09-27 13:49:46 - Bound probabilities scaled by: 1.300000
+2023-09-27 13:49:46 - ----Estimating Probabilities----
+2023-09-27 13:49:46 - 289 out of 289 labeled datapoints on average per rule 
+2023-09-27 13:49:46 - 3 rules with labeled data out of 3 total
+2023-09-27 13:49:46 - Number of labeled predictions per rule: [289 289 289]
+2023-09-27 13:49:46 - Bound probabilities scaled by: 1.400000
+2023-09-27 13:49:46 - ================Results================
+2023-09-27 13:49:46 - time to fit: 0.0 seconds
+2023-09-27 13:49:46 - train acc (train err): 0.6021 (0.3979)
+2023-09-27 13:49:46 - wmrc train log loss upper bound 0.3145
+2023-09-27 13:49:46 - train log loss: 0.5843
+2023-09-27 13:49:46 - train brier score: 0.4520
+2023-09-27 13:49:46 - test acc (test err): 0.6021 (0.3979)
+2023-09-27 13:49:46 - test log loss: 0.6618
+2023-09-27 13:49:46 - test brier score: 0.4804

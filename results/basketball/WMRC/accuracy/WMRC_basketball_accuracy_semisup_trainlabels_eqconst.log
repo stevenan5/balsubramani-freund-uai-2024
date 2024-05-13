@@ -1,0 +1,18 @@
+2024-01-22 00:42:25 - ----------Running New Instance----------
+2024-01-22 00:42:25 - dataset: basketball, n_class: 2
+2024-01-22 00:42:25 - constraint type: accuracy, add MV const: False
+2024-01-22 00:42:25 - labeled set: train, use inequalities: False
+2024-01-22 00:42:25 - bound method: binomial
+2024-01-22 00:42:25 - ----Estimating Probabilities----
+2024-01-22 00:42:25 - 8848 out of 17970 labeled datapoints on average per rule 
+2024-01-22 00:42:25 - 4 rules with labeled data out of 4 total
+2024-01-22 00:42:25 - Number of labeled predictions per rule: [17026     7   389 17970]
+2024-01-22 00:42:26 - ================Results================
+2024-01-22 00:42:26 - time to fit: 0.9 seconds
+2024-01-22 00:42:26 - train acc (train err): 0.8873 (0.1127)
+2024-01-22 00:42:26 - wmrc train log loss upper bound 0.3218
+2024-01-22 00:42:26 - train log loss: 0.3218
+2024-01-22 00:42:26 - train brier score: 0.1871
+2024-01-22 00:42:26 - test acc (test err): 0.8993 (0.1007)
+2024-01-22 00:42:26 - test log loss: 0.3486
+2024-01-22 00:42:26 - test brier score: 0.1907

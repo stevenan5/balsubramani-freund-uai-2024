@@ -1,0 +1,6 @@
+2024-01-22 14:35:41 - ------------Running DawidSkene------------
+2024-01-22 14:35:41 - dataset: breast_cancer, ds_model: general
+2024-01-22 14:35:41 - ================Results================
+2024-01-22 14:35:41 - train acc (train err): 0.4795 (0.5205)
+2024-01-22 14:35:41 - train log loss: 8.7097
+2024-01-22 14:35:41 - train brier score: 1.0300

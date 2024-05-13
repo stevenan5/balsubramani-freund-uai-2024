@@ -1,0 +1,18 @@
+2024-01-22 00:43:32 - ----------Running New Instance----------
+2024-01-22 00:43:32 - dataset: domain, n_class: 5
+2024-01-22 00:43:32 - constraint type: accuracy, add MV const: False
+2024-01-22 00:43:32 - labeled set: train, use inequalities: False
+2024-01-22 00:43:32 - bound method: binomial
+2024-01-22 00:43:32 - ----Estimating Probabilities----
+2024-01-22 00:43:32 - 2587 out of 2587 labeled datapoints on average per rule 
+2024-01-22 00:43:32 - 5 rules with labeled data out of 5 total
+2024-01-22 00:43:32 - Number of labeled predictions per rule: [2587 2587 2587 2587 2587]
+2024-01-22 00:43:32 - ================Results================
+2024-01-22 00:43:32 - time to fit: 0.5 seconds
+2024-01-22 00:43:32 - train acc (train err): 0.6274 (0.3726)
+2024-01-22 00:43:32 - wmrc train log loss upper bound 1.0073
+2024-01-22 00:43:32 - train log loss: 1.0073
+2024-01-22 00:43:32 - train brier score: 0.5075
+2024-01-22 00:43:32 - test acc (test err): 0.6235 (0.3765)
+2024-01-22 00:43:32 - test log loss: 1.0455
+2024-01-22 00:43:32 - test brier score: 0.5299

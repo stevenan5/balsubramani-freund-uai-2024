@@ -1,0 +1,6 @@
+2024-01-22 14:35:41 - ------------Running DawidSkene------------
+2024-01-22 14:35:41 - dataset: cardio, ds_model: class_conditional
+2024-01-22 14:35:41 - ================Results================
+2024-01-22 14:35:41 - train acc (train err): 0.6505 (0.3495)
+2024-01-22 14:35:41 - train log loss: 0.4724
+2024-01-22 14:35:41 - train brier score: 0.3554

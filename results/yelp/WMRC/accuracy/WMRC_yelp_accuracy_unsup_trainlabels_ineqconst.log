@@ -1,0 +1,18 @@
+2023-09-27 15:52:58 - ----------Running New Instance----------
+2023-09-27 15:52:58 - dataset: yelp, n_class: 2
+2023-09-27 15:52:58 - constraint type: accuracy, add MV const: False
+2023-09-27 15:52:58 - labeled set: train, use inequalities: True
+2023-09-27 15:52:58 - bound method: unsupervised
+2023-09-27 15:52:59 - ----Estimating Probabilities----
+2023-09-27 15:52:59 - 5573 out of 30400 labeled datapoints on average per rule 
+2023-09-27 15:52:59 - 8 rules with labeled data out of 8 total
+2023-09-27 15:52:59 - Number of labeled predictions per rule: [ 2252  2034 21248  4033  6523  2710  2879  2912]
+2023-09-27 15:53:01 - ================Results================
+2023-09-27 15:53:01 - time to fit: 2.6 seconds
+2023-09-27 15:53:01 - train acc (train err): 0.7282 (0.2718)
+2023-09-27 15:53:01 - wmrc train log loss upper bound 0.5832
+2023-09-27 15:53:01 - train log loss: 0.5591
+2023-09-27 15:53:01 - train brier score: 0.3792
+2023-09-27 15:53:01 - test acc (test err): 0.7308 (0.2692)
+2023-09-27 15:53:01 - test log loss: 0.5404
+2023-09-27 15:53:01 - test brier score: 0.3664

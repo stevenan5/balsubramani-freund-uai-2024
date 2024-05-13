@@ -1,0 +1,18 @@
+2023-09-27 14:37:36 - ----------Running New Instance----------
+2023-09-27 14:37:36 - dataset: obs, n_class: 2
+2023-09-27 14:37:36 - constraint type: accuracy, add MV const: False
+2023-09-27 14:37:36 - labeled set: train, use inequalities: True
+2023-09-27 14:37:36 - bound method: unsupervised
+2023-09-27 14:37:36 - ----Estimating Probabilities----
+2023-09-27 14:37:36 - 239 out of 239 labeled datapoints on average per rule 
+2023-09-27 14:37:36 - 3 rules with labeled data out of 3 total
+2023-09-27 14:37:36 - Number of labeled predictions per rule: [239 239 239]
+2023-09-27 14:37:36 - ================Results================
+2023-09-27 14:37:36 - time to fit: 0.0 seconds
+2023-09-27 14:37:36 - train acc (train err): 0.6234 (0.3766)
+2023-09-27 14:37:36 - wmrc train log loss upper bound 0.6126
+2023-09-27 14:37:36 - train log loss: 0.6109
+2023-09-27 14:37:36 - train brier score: 0.4212
+2023-09-27 14:37:36 - test acc (test err): 0.6234 (0.3766)
+2023-09-27 14:37:36 - test log loss: 0.6270
+2023-09-27 14:37:36 - test brier score: 0.4359

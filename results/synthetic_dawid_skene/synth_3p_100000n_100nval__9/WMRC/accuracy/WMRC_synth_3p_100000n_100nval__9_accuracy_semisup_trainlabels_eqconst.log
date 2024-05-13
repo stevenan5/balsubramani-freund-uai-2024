@@ -1,0 +1,15 @@
+2024-01-12 13:22:46 - ----------Running New Instance----------
+2024-01-12 13:22:46 - dataset: synth_3p_100000n_100nval__9, n_class: 2
+2024-01-12 13:22:46 - constraint type: accuracy, add MV const: False
+2024-01-12 13:22:46 - labeled set: train, use inequalities: False
+2024-01-12 13:22:46 - ----Estimating Probabilities----
+2024-01-12 13:22:46 - 100000 out of 100000 labeled datapoints on average per rule 
+2024-01-12 13:22:46 - 3 rules with labeled data out of 3 total
+2024-01-12 13:22:46 - Number of labeled predictions per rule: [100000 100000 100000]
+2024-01-12 13:22:52 - ================Results================
+2024-01-12 13:22:52 - time to fit: 5.8 seconds
+2024-01-12 13:22:52 - train acc (train err): 0.8397 (0.1603)
+2024-01-12 13:22:52 - wmrc train log loss upper bound 0.3638
+2024-01-12 13:22:52 - train log loss: 0.3638
+2024-01-12 13:22:52 - train brier score: 0.2272
+2024-01-12 13:22:52 - KL from DS 0.0000

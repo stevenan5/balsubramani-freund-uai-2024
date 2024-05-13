@@ -1,0 +1,28 @@
+2023-09-27 14:05:13 - ----------Running New Instance----------
+2023-09-27 14:05:13 - dataset: domain, n_class: 5
+2023-09-27 14:05:13 - constraint type: accuracy, add MV const: False
+2023-09-27 14:05:13 - labeled set: train, use inequalities: True
+2023-09-27 14:05:13 - bound method: unsupervised
+2023-09-27 14:05:13 - ----Estimating Probabilities----
+2023-09-27 14:05:13 - 2587 out of 2587 labeled datapoints on average per rule 
+2023-09-27 14:05:13 - 5 rules with labeled data out of 5 total
+2023-09-27 14:05:13 - Number of labeled predictions per rule: [2587 2587 2587 2587 2587]
+2023-09-27 14:05:14 - ----Estimating Probabilities----
+2023-09-27 14:05:14 - 2587 out of 2587 labeled datapoints on average per rule 
+2023-09-27 14:05:14 - 5 rules with labeled data out of 5 total
+2023-09-27 14:05:14 - Number of labeled predictions per rule: [2587 2587 2587 2587 2587]
+2023-09-27 14:05:14 - Bound probabilities scaled by: 1.100000
+2023-09-27 14:05:15 - ----Estimating Probabilities----
+2023-09-27 14:05:15 - 2587 out of 2587 labeled datapoints on average per rule 
+2023-09-27 14:05:15 - 5 rules with labeled data out of 5 total
+2023-09-27 14:05:15 - Number of labeled predictions per rule: [2587 2587 2587 2587 2587]
+2023-09-27 14:05:15 - Bound probabilities scaled by: 1.200000
+2023-09-27 14:05:16 - ================Results================
+2023-09-27 14:05:16 - time to fit: 0.8 seconds
+2023-09-27 14:05:16 - train acc (train err): 0.5968 (0.4032)
+2023-09-27 14:05:16 - wmrc train log loss upper bound 1.2899
+2023-09-27 14:05:16 - train log loss: 1.3128
+2023-09-27 14:05:16 - train brier score: 0.6193
+2023-09-27 14:05:16 - test acc (test err): 0.5617 (0.4383)
+2023-09-27 14:05:16 - test log loss: 1.4309
+2023-09-27 14:05:16 - test brier score: 0.6707
