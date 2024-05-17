@@ -26,7 +26,7 @@ if __name__ == "__main__":
         datasets = ['AwA', 'Basketball', 'Cancer', 'Cardio', 'Domain',\
                 'IMDB', 'OBS', 'SMS', 'Yelp', 'Youtube']
         methods = ['MV', 'OCDS', 'DP', 'EBCC', 'HyperLM', 'AMCL CC'\
-                , 'BF' , '$d(\eta, g^{*})$']
+                , 'BF' , '\\frac{1}{n}$d(\eta, g^{*})$']
     else:
         raise NotImplementedError
 
