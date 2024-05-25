@@ -80,7 +80,7 @@ if __name__ == "__main__":
     err_table_rows.insert(0, err_header)
     err_table.set_cols_align(["c"]* (1 + len(datasets)))
     err_table.add_rows(err_table_rows)
-    err_caption = 'Log Loss Comparison'
+    err_caption = 'Comparison of BF Against Other WS Methods Using Average Log Loss'
     err_label = 'tab:' + prefix + 'wrench_log_loss'
     err_table_latex = latextable.draw_latex(err_table, use_booktabs=True, caption=err_caption, label=err_label)
     with open('results/' + prefix + 'log_loss_table.txt', 'w') as f:
@@ -121,7 +121,7 @@ if __name__ == "__main__":
 
     bs_ll_table.set_cols_align(["c"] * (1 + 2 * len(datasets)))
     bs_ll_table.add_rows(bs_ll_table_rows)
-    bs_ll_caption = '0-1 Loss, Brier Score Comparison'
+    bs_ll_caption = 'Comparison of BF Against Other WS Methods Using Average 0-1 Loss and Average Brier Score'
     bs_ll_label = 'tab:' + prefix + 'wrench_zero_one_brier_score'
     bs_ll_table_latex = latextable.draw_latex(bs_ll_table, use_booktabs=True, caption=bs_ll_caption, label=bs_ll_label, multicolumn_header=header)
     with open('results/' + prefix + 'zero_one_brier_score_table.txt', 'w') as f:
