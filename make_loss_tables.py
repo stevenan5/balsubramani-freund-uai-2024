@@ -97,7 +97,7 @@ if __name__ == "__main__":
     zo_bold = np.vstack((zo_bold, np.zeros(zo_bold.shape[1])))
 
     for d_ind, dataset in enumerate(datasets):
-        # make brier score /log loss table
+        # make 0-1 loss/brier score table
         for i, row in enumerate(bs_ll_table_rows):
             val_zo = np.round(zo[i, d_ind] * 100, 2)
             val_bs = np.round(bs[i, d_ind], 2)
