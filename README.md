@@ -4,7 +4,14 @@ This repo contains code for Convergence Behavior of an Adversarial Weak Supervis
 
 If you use this in an academic study, please cite the paper:
 ```
-TBA
+@inproceedings{
+an2024convergence,
+title={Convergence Behavior of an Adversarial Weak Supervision Method},
+author={Steven An and Sanjoy Dasgupta},
+booktitle={The 40th Conference on Uncertainty in Artificial Intelligence},
+year={2024},
+url={https://openreview.net/forum?id=q9TqTSk9cy}
+}
 ```
 
 This is a modified version of the repository found [here](https://github.com/stevenan5/wrench) which itself is a fork of the [wrench](https://github.com/JieyuZ2/wrench) repository that focuses on aggregating the provided labeling functions for certain datasets.
